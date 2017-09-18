@@ -1,0 +1,3 @@
+title=RanaBee
+author=Jorge Rivera
+orientation=landscape

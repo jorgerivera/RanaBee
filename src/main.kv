@@ -1,0 +1,208 @@
+#:import SlideTransition kivy.uix.screenmanager.SlideTransition
+#:import dirname os.path.dirname
+#:import expanduser os.path.expanduser
+<RootWidget>:
+	GridLayout:
+		cols: 1
+		rows: 2
+		BoxLayout:
+			orientation: 'horizontal'
+			padding: 50
+			spacing: 30
+			Image:
+				source: 'assets/30aniversario.png'
+				size_hint: self.image_ratio,1
+				valign: 'bottom'
+			Label:
+				text: 'Let\'s Spell!'
+				text_size: root.width, 250
+				size_hint: 2,1
+				halign: 'center'
+				valign: 'bottom'
+				font_size: '50sp'
+				#font_name: 'HOS.ttf'
+				line_height: 2
+			Image:
+				source: 'assets/Royal-Bee-2016.256.png'
+				size_hint: self.image_ratio,1
+				valign: 'bottom'
+		BoxLayout:
+			orientation: 'horizontal'
+			padding: 50
+			spacing: 30
+			Spinner:
+				id: 'sp_grade'
+				text: 'Grade'
+				values: ('1', '2', '3', '4', '5', '6')
+				size_hint: 1,0.5
+				on_text: app.sel_grade = self.text
+			Spinner:
+				id: 'sp_level'
+				text: 'Difficulty'
+				values: ('Easy', 'Medium', 'Difficult', 'Challenge')
+				size_hint: 1,0.5
+				on_text: app.sel_level = self.text.lower()
+			BoxLayout:
+				orientation: 'vertical'
+				size_hint: 1,1
+				Spinner:
+					id: 'sp_sort'
+					size_hint: 1,0.2
+					text: 'Random'
+					values: ('Alphabetic', 'Random')
+					on_text: app.sel_mode = self.text
+				Button:
+					size_hint: 1,0.8
+					text: 'Start!'
+					on_release: app.open_card()
+
+<CardWidget>:
+	canvas:
+		Color:
+			rgba: 0.8,0.8,0.8,1
+		Rectangle:
+			size: self.width, self.height
+	FloatLayout:
+		#Button:
+		#	pos_hint: {'top':1}
+		#	size_hint: 0.2,0.2
+		#	source: 'assets/Royal-Bee-2016.png'
+		size: root.size
+		BoxLayout:
+			id: boxes
+			padding: 5
+			spacing: 10
+			pos_hint: {'top':1}
+			size_hint: 1,0.02
+			canvas:
+				Color:
+					rgba: 0,0,0,1
+				Rectangle:
+					size: self.size
+		Image:
+			pos_hint: {'top':0.95,'x':0}
+			source: 'assets/30aniversario.png'
+			size_hint: 0.2,0.2/self.image_ratio
+		ImageButton:
+			pos_hint: {'top':0.95,'x':0.8}
+			source: 'assets/Royal-Bee-2016.256.png'
+			size_hint: 0.2,0.2/self.image_ratio
+			on_release: root.next_word()
+
+		Label:
+			id: lbl_word
+			text: root.word
+			text_size: self.width, None
+			font_size: '120sp'
+			valign: 'middle'
+			halign: 'center'
+			pos_hint: {'center_x':0.5,'center_y':0.7}
+			color: 0,0,0,1
+		Label:
+			padding_x: 30
+			text: "Definition:"
+			text_size: self.width, None
+			font_size: '30sp'
+			valign: 'middle'
+			halign: 'left'
+			pos_hint: {'center_x':0.5,'center_y':0.5}
+			color: 0,0,.5,1
+		Label:
+			text: root.definition
+			text_size: self.width, None
+			font_size: '30sp'
+			valign: 'middle'
+			halign: 'center'
+			pos_hint: {'center_x':0.5,'center_y':0.4}
+			color: 0,0,.8,1
+		Label:
+			padding_x: 30
+			text: "Sample sentences:"
+			text_size: self.width, None
+			font_size: '30sp'
+			valign: 'middle'
+			halign: 'left'
+			pos_hint: {'center_x':0.5,'center_y':0.3}
+			color: 0,.5,0,1
+		Label:
+			text: root.sentence1
+			text_size: self.width, None
+			font_size: '30sp'
+			valign: 'middle'
+			halign: 'center'
+			pos_hint: {'center_x':0.5,'center_y':0.2}
+			color: 0,.8,0,1
+		Label:
+			text: root.sentence2
+			text_size: self.width, None
+			font_size: '30sp'
+			valign: 'middle'
+			halign: 'center'
+			pos_hint: {'center_x':0.5,'center_y':0.1}
+			color: 0,.8,0,1
+		Label:
+			text: root.level
+			text_size: self.width, None
+			font_size: '24sp'
+			valign: 'middle'
+			halign: 'center'
+			pos_hint: {'center_x':0.5,'center_y':0.95}
+
+<Label>:
+	font_name: 'OD3BOLD.TTF'
+
+<LoadDialog>:
+	BoxLayout:
+		size: root.size
+		pos: root.pos
+		orientation: "vertical"
+		FileChooserListView:
+			id: filechooser
+			filters: ['*.xls','*.xlsx']
+			path: dirname(expanduser('~user'))
+		BoxLayout:
+			size_hint_y: None
+			height: 30
+			Button:
+				text: "Cancel"
+				on_release: root.cancel()
+
+			Button:
+				text: "Load"
+				on_release: root.load(filechooser.path, filechooser.selection)
+
+BoxLayout:
+	orientation: 'vertical'
+	canvas.before:
+		Color:
+			rgb: .6, .6, .6
+		Rectangle:
+			size: self.size
+	ActionBar:
+		pos_hint: {'top':1}
+		background_image: 'assets/white-bg.png'
+		background_color: .6,.6,.6,1
+		ActionView:
+			use_separator: True
+			ActionPrevious:
+				title: 'Royal Bee!'
+				with_previous: False
+				app_icon: 'assets/Logo_Amadita.png'
+				on_release: app.back()
+			ActionGroup:
+				text: 'File'
+				mode: 'spinner'
+				size_hint_x: None
+				width: 90
+				ActionButton:
+					text: 'New'
+				ActionButton:
+					text: 'Open'
+					on_release: app.open_file()
+				ActionButton:
+					text: 'Quit'
+					on_release: app.stop()
+
+	ScreenManager:
+		id: sm
+		transition: SlideTransition()
