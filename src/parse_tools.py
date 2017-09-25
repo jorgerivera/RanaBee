@@ -4,13 +4,17 @@ from openpyxl import load_workbook
 #from BaseItems import Word
 from collections import namedtuple
 
-Word = namedtuple('Word',['level','grade','word','definition','sentence1','sentence2'])
+Word = namedtuple('Word',['level','grade','word','definition','sentence1','sentence2','type'])
 
 def parse_wordlist(f):
 	word_list = []
 	wb = load_workbook(f)
 	ws = wb.active
+	first = True
 	for row in ws:
+		if first:
+			first = False
+			continue
 		w = Word._make([unicode(v.value) for v in row])
 		word_db.add_word(w)
 	return word_list
@@ -47,7 +51,7 @@ class WordCollection(dict):
 
 
 	def _generate_key(self, word):
-		return '{0}_{1}_{2}'.format(word.word, word.grade, word.level).lower()
+		return u'{0}_{1}_{2}'.format(word.word, word.grade, word.level).lower()
 
 word_db = WordCollection()
 
@@ -58,7 +62,8 @@ def sample_word():
 		'level'			: 'easy',
 		'definition'	: 'a single distinct meaningful element of speech or writing',
 		'sentence1'		: 'My favorite word is word.',
-		'sentence2'		: 'I have so many words.'
+		'sentence2'		: 'I have so many words.',
+		'type'			: 'Simple word'
 	}
 	return Word(**w)
 
@@ -69,7 +74,8 @@ def get_ready_word():
 		'level'			: '',
 		'definition'	: '',
 		'sentence1'		: '',
-		'sentence2'		: ''
+		'sentence2'		: '',
+		'type'			: ''
 	}
 	return Word(**w)
 

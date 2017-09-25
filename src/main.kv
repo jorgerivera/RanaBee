@@ -10,7 +10,7 @@
 			padding: 50
 			spacing: 30
 			Image:
-				source: 'assets/30aniversario.png'
+				source: '../assets/institution_logo.256.png'
 				size_hint: self.image_ratio,1
 				valign: 'bottom'
 			Label:
@@ -23,7 +23,7 @@
 				#font_name: 'HOS.ttf'
 				line_height: 2
 			Image:
-				source: 'assets/Royal-Bee-2016.256.png'
+				source: '../assets/event_logo.256.png'
 				size_hint: self.image_ratio,1
 				valign: 'bottom'
 		BoxLayout:
@@ -81,11 +81,11 @@
 					size: self.size
 		Image:
 			pos_hint: {'top':0.95,'x':0}
-			source: 'assets/30aniversario.png'
+			source: '../assets/institution_logo.256.png'
 			size_hint: 0.2,0.2/self.image_ratio
 		ImageButton:
 			pos_hint: {'top':0.95,'x':0.8}
-			source: 'assets/Royal-Bee-2016.256.png'
+			source: '../assets/event_logo.256.png'
 			size_hint: 0.2,0.2/self.image_ratio
 			on_release: root.next_word()
 
@@ -149,7 +149,7 @@
 			pos_hint: {'center_x':0.5,'center_y':0.95}
 
 <Label>:
-	font_name: 'OD3BOLD.TTF'
+	font_name: '../assets/font.ttf'
 
 <LoadDialog>:
 	BoxLayout:
@@ -180,14 +180,14 @@ BoxLayout:
 			size: self.size
 	ActionBar:
 		pos_hint: {'top':1}
-		background_image: 'assets/white-bg.png'
+		background_image: '../assets/white-bg.png'
 		background_color: .6,.6,.6,1
 		ActionView:
 			use_separator: True
 			ActionPrevious:
 				title: 'Royal Bee!'
 				with_previous: False
-				app_icon: 'assets/Logo_Amadita.png'
+				app_icon: '../assets/event_logo.256.png'
 				on_release: app.back()
 			ActionGroup:
 				text: 'File'
