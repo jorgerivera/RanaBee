@@ -14,7 +14,7 @@
 				size_hint: self.image_ratio,1
 				valign: 'bottom'
 			Label:
-				text: 'Let\'s Spell!'
+				text: app.get_string('letsspell')
 				text_size: root.width, 250
 				size_hint: 2,1
 				halign: 'center'
@@ -32,13 +32,13 @@
 			spacing: 30
 			Spinner:
 				id: 'sp_grade'
-				text: 'Grade'
+				text: app.get_string('grade')
 				values: ('1', '2', '3', '4', '5', '6')
 				size_hint: 1,0.5
 				on_text: app.sel_grade = self.text
 			Spinner:
 				id: 'sp_level'
-				text: 'Difficulty'
+				text: app.get_string('difficulty')
 				values: ('Easy', 'Medium', 'Difficult', 'Challenge')
 				size_hint: 1,0.5
 				on_text: app.sel_level = self.text.lower()
@@ -53,7 +53,7 @@
 					on_text: app.sel_mode = self.text
 				Button:
 					size_hint: 1,0.8
-					text: 'Start!'
+					text: app.get_string('start')
 					on_release: app.open_card()
 
 <CardWidget>:
@@ -185,7 +185,7 @@ BoxLayout:
 		ActionView:
 			use_separator: True
 			ActionPrevious:
-				title: 'Royal Bee!'
+				title: app.get_string('title')
 				with_previous: False
 				app_icon: '../assets/event_logo.256.png'
 				on_release: app.back()

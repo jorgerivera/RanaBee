@@ -1,6 +1,10 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 from kivy.app import App
 from kivy.factory import Factory
-from kivy.properties import StringProperty, ObjectProperty, ListProperty, NumericProperty
+from kivy.properties import StringProperty, ObjectProperty, ListProperty, \
+ 	NumericProperty, OptionProperty, DictProperty
 from kivy.resources import resource_find
 from kivy.uix.behaviors import ButtonBehavior
 from kivy.uix.button import Button
@@ -25,6 +29,15 @@ sw = parse_tools.sample_word()
 db = parse_tools.word_db
 
 __version__ = '0.1'
+
+spanish_strings = {
+	'title' : 'RanABC',
+	'file'	: 'Archivo',
+	'grade' : 'Nivel',
+	'difficulty' :  'Dificultad',
+	'start' : 'Iniciar',
+	'letsspell' : '¡A deletrear!',
+}
 
 class ImageButton(ButtonBehavior, Image):
 	pass
@@ -132,11 +145,14 @@ class MainApp(App):
 	sel_words = ListProperty()
 	sel_mode = StringProperty()
 	loadfile = ObjectProperty(None)
+	language = OptionProperty("Español", options=["Español", "English"])
+	strings = DictProperty(spanish_strings)
 
 	def build(self):
 		#parse_tools.parse_wordlist(resource_find('bee14.xlsx'))
 		self.root.ids.sm.add_widget(RootWidget(name='root'))
 		self.root.ids.sm.add_widget(CardWidget(name='card'))
+		#self.strings = spanish_strings
 
 #	def build_config(self, config):
 #		config.set('graphics',
@@ -178,6 +194,13 @@ class MainApp(App):
 		self._popup = Popup(title="Load file", content=content,
 			size_hint=(0.9, 0.9))
 		self._popup.open()
+
+	def get_string(self, key):
+		if self.strings.has_key(key):
+			return self.strings[key]
+		else:
+			return key
+
 
 if '__main__' == __name__:
 	fn = '../assets/words.xlsx'
