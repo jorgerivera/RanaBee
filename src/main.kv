@@ -137,7 +137,7 @@
 			font_size: '30sp'
 			valign: 'middle'
 			halign: 'center'
-			pos_hint: {'center_x':0.5,'center_y':0.2}
+			pos_hint: {'center_x':0.5,'center_y':0.25}
 			color: 0,.8,0,1
 		Label:
 			text: root.sentence2
@@ -145,8 +145,25 @@
 			font_size: '30sp'
 			valign: 'middle'
 			halign: 'center'
-			pos_hint: {'center_x':0.5,'center_y':0.1}
+			pos_hint: {'center_x':0.5,'center_y':0.20}
 			color: 0,.8,0,1
+		Label:
+			padding_x: 30
+			text: app.get_string("accent_type")
+			text_size: self.width, None
+			font_size: '30sp'
+			valign: 'middle'
+			halign: 'left'
+			pos_hint: {'center_x':0.5,'center_y':0.12}
+			color: 0,0,.5,1
+		Label:
+			text: root.accent_type
+			text_size: self.width, None
+			font_size: '30sp'
+			valign: 'middle'
+			halign: 'center'
+			pos_hint: {'center_x':0.5,'center_y':0.08}
+			color: 0,0,.8,1
 		Label:
 			text: root.level
 			text_size: self.width, None
