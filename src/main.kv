@@ -33,13 +33,13 @@
 			Spinner:
 				id: 'sp_grade'
 				text: app.get_string('grade')
-				values: ('1', '2', '3', '4', '5', '6')
+				values: app.sp_grades
 				size_hint: 1,0.5
 				on_text: app.sel_grade = self.text
 			Spinner:
 				id: 'sp_level'
 				text: app.get_string('difficulty')
-				values: ('Easy', 'Medium', 'Difficult', 'Challenge')
+				values: app.sp_levels
 				size_hint: 1,0.5
 				on_text: app.sel_level = self.text.lower()
 			BoxLayout:
