@@ -55,14 +55,13 @@
 				Spinner:
 					id: 'sp_sort'
 					size_hint: 1,0.2
-					text: 'Random'
-					values: ('Alphabetic', 'Random')
+					text: app.get_string('random')
+					values: (app.get_string('alphabetic'), app.get_string('random'))
 					on_text: app.sel_mode = self.text
 				Button:
 					size_hint: 1,0.8
 					text: app.get_string('start')
 					on_release: app.open_card()
-
 <CardWidget>:
 	canvas:
 		Color:
@@ -107,7 +106,7 @@
 			color: 0,0,0,1
 		Label:
 			padding_x: 30
-			text: "Definition:"
+			text: app.get_string("definition")
 			text_size: self.width, None
 			font_size: '30sp'
 			valign: 'middle'
@@ -124,7 +123,7 @@
 			color: 0,0,.8,1
 		Label:
 			padding_x: 30
-			text: "Sample sentences:"
+			text: app.get_string("samples")
 			text_size: self.width, None
 			font_size: '30sp'
 			valign: 'middle'
@@ -188,11 +187,11 @@
 			size_hint_y: None
 			height: 30
 			Button:
-				text: "Cancel"
+				text: app.get_string("cancel")
 				on_release: root.cancel()
 
 			Button:
-				text: "Load"
+				text: app.get_string("load")
 				on_release: root.load(filechooser.path, filechooser.selection)
 
 BoxLayout:
@@ -214,17 +213,18 @@ BoxLayout:
 				app_icon: '../assets/event_logo.256.png'
 				on_release: app.back()
 			ActionGroup:
-				text: 'File'
+				text: app.get_string('file')
 				mode: 'spinner'
 				size_hint_x: None
 				width: 90
 				ActionButton:
-					text: 'New'
+					text: app.get_string('new')
+					on_release: app.clear_db()
 				ActionButton:
-					text: 'Open'
+					text: app.get_string('open')
 					on_release: app.open_file()
 				ActionButton:
-					text: 'Quit'
+					text: app.get_string('quit')
 					on_release: app.stop()
 
 	ScreenManager:
