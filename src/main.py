@@ -58,6 +58,7 @@ class CardWidget(Screen):
 	sentence2 = StringProperty()
 	level = StringProperty()
 	total_words = NumericProperty()
+	accent_type = StringProperty()
 	shuffling = False
 
 	def update_boxes(self, *args):
@@ -114,6 +115,7 @@ class CardWidget(Screen):
 		self.level = '%s - %s' % (next_word.grade, next_word.level.title())
 		self.shuffling = False
 		self.ids['lbl_word'].color = [0,0,0,1]
+		self.accent_type = next_word.type
 
 
 class LoadDialog(FloatLayout):
