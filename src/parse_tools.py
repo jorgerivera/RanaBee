@@ -6,8 +6,7 @@ from collections import namedtuple
 
 Word = namedtuple('Word',['level','grade','word','definition','sentence1','sentence2','type'])
 
-def parse_wordlist(f):
-	word_list = []
+def parse_wordlist(db, f):
 	wb = load_workbook(f)
 	ws = wb.active
 	first = True
@@ -16,11 +15,14 @@ def parse_wordlist(f):
 			first = False
 			continue
 		w = Word._make([unicode(v.value) for v in row])
-		word_db.add_word(w)
-	return word_list
+		db.add_word(w)
+	return db
 
 class WordCollection(dict):
-	classified_words = {}
+
+	def __init__(self, *wargs, **kwargs):
+		dict.__init__(self, *wargs, **kwargs)
+		self.classified_words = {}
 
 	def add_word(self, word):
 		if not isinstance(word, Word):
@@ -48,6 +50,21 @@ class WordCollection(dict):
 
 		return word_key_list
 
+	def get_levels(self):
+		level_list = set()
+		for grade in self.classified_words.keys():
+			for level in self.classified_words[grade].keys():
+				level_list.add(level)
+		return level_list
+
+	def get_grades(self):
+		grade_list = set()
+		for grade in self.classified_words.keys():
+			grade_list.add(grade)
+		return grade_list
+
+	def get_word_count(self):
+		return len(self.keys())
 
 
 	def _generate_key(self, word):
@@ -67,9 +84,9 @@ def sample_word():
 	}
 	return Word(**w)
 
-def get_ready_word():
+def get_ready_word(app):
 	w = {
-		'word' 			: 'Get Ready!',
+		'word' 			: app.get_string('get_ready'),
 		'grade'			: '',
 		'level'			: '',
 		'definition'	: '',

@@ -26,7 +26,6 @@ import sys
 sys.path.insert(0, "../")
 
 sw = parse_tools.sample_word()
-db = parse_tools.word_db
 
 __version__ = '0.1'
 
@@ -73,7 +72,7 @@ class CardWidget(Screen):
 
 	def on_pre_enter(self):
 		self.update_boxes()
-		self.change_word(parse_tools.get_ready_word())
+		self.change_word(parse_tools.get_ready_word(App.get_running_app()))
 
 	def on_pre_leave(self):
 		Clock.unschedule(self.shuffle_words)
@@ -101,9 +100,10 @@ class CardWidget(Screen):
 		self.sentence1 = ''
 		self.sentence2 = ''
 		self.level = ' - '
-		word_key = random.choice(App.get_running_app().sel_words)
-		self.word = db[word_key].word
-
+		self.accent_type = ''
+		if len(App.get_running_app().sel_words) > 0:
+			word_key = random.choice(App.get_running_app().sel_words)
+			self.word = App.get_running_app().db[word_key].word
 
 	def change_word(self, next_word, *largs):
 		print('next word is %s' % next_word.word)
@@ -147,12 +147,19 @@ class MainApp(App):
 	loadfile = ObjectProperty(None)
 	language = OptionProperty("Español", options=["Español", "English"])
 	strings = DictProperty(spanish_strings)
+	word_count = StringProperty()
+	sp_levels = ListProperty()
+	sp_grades = ListProperty()
+	db = parse_tools.word_db
 
 	def build(self):
 		#parse_tools.parse_wordlist(resource_find('bee14.xlsx'))
 		self.root.ids.sm.add_widget(RootWidget(name='root'))
 		self.root.ids.sm.add_widget(CardWidget(name='card'))
 		#self.strings = spanish_strings
+		self.update_word_count(self.db.get_word_count())
+		self.sp_levels = self.db.get_levels()
+		self.sp_grades = self.db.get_grades()
 
 #	def build_config(self, config):
 #		config.set('graphics',
@@ -160,8 +167,9 @@ class MainApp(App):
 
 	def open_card(self):
 		print(self.sel_grade, self.sel_level)
-		self.sel_words = db.get_word_list(grade=self.sel_grade,
+		self.sel_words = self.db.get_word_list(grade=self.sel_grade,
 							level=self.sel_level)
+		print(self.sel_words)
 		self.root.ids.sm.get_screen('card').total_words = len(self.sel_words)
 		if any(self.sel_words):
 			if not self.sel_mode or self.sel_mode=='Random':
@@ -171,11 +179,19 @@ class MainApp(App):
 			print('no words like this!')
 
 	def load(self, path, filename):
-		f = os.path.join(path, filename[0])
-		try:
-			parse_tools.parse_wordlist(resource_find(f))
-		except:
-			print('failed loading file')
+		print('path [%s] fn [%s]' % (path, filename))
+		if os.path.exists(filename[0]):
+			f = filename[0]
+		else:
+			f = os.path.join(path, filename[0])
+		if os.path.exists(f):
+			try:
+				parse_tools.parse_wordlist(self.db, resource_find(f))
+				self.update_word_count(self.db.get_word_count())
+			except:
+				print('failed loading file')
+		else:
+			print('file not found')
 		self.dismiss_popup()
 
 	def back(self):
@@ -201,11 +217,23 @@ class MainApp(App):
 		else:
 			return key
 
+	def update_word_count(self, count):
+		if count > 0:
+			self.word_count = self.get_string('words_loaded') % count
+		else:
+			self.word_count = self.get_string('no_words')
+
+	def clear_db(self):
+		self.db = parse_tools.WordCollection()
+		self.update_word_count(self.db.get_word_count())
 
 if '__main__' == __name__:
+	db = parse_tools.WordCollection()
 	fn = '../assets/words.xlsx'
 	if os.path.exists(fn):
-		parse_tools.parse_wordlist(fn)
+		parse_tools.parse_wordlist(db, fn)
 	Config.set('graphics', 'fullscreen', 'auto')
 
-	MainApp().run()
+	app = MainApp()
+	app.db = db
+	app.run()
