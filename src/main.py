@@ -4,7 +4,7 @@
 from kivy.app import App
 from kivy.factory import Factory
 from kivy.properties import StringProperty, ObjectProperty, ListProperty, \
- 	NumericProperty, OptionProperty, DictProperty
+	NumericProperty, OptionProperty, DictProperty
 from kivy.resources import resource_find
 from kivy.uix.behaviors import ButtonBehavior
 from kivy.uix.button import Button
@@ -34,8 +34,21 @@ spanish_strings = {
 	'file'	: 'Archivo',
 	'grade' : 'Nivel',
 	'difficulty' :  'Dificultad',
-	'start' : 'Iniciar',
+	'start' : '¡Iniciar!',
 	'letsspell' : '¡A deletrear!',
+	'random' : 'Aleatorio',
+	'alphabetic' :  'Alfabético',
+	'definition' : 'Definición:',
+	'samples' : 'Ejemplos:',
+	'cancel' : 'Cancelar',
+	'load' : 'Cargar',
+	'new' : 'Nuevo',
+	'open' : 'Abrir',
+	'quit' : 'Salir',
+	'no_words' : 'No hay palabras cargadas',
+	'words_loaded' : 'Hay %s palabras cargadas',
+	'accent_type' : 'Acento:',
+	'get_ready' : '¡Prepárense!',
 }
 
 class ImageButton(ButtonBehavior, Image):
