@@ -172,7 +172,7 @@
 			pos_hint: {'center_x':0.5,'center_y':0.95}
 
 <Label>:
-	font_name: '../assets/font.ttf'
+	font_name: '../assets/OD3BOLD.ttf'
 
 <LoadDialog>:
 	BoxLayout:
@@ -182,7 +182,7 @@
 		FileChooserListView:
 			id: filechooser
 			filters: ['*.xls','*.xlsx']
-			path: dirname(expanduser('~user'))
+			path: dirname(expanduser('~'))
 		BoxLayout:
 			size_hint_y: None
 			height: 30

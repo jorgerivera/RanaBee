@@ -237,6 +237,8 @@ class MainApp(App):
 			self.word_count = self.get_string('words_loaded') % count
 		else:
 			self.word_count = self.get_string('no_words')
+		self.sp_levels = self.db.get_levels()
+		self.sp_grades = self.db.get_grades()
 
 	def clear_db(self):
 		self.db = parse_tools.WordCollection()
@@ -244,7 +246,7 @@ class MainApp(App):
 
 if '__main__' == __name__:
 	db = parse_tools.WordCollection()
-	fn = '../assets/words.xlsx'
+	fn = '../assets/ranabc17.xlsx'
 	if os.path.exists(fn):
 		parse_tools.parse_wordlist(db, fn)
 	Config.set('graphics', 'fullscreen', 'auto')
