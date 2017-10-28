@@ -187,7 +187,7 @@ class MainApp(App):
 		print(self.sel_words)
 		self.root.ids.sm.get_screen('card').total_words = len(self.sel_words)
 		if any(self.sel_words):
-			if not self.sel_mode or self.sel_mode=='Random':
+			if not self.sel_mode or self.sel_mode==self.get_string('random'):
 				random.shuffle(self.sel_words)
 			self.root.ids.sm.current = 'card'
 		else:
