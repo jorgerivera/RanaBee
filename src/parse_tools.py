@@ -14,7 +14,9 @@ def parse_wordlist(db, f):
 		if first:
 			first = False
 			continue
-		w = Word._make([unicode(v.value) for v in row])
+		if not row[0].value or row[0].value == 'dificultad':
+			continue
+		w = Word._make([unicode(v.value) for v in row[0:7]])
 		db.add_word(w)
 	return db
 
@@ -98,4 +100,4 @@ def get_ready_word(app):
 
 if __name__=='__main__':
 	word_db.add_word(sample_word())
-	parse_wordlist('bee16.xlsx')
+	parse_wordlist(word_db, 'bee16.xlsx')
