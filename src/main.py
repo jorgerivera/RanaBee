@@ -246,7 +246,7 @@ class MainApp(App):
 
 if '__main__' == __name__:
 	db = parse_tools.WordCollection()
-	fn = '../assets/ranabc17.xlsx'
+	fn = 'assets/ranabc17.xlsx'
 	if os.path.exists(fn):
 		parse_tools.parse_wordlist(db, fn)
 	Config.set('graphics', 'fullscreen', 'auto')
