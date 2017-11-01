@@ -16,7 +16,7 @@ def parse_wordlist(db, f):
 			continue
 		if not row[0].value or row[0].value == 'dificultad':
 			continue
-		w = Word._make([unicode(v.value).replace(u'\xa0',' ') for v in row[0:7]])
+		w = Word._make([unicode(v.value).replace(u'\xa0',' ').strip() for v in row[0:7]])
 		db.add_word(w)
 	return db
 
