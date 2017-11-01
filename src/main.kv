@@ -10,7 +10,7 @@
 			padding: 50
 			spacing: 30
 			Image:
-				source: '../assets/institution_logo.256.png'
+				source: 'assets/Logo_Amadita.png'
 				size_hint: self.image_ratio,1
 				valign: 'bottom'
 			Label:
@@ -23,7 +23,7 @@
 				#font_name: 'HOS.ttf'
 				line_height: 2
 			Image:
-				source: '../assets/event_logo.256.png'
+				source: 'assets/event_logo.256.png'
 				size_hint: self.image_ratio,1
 				valign: 'bottom'
 		BoxLayout:
@@ -87,19 +87,20 @@
 					size: self.size
 		Image:
 			pos_hint: {'top':0.95,'x':0}
-			source: '../assets/institution_logo.256.png'
+			source: 'assets/Logo_Amadita.png'
 			size_hint: 0.2,0.2/self.image_ratio
 		ImageButton:
-			pos_hint: {'top':0.95,'x':0.8}
-			source: '../assets/event_logo.256.png'
-			size_hint: 0.2,0.2/self.image_ratio
+			pos_hint: {'top':0.95,'x':0.7}
+			source: 'assets/event_logo.256.png'
+			size_hint: 0.35,0.35/self.image_ratio
 			on_release: root.next_word()
 
 		Label:
 			id: lbl_word
 			text: root.word
 			text_size: self.width, None
-			font_size: '120sp'
+			font_size: root.word_size
+			max_lines: 1
 			valign: 'middle'
 			halign: 'center'
 			pos_hint: {'center_x':0.5,'center_y':0.7}
@@ -147,8 +148,9 @@
 			pos_hint: {'center_x':0.5,'center_y':0.20}
 			color: 0,.8,0,1
 		Label:
+			id: lbl_accent_lbl
 			padding_x: 30
-			text: app.get_string("accent_type")
+			text: root.accent_lbl
 			text_size: self.width, None
 			font_size: '30sp'
 			valign: 'middle'
@@ -172,7 +174,7 @@
 			pos_hint: {'center_x':0.5,'center_y':0.95}
 
 <Label>:
-	font_name: '../assets/font.ttf'
+	font_name: 'assets/OD3BOLD.ttf'
 
 <LoadDialog>:
 	BoxLayout:
@@ -182,7 +184,7 @@
 		FileChooserListView:
 			id: filechooser
 			filters: ['*.xls','*.xlsx']
-			path: dirname(expanduser('~user'))
+			#path: expanduser('~user')
 		BoxLayout:
 			size_hint_y: None
 			height: 30
@@ -203,14 +205,14 @@ BoxLayout:
 			size: self.size
 	ActionBar:
 		pos_hint: {'top':1}
-		background_image: '../assets/white-bg.png'
+		background_image: 'assets/white-bg.png'
 		background_color: .6,.6,.6,1
 		ActionView:
 			use_separator: True
 			ActionPrevious:
 				title: app.get_string('title')
 				with_previous: False
-				app_icon: '../assets/event_logo.256.png'
+				app_icon: 'assets/event_logo.256.png'
 				on_release: app.back()
 			ActionGroup:
 				text: app.get_string('file')

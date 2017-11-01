@@ -71,7 +71,9 @@ class CardWidget(Screen):
 	sentence2 = StringProperty()
 	level = StringProperty()
 	total_words = NumericProperty()
+	word_size = NumericProperty()
 	accent_type = StringProperty()
+	accent_lbl = StringProperty()
 	shuffling = False
 
 	def update_boxes(self, *args):
@@ -120,15 +122,26 @@ class CardWidget(Screen):
 			self.word = App.get_running_app().db[word_key].word
 
 	def change_word(self, next_word, *largs):
-		print('next word is %s' % next_word.word)
+		print('next word is %s [has %s chars]' % (next_word.word, len(next_word.word)))
 		self.word = next_word.word
+		if len(next_word.word) > 25:
+			self.word_size = 80
+		elif len(next_word.word) > 18:
+			self.word_size = 100
+		else:
+			self.word_size = 120
 		self.definition = next_word.definition
 		self.sentence1 = next_word.sentence1
 		self.sentence2 = next_word.sentence2
 		self.level = '%s - %s' % (next_word.grade, next_word.level.title())
 		self.shuffling = False
 		self.ids['lbl_word'].color = [0,0,0,1]
-		self.accent_type = next_word.type
+		if next_word.type and next_word.type!='None':
+			self.accent_type = next_word.type
+			self.accent_lbl = App.get_running_app().get_string("accent_type")
+		else:
+			self.accent_type = ""
+			self.accent_lbl = ""
 
 
 class LoadDialog(FloatLayout):
@@ -187,7 +200,7 @@ class MainApp(App):
 		print(self.sel_words)
 		self.root.ids.sm.get_screen('card').total_words = len(self.sel_words)
 		if any(self.sel_words):
-			if not self.sel_mode or self.sel_mode=='Random':
+			if not self.sel_mode or self.sel_mode==self.get_string('random'):
 				random.shuffle(self.sel_words)
 			self.root.ids.sm.current = 'card'
 		else:
@@ -237,6 +250,8 @@ class MainApp(App):
 			self.word_count = self.get_string('words_loaded') % count
 		else:
 			self.word_count = self.get_string('no_words')
+		self.sp_levels = self.db.get_levels()
+		self.sp_grades = self.db.get_grades()
 
 	def clear_db(self):
 		self.db = parse_tools.WordCollection()
@@ -244,7 +259,7 @@ class MainApp(App):
 
 if '__main__' == __name__:
 	db = parse_tools.WordCollection()
-	fn = '../assets/words.xlsx'
+	fn = 'assets/ranabc17.xlsx'
 	if os.path.exists(fn):
 		parse_tools.parse_wordlist(db, fn)
 	Config.set('graphics', 'fullscreen', 'auto')
