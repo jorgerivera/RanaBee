@@ -35,19 +35,26 @@
 				text: app.get_string('grade')
 				values: app.sp_grades
 				size_hint: 1,0.5
-				on_text: app.sel_grade = self.text
+				on_text: app.set_grade(self.text)
 			Spinner:
 				id: 'sp_level'
 				text: app.get_string('difficulty')
 				values: app.sp_levels
 				size_hint: 1,0.5
-				on_text: app.sel_level = self.text.lower()
+				on_text: app.set_level(self.text.lower())
 			BoxLayout:
 				orientation: 'vertical'
 				size_hint: 1,1.2
 				Label:
 					id: 'lbl_wordcount'
 					text: app.word_count
+					halign: 'right'
+					valign: 'bottom'
+					font_size: '20sp'
+					size_hint: 1,0.2
+				Label:
+					id: 'lbl_selwordcount'
+					text: app.sel_word_count
 					halign: 'right'
 					valign: 'bottom'
 					font_size: '20sp'
