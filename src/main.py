@@ -51,6 +51,44 @@ spanish_strings = {
 	'get_ready' : '¡Prepárense!',
 	'words_selected' : 'Hay %s palabras seleccionadas',
 	'no_words_selected' : 'No hay palabras seleccionadas',
+	'level_list' : ['mediana', 'dificil', 'experto'],
+	'grade_list' : ['No', 'Primer', 'Segundo', 'Tercer', 'Cuarto', 'Quinto', 'Sexto'],
+	'grade_name' : '%s grado',
+	'next_level' : '¡Siguiente dificultad!',
+	'next_grade' : '¡Siguiente nivel!',
+	'the_end'    : '¡Fin!',
+	'level_words': '¡Siguen las palabras de dificultad %s!',
+}
+
+english_strings = {
+	'title' : 'Spelling Bee',
+	'file'	: 'File',
+	'grade' : 'Grade',
+	'difficulty' :  'Difficulty',
+	'start' : 'Start!',
+	'letsspell' : 'Let\'s spell!',
+	'random' : 'Random',
+	'alphabetic' :  'Alphabetic',
+	'definition' : 'Definition:',
+	'samples' : 'Examples:',
+	'cancel' : 'Cancel',
+	'load' : 'Load',
+	'new' : 'New',
+	'open' : 'Open',
+	'quit' : 'Quit',
+	'no_words' : 'No words loaded',
+	'words_loaded' : '%s words loaded',
+	'accent_type' : 'Accent:',
+	'get_ready' : 'Get Ready!',
+	'words_selected' : '%s words selected',
+	'no_words_selected' : 'No words selected',
+	'level_list' : ['easy', 'medium', 'difficult', 'challenge'],
+	'grade_list' : ['No', 'First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth'],
+	'grade_name' : '%s grade',
+	'next_level' : 'Next level!',
+	'next_grade' : 'Next grade!',
+	'the_end'    : 'Done!',
+	'level_words': 'Starting with %s words!',
 }
 
 class ImageButton(ButtonBehavior, Image):
@@ -72,6 +110,7 @@ class CardWidget(Screen):
 	sentence1 = StringProperty()
 	sentence2 = StringProperty()
 	level = StringProperty()
+	language = None
 	total_words = NumericProperty()
 	word_size = NumericProperty()
 	accent_type = StringProperty()
