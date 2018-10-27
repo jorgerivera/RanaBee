@@ -49,6 +49,8 @@ spanish_strings = {
 	'words_loaded' : 'Hay %s palabras cargadas',
 	'accent_type' : 'Acento:',
 	'get_ready' : '¡Prepárense!',
+	'words_selected' : 'Hay %s palabras seleccionadas',
+	'no_words_selected' : 'No hay palabras seleccionadas',
 }
 
 class ImageButton(ButtonBehavior, Image):
@@ -176,6 +178,7 @@ class MainApp(App):
 	language = OptionProperty("Español", options=["Español", "English"])
 	strings = DictProperty(spanish_strings)
 	word_count = StringProperty()
+	sel_word_count = StringProperty()
 	sp_levels = ListProperty()
 	sp_grades = ListProperty()
 	db = parse_tools.word_db
@@ -253,9 +256,30 @@ class MainApp(App):
 		self.sp_levels = self.db.get_levels()
 		self.sp_grades = self.db.get_grades()
 
+	def update_selected_words(self):
+		# Show selected words, according to values from spinners
+		self.sel_words = self.db.get_word_list(grade=self.sel_grade,
+							level=self.sel_level)
+		count = len(self.sel_words)
+		if not self.sel_mode or self.sel_mode==self.get_string('random'):
+			random.shuffle(self.sel_words)
+		if count > 0:
+			self.sel_word_count = self.get_string('words_selected') % count
+		else:
+			self.sel_word_count = self.get_string('no_words_selected')
+
 	def clear_db(self):
 		self.db = parse_tools.WordCollection()
 		self.update_word_count(self.db.get_word_count())
+
+	def set_grade(self, text):
+		self.sel_grade = text
+		self.update_selected_words()
+
+	def set_level(self, text):
+		self.sel_level = text
+		self.update_selected_words()
+
 
 if '__main__' == __name__:
 	db = parse_tools.WordCollection()
