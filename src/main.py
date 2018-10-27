@@ -27,7 +27,7 @@ sys.path.insert(0, "../")
 
 sw = parse_tools.sample_word()
 
-__version__ = '0.1'
+__version__ = '0.2'
 
 spanish_strings = {
 	'title' : 'RanABC',
