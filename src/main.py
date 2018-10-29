@@ -16,13 +16,17 @@ from kivy.uix.screenmanager import ScreenManager, Screen, SlideTransition
 from kivy.clock import Clock
 from kivy.config import Config
 
+import itertools
+import os
+import os.path
 import parse_tools
 import random
-from os.path import sep, expanduser, isdir, dirname
-import os.path
-import time
-from functools import partial
 import sys
+import time
+import traceback
+
+from functools import partial
+from os.path import sep, expanduser, isdir, dirname
 sys.path.insert(0, "../")
 
 sw = parse_tools.sample_word()
