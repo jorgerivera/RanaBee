@@ -311,6 +311,7 @@ class MainApp(App):
 				self.update_word_count(self.db.get_word_count())
 			except:
 				print('failed loading file')
+				traceback.print_exc()
 		else:
 			print('file not found')
 		self.dismiss_popup()
