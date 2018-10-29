@@ -118,6 +118,7 @@ class CardWidget(Screen):
 	accent_lbl = StringProperty()
 	next_button_text = StringProperty()
 	shuffling = False
+	spending = False
 
 	def update_boxes(self, *args):
 		print('updating boxes on card widget! [%s]' % len(App.get_running_app().sel_words))
@@ -282,14 +283,14 @@ class MainApp(App):
 
 	def open_card(self):
 		print(self.sel_grade, self.sel_level)
-		self.sel_words = self.db.get_word_list(grade=self.sel_grade,
-							level=self.sel_level)
+		if self.sel_grade=='' and self.sel_level=='':
+			self.sel_grade = '1'
+			self.sel_level = self.get_string('level_list')[0]
+		self.update_selected_words()
 		print(self.sel_words)
 		self.root.ids.sm.get_screen('card').total_words = len(self.sel_words)
 		self.root.ids.sm.get_screen('card').language = self.language
 		if any(self.sel_words):
-			if not self.sel_mode or self.sel_mode==self.get_string('random'):
-				random.shuffle(self.sel_words)
 			self.root.ids.sm.current = 'card'
 		else:
 			print('no words like this!')
