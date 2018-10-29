@@ -113,6 +113,7 @@ class CardWidget(Screen):
 	language = None
 	total_words = NumericProperty()
 	word_size = NumericProperty()
+	announcement_size = NumericProperty()
 	accent_type = StringProperty()
 	accent_lbl = StringProperty()
 	shuffling = False
@@ -129,7 +130,7 @@ class CardWidget(Screen):
 
 	def on_pre_enter(self):
 		self.update_boxes()
-		self.change_word(parse_tools.get_ready_word(App.get_running_app()))
+		self.change_word(parse_tools.get_ready_word(App.get_running_app()),72)
 
 	def on_pre_leave(self):
 		Clock.unschedule(self.shuffle_words)
@@ -144,7 +145,9 @@ class CardWidget(Screen):
 	def set_new_word(self, *args):
 		try:
 			next_key = App.get_running_app().sel_words.pop()
-			Clock.schedule_once(partial(self.change_word, db[next_key]))
+			Clock.schedule_once(partial(self.change_word,
+			 				App.get_running_app().db[next_key],
+							32))
 			Clock.schedule_once(self.update_boxes)
 		except IndexError:
 			App.get_running_app().root.ids.sm.current = 'root'
@@ -162,7 +165,7 @@ class CardWidget(Screen):
 			word_key = random.choice(App.get_running_app().sel_words)
 			self.word = App.get_running_app().db[word_key].word
 
-	def change_word(self, next_word, *largs):
+	def change_word(self, next_word, ann_size, *largs):
 		print('next word is %s [has %s chars]' % (next_word.word, len(next_word.word)))
 		self.word = next_word.word
 		if len(next_word.word) > 25:
@@ -174,10 +177,11 @@ class CardWidget(Screen):
 		self.definition = next_word.definition
 		self.sentence1 = next_word.sentence1
 		self.sentence2 = next_word.sentence2
-		self.level = '%s - %s' % (next_word.grade, next_word.level.title())
+		self.level = '%s - %s' % (App.get_running_app().get_grade_name(grade=next_word.grade), next_word.level.title())
 		self.shuffling = False
 		self.ids['lbl_word'].color = [0,0,0,1]
-		if next_word.type and next_word.type!='None':
+		self.announcement_size = ann_size
+		if self.language=='Español' and next_word.type and next_word.type!='None':
 			self.accent_type = next_word.type
 			self.accent_lbl = App.get_running_app().get_string("accent_type")
 		else:
@@ -286,6 +290,17 @@ class MainApp(App):
 			return self.strings[key]
 		else:
 			return key
+
+	def get_grade_name(self, grade=None):
+		if grade==None or grade=='':
+			grade = self.sel_grade
+		try:
+			grade_name = self.get_string('grade_list')[int(grade)]
+		except:
+			traceback.print_exc()
+			grade_name = 'Invalid'
+		return self.get_string('grade_name') % grade_name
+
 
 	def update_word_count(self, count):
 		if count > 0:
