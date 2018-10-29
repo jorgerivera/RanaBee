@@ -16,13 +16,17 @@ from kivy.uix.screenmanager import ScreenManager, Screen, SlideTransition
 from kivy.clock import Clock
 from kivy.config import Config
 
+import itertools
+import os
+import os.path
 import parse_tools
 import random
-from os.path import sep, expanduser, isdir, dirname
-import os.path
-import time
-from functools import partial
 import sys
+import time
+import traceback
+
+from functools import partial
+from os.path import sep, expanduser, isdir, dirname
 sys.path.insert(0, "../")
 
 sw = parse_tools.sample_word()
@@ -307,6 +311,7 @@ class MainApp(App):
 				self.update_word_count(self.db.get_word_count())
 			except:
 				print('failed loading file')
+				traceback.print_exc()
 		else:
 			print('file not found')
 		self.dismiss_popup()
@@ -410,12 +415,20 @@ class MainApp(App):
 		self.update_selected_words()
 
 
+
 if '__main__' == __name__:
+	print('working dir %s' % os.getcwd())
 	db = parse_tools.WordCollection()
-	fn = 'assets/ranabc17.xlsx'
-	if os.path.exists(fn):
-		parse_tools.parse_wordlist(db, fn)
+	dir_to_search = [ '.', '..', '../assets' ]
+	fn_templates = [ 'bee%s.xlsx', 'bee%s.xls' ]
+	for d, f in itertools.product(dir_to_search, fn_templates):
+		fn = os.path.join(d,f) % '18'
+		if os.path.exists(fn):
+			parse_tools.parse_wordlist(db, fn)
+			print('found file %s, using it!' % fn)
+			break
 	Config.set('graphics', 'fullscreen', 'auto')
+	Config.set('kivy', 'exit_on_escape', False)
 
 	app = MainApp()
 	app.db = db
