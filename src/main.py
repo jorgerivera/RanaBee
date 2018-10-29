@@ -423,6 +423,7 @@ if '__main__' == __name__:
 			print('found file %s, using it!' % fn)
 			break
 	Config.set('graphics', 'fullscreen', 'auto')
+	Config.set('kivy', 'exit_on_escape', False)
 
 	app = MainApp()
 	app.db = db
