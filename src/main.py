@@ -410,11 +410,18 @@ class MainApp(App):
 		self.update_selected_words()
 
 
+
 if '__main__' == __name__:
+	print('working dir %s' % os.getcwd())
 	db = parse_tools.WordCollection()
-	fn = 'assets/ranabc17.xlsx'
-	if os.path.exists(fn):
-		parse_tools.parse_wordlist(db, fn)
+	dir_to_search = [ '.', '..', '../assets' ]
+	fn_templates = [ 'bee%s.xlsx', 'bee%s.xls' ]
+	for d, f in itertools.product(dir_to_search, fn_templates):
+		fn = os.path.join(d,f) % '18'
+		if os.path.exists(fn):
+			parse_tools.parse_wordlist(db, fn)
+			print('found file %s, using it!' % fn)
+			break
 	Config.set('graphics', 'fullscreen', 'auto')
 
 	app = MainApp()
