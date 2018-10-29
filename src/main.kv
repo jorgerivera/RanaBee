@@ -179,6 +179,13 @@
 			valign: 'middle'
 			halign: 'center'
 			pos_hint: {'center_x':0.5,'center_y':0.95}
+		Button:
+			text: root.next_button_text
+			valign: 'bottom'
+			halign: 'right'
+			size_hint: 0.1,0.1
+			pos_hint: {'right':1,'top':0.1}
+			on_release: root.next_level()
 
 <Label>:
 	font_name: 'assets/OD3BOLD.ttf'

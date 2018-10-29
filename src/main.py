@@ -116,6 +116,7 @@ class CardWidget(Screen):
 	announcement_size = NumericProperty()
 	accent_type = StringProperty()
 	accent_lbl = StringProperty()
+	next_button_text = StringProperty()
 	shuffling = False
 
 	def update_boxes(self, *args):
@@ -127,6 +128,7 @@ class CardWidget(Screen):
 				boxes.add_widget(Button(background_color=[0,1,0,1]))
 			else:
 				boxes.add_widget(Button(background_color=[1,0,0,1]))
+		self.update_next_level_btn()
 
 	def on_pre_enter(self):
 		self.update_boxes()
@@ -141,6 +143,45 @@ class CardWidget(Screen):
 		Clock.schedule_once(self.set_new_word, secs)
 		Clock.schedule_interval(self.shuffle_words, 0.05)
 		self.shuffling = True
+
+	def next_level(self):
+		words_remaining = len(App.get_running_app().sel_words)
+		if words_remaining > 0:
+			secs = min(2.0, 0.20 * words_remaining)
+			interval = secs/words_remaining
+			print('we will use %s for spending the %s remaining words, %s per word...' % (secs, words_remaining, interval))
+			Clock.schedule_interval(self.spend_words, interval)
+			self.spending = True
+		else:
+			self.update_next_level_words()
+
+	def update_next_level_btn(self):
+		if not App.get_running_app().is_level_last():
+			self.next_button_text = App.get_running_app().get_string('next_level')
+		elif not App.get_running_app().is_grade_last():
+			self.next_button_text = App.get_running_app().get_string('next_grade')
+		else:
+			self.next_button_text = App.get_running_app().get_string('the_end')
+
+	def spend_words(self, *args):
+		if not self.spending:
+			Clock.unschedule(self.spend_words)
+			return
+		if len(App.get_running_app().sel_words) > 0:
+			self.set_new_word()
+		else:
+			self.update_next_level_words()
+			self.spending = False
+
+	def update_next_level_words(self):
+		if App.get_running_app().next_level():
+			self.total_words = len(App.get_running_app().sel_words)
+			Clock.schedule_once(self.update_boxes)
+			Clock.schedule_once(partial(self.change_word,
+						parse_tools.get_ready_word(App.get_running_app()),
+						72))
+		else:
+			App.get_running_app().root.ids.sm.current = 'root'
 
 	def set_new_word(self, *args):
 		try:
@@ -245,6 +286,7 @@ class MainApp(App):
 							level=self.sel_level)
 		print(self.sel_words)
 		self.root.ids.sm.get_screen('card').total_words = len(self.sel_words)
+		self.root.ids.sm.get_screen('card').language = self.language
 		if any(self.sel_words):
 			if not self.sel_mode or self.sel_mode==self.get_string('random'):
 				random.shuffle(self.sel_words)
@@ -321,6 +363,38 @@ class MainApp(App):
 			self.sel_word_count = self.get_string('words_selected') % count
 		else:
 			self.sel_word_count = self.get_string('no_words_selected')
+
+	def next_level(self):
+		if not self.is_level_last():
+			curr_level_idx = self.get_string('level_list').index(self.sel_level)
+			next_level = self.get_string('level_list')[curr_level_idx+1]
+			self.sel_level = next_level
+			self.update_selected_words()
+		elif not self.is_grade_last():
+			curr_grade_idx = self.sp_grades.index(self.sel_grade)
+			next_grade = self.sp_grades[curr_grade_idx+1]
+			self.sel_level = self.get_string('level_list')[0]
+			self.sel_grade = next_grade
+			self.update_selected_words()
+		else:
+			self.sel_level = self.get_string('level_list')[0]
+			self.sel_grade = '1'
+			return False
+		return True
+
+	def is_level_last(self):
+		curr_level_idx = self.get_string('level_list').index(self.sel_level)
+		if curr_level_idx == len(self.get_string('level_list'))-1:
+			return True
+		else:
+			return False
+
+	def is_grade_last(self):
+		curr_grade_idx = self.sp_grades.index(self.sel_grade)
+		if curr_grade_idx == len(self.sp_grades)-1:
+			return True
+		else:
+			return False
 
 	def clear_db(self):
 		self.db = parse_tools.WordCollection()
