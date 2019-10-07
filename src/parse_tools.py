@@ -3,6 +3,7 @@
 from openpyxl import load_workbook
 #from BaseItems import Word
 from collections import namedtuple
+from itertools import izip_longest
 
 Word = namedtuple('Word',['level','grade','word','definition','sentence1','sentence2','type'])
 
@@ -16,7 +17,10 @@ def parse_wordlist(db, f):
 			continue
 		if not row[0].value or row[0].value == 'dificultad':
 			continue
-		w = Word._make([unicode(v.value).replace(u'\xa0',' ').strip() for v in row[0:7]])
+		row[0].value = row[0].value.lower()
+		values = [unicode(v.value).replace(u'\xa0',' ').strip() for v in row[0:7]]
+		word_dict = { k:v for k,v in izip_longest(Word._fields, values)}
+		w = Word(**word_dict)
 		db.add_word(w)
 	return db
 
@@ -63,7 +67,7 @@ class WordCollection(dict):
 		grade_list = set()
 		for grade in self.classified_words.keys():
 			grade_list.add(grade)
-		return grade_list
+		return sorted(grade_list)
 
 	def get_word_count(self):
 		return len(self.keys())
@@ -87,12 +91,16 @@ def sample_word():
 	return Word(**w)
 
 def get_ready_word(app):
+	if app.sel_level:
+		level = app.sel_level
+	else:
+		level = ''
 	w = {
 		'word' 			: app.get_string('get_ready'),
-		'grade'			: '',
-		'level'			: '',
-		'definition'	: '',
-		'sentence1'		: '',
+		'grade'			: app.sel_grade,
+		'level'			: app.sel_level,
+		'definition'	: app.get_grade_name(),
+		'sentence1'		: app.get_string('level_words') % level,
 		'sentence2'		: '',
 		'type'			: ''
 	}

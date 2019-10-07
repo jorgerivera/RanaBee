@@ -10,7 +10,7 @@
 			padding: 50
 			spacing: 30
 			Image:
-				source: 'assets/Logo_Amadita.png'
+				source: '../assets/Logo_Amadita.png'
 				size_hint: self.image_ratio,1
 				valign: 'bottom'
 			Label:
@@ -23,7 +23,7 @@
 				#font_name: 'HOS.ttf'
 				line_height: 2
 			Image:
-				source: 'assets/event_logo.256.png'
+				source: '../assets/event_logo.256.png'
 				size_hint: self.image_ratio,1
 				valign: 'bottom'
 		BoxLayout:
@@ -38,7 +38,7 @@
 				on_text: app.set_grade(self.text)
 			Spinner:
 				id: 'sp_level'
-				text: app.get_string('difficulty')
+				text: app.get_string('level_list')[0]
 				values: app.sp_levels
 				size_hint: 1,0.5
 				on_text: app.set_level(self.text.lower())
@@ -94,11 +94,11 @@
 					size: self.size
 		Image:
 			pos_hint: {'top':0.95,'x':0}
-			source: 'assets/Logo_Amadita.png'
+			source: '../assets/Logo_Amadita.png'
 			size_hint: 0.2,0.2/self.image_ratio
 		ImageButton:
 			pos_hint: {'top':0.95,'x':0.7}
-			source: 'assets/event_logo.256.png'
+			source: '../assets/event_logo.256.png'
 			size_hint: 0.35,0.35/self.image_ratio
 			on_release: root.next_word()
 
@@ -124,7 +124,7 @@
 		Label:
 			text: root.definition
 			text_size: self.width, None
-			font_size: '30sp'
+			font_size: root.announcement_size
 			valign: 'middle'
 			halign: 'center'
 			pos_hint: {'center_x':0.5,'center_y':0.4}
@@ -141,7 +141,7 @@
 		Label:
 			text: root.sentence1
 			text_size: self.width, None
-			font_size: '30sp'
+			font_size: root.announcement_size
 			valign: 'middle'
 			halign: 'center'
 			pos_hint: {'center_x':0.5,'center_y':0.25}
@@ -179,9 +179,16 @@
 			valign: 'middle'
 			halign: 'center'
 			pos_hint: {'center_x':0.5,'center_y':0.95}
+		Button:
+			text: root.next_button_text
+			valign: 'bottom'
+			halign: 'right'
+			size_hint: 0.1,0.1
+			pos_hint: {'right':1,'top':0.1}
+			on_release: root.next_level()
 
 <Label>:
-	font_name: 'assets/OD3BOLD.ttf'
+	font_name: '../assets/OD3BOLD.ttf'
 
 <LoadDialog>:
 	BoxLayout:
@@ -191,7 +198,7 @@
 		FileChooserListView:
 			id: filechooser
 			filters: ['*.xls','*.xlsx']
-			#path: expanduser('~user')
+			path: expanduser('~')
 		BoxLayout:
 			size_hint_y: None
 			height: 30
@@ -212,14 +219,14 @@ BoxLayout:
 			size: self.size
 	ActionBar:
 		pos_hint: {'top':1}
-		background_image: 'assets/white-bg.png'
+		background_image: '../assets/white-bg.png'
 		background_color: .6,.6,.6,1
 		ActionView:
 			use_separator: True
 			ActionPrevious:
 				title: app.get_string('title')
 				with_previous: False
-				app_icon: 'assets/event_logo.256.png'
+				app_icon: '../assets/event_logo.256.png'
 				on_release: app.back()
 			ActionGroup:
 				text: app.get_string('file')
