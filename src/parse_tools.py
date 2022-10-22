@@ -3,7 +3,7 @@
 from openpyxl import load_workbook
 #from BaseItems import Word
 from collections import namedtuple
-from itertools import izip_longest
+from itertools import zip_longest
 
 Word = namedtuple('Word',['level','grade','word','definition','sentence1','sentence2','type'])
 
@@ -18,10 +18,11 @@ def parse_wordlist(db, f):
 		if not row[0].value or row[0].value == 'dificultad':
 			continue
 		row[0].value = row[0].value.lower()
-		values = [unicode(v.value).replace(u'\xa0',' ').strip() for v in row[0:7]]
-		word_dict = { k:v for k,v in izip_longest(Word._fields, values)}
+		values = [str(v.value).replace(u'\xa0',' ').strip() for v in row[0:7]]
+		word_dict = { k:v for k,v in zip_longest(Word._fields, values)}
 		w = Word(**word_dict)
 		db.add_word(w)
+	print("parsed %s words from file %s" % (len(db.keys()),f))
 	return db
 
 class WordCollection(dict):
@@ -36,8 +37,10 @@ class WordCollection(dict):
 		k = self._generate_key(word)
 		self[k] = word
 		if word.grade not in self.classified_words:
+			print("new grade %s", word.grade)
 			self.classified_words[word.grade] = {}
 		if word.level not in self.classified_words[word.grade]:
+			print("new level %s-%s", word.grade, word.level)
 			self.classified_words[word.grade][word.level] = []
 		self.classified_words[word.grade][word.level].append(k)
 
@@ -61,6 +64,7 @@ class WordCollection(dict):
 		for grade in self.classified_words.keys():
 			for level in self.classified_words[grade].keys():
 				level_list.add(level)
+		print('DB get levels %s', level_list)
 		return level_list
 
 	def get_grades(self):
