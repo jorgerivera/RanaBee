@@ -1,3 +1,4 @@
+#:kivy 1.0
 #:import SlideTransition kivy.uix.screenmanager.SlideTransition
 #:import dirname os.path.dirname
 #:import expanduser os.path.expanduser
@@ -10,7 +11,7 @@
 			padding: 50
 			spacing: 30
 			Image:
-				source: '../assets/Logo_Amadita.png'
+				source: '../assets/institution_logo.png'
 				size_hint: self.image_ratio,1
 				valign: 'bottom'
 			Label:
@@ -23,7 +24,7 @@
 				#font_name: 'HOS.ttf'
 				line_height: 2
 			Image:
-				source: '../assets/event_logo.256.png'
+				source: '../assets/english_event_logo.png'
 				size_hint: self.image_ratio,1
 				valign: 'bottom'
 		BoxLayout:
@@ -62,13 +63,28 @@
 				Spinner:
 					id: 'sp_sort'
 					size_hint: 1,0.2
-					text: app.get_string('random')
-					values: (app.get_string('alphabetic'), app.get_string('random'))
+					text: app.get_string('contest')
+					values: (app.get_string('contest'), app.get_string('alphabetic'), app.get_string('random'))
 					on_text: app.sel_mode = self.text
 				Button:
 					size_hint: 1,0.8
 					text: app.get_string('start')
-					on_release: app.open_card()
+					on_release: app.start()
+					#background_normal: '../assets/green_button.png'
+					#background_down: '../assets/green_button_pressed.png'
+
+<TitleCardWidget>:
+	canvas:
+		Color:
+			rgba: 0.8,0.8,0.8,1
+	FloatLayout:
+		size: root.size
+		ImageButton:
+			id: 'img_contestants'
+			pos_hint: {'center_x':0.5,'center_y':0.5}
+			size_hint: 1,1/self.image_ratio
+			source: root.img_source
+			on_release: root.goto_cards()
 <CardWidget>:
 	canvas:
 		Color:
@@ -94,14 +110,13 @@
 					size: self.size
 		Image:
 			pos_hint: {'top':0.95,'x':0}
-			source: '../assets/Logo_Amadita.png'
-			size_hint: 0.2,0.2/self.image_ratio
+			source: '../assets/institution_logo.png'
+			size_hint: 0.3,0.3/self.image_ratio
 		ImageButton:
 			pos_hint: {'top':0.95,'x':0.7}
-			source: '../assets/event_logo.256.png'
-			size_hint: 0.35,0.35/self.image_ratio
+			source: '../assets/english_event_logo.png'
+			size_hint: 0.3,0.3/self.image_ratio
 			on_release: root.next_word()
-
 		Label:
 			id: lbl_word
 			text: root.word
@@ -228,7 +243,7 @@ BoxLayout:
 			ActionPrevious:
 				title: app.get_string('title')
 				with_previous: False
-				app_icon: '../assets/event_logo.256.png'
+				app_icon: '../assets/english_event_logo.png'
 				on_release: app.back()
 			ActionGroup:
 				text: app.get_string('file')
