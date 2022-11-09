@@ -264,7 +264,7 @@ class ContestState(dict):
 
 	@property
 	def sel_level(self):
-		return self['sel_level']
+		return self['sel_level'] if 'sel_level' in self else None
 	
 	@sel_level.setter
 	def sel_level(self, val):
@@ -272,7 +272,7 @@ class ContestState(dict):
 
 	@property
 	def sel_grade(self):
-		return self['sel_grade']
+		return self['sel_grade'] if 'sel_grade' in self else None
 	
 	@sel_grade.setter
 	def sel_grade(self, val):
