@@ -111,11 +111,11 @@
 		Image:
 			pos_hint: {'top':0.95,'x':0}
 			source: '../assets/institution_logo.png'
-			size_hint: 0.3,0.3/self.image_ratio
+			size_hint: 0.2,0.2/self.image_ratio
 		ImageButton:
-			pos_hint: {'top':0.95,'x':0.7}
+			pos_hint: {'top':0.95,'x':0.8}
 			source: '../assets/english_event_logo.png'
-			size_hint: 0.3,0.3/self.image_ratio
+			size_hint: 0.2,0.2/self.image_ratio
 			on_release: root.next_word()
 		Label:
 			id: lbl_word
@@ -195,6 +195,7 @@
 			halign: 'center'
 			pos_hint: {'center_x':0.5,'center_y':0.95}
 		Button:
+			id: btn_next
 			text: root.next_button_text
 			valign: 'bottom'
 			halign: 'right'
