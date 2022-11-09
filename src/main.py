@@ -430,8 +430,8 @@ class MainApp(App):
 							level=self.state.sel_level)
 		count = len(self.state.sel_words)
 		# Now the Words are shuffled in the db
-		#if not self.sel_mode or not self.sel_mode==self.get_string('alphabetic'):
-		#	random.shuffle(self.sel_words)
+		if self.sel_mode==self.get_string('alphabetic'):
+			self.state.sel_words.sort(key=lambda x: x.word.lower(), reverse=True)
 		if count > 0:
 			self.sel_word_count = self.get_string('words_selected') % count
 		else:
