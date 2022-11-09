@@ -82,7 +82,7 @@
 		ImageButton:
 			id: 'img_contestants'
 			pos_hint: {'center_x':0.5,'center_y':0.5}
-			size_hint: 1,1/self.image_ratio
+			size_hint: 1*self.image_ratio,1
 			source: root.img_source
 			on_release: root.goto_cards()
 <CardWidget>:
