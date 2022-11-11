@@ -250,13 +250,16 @@ BoxLayout:
 				text: app.get_string('file')
 				mode: 'spinner'
 				size_hint_x: None
-				width: 90
+				width: 120
 				ActionButton:
 					text: app.get_string('new')
 					on_release: app.clear_db()
 				ActionButton:
 					text: app.get_string('open')
 					on_release: app.open_file()
+				ActionButton:
+					text: app.get_string('recover')
+					on_release: app.recover_previous_session()
 				ActionButton:
 					text: app.get_string('quit')
 					on_release: app.stop()

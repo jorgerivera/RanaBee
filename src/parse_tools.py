@@ -6,6 +6,7 @@ from collections import namedtuple
 from itertools import zip_longest
 import copy
 import json
+import os
 import random
 from hashlib import md5
 
@@ -237,9 +238,6 @@ class WordList(list):
 	def __repr__(self):
 		return json.dumps(self)
 
-	def save_file(self, filename):
-		with open(filename,'w') as f:
-			f.write(json.dumps(self, indent=2))
 
 class ContestState(dict):
 
@@ -251,8 +249,16 @@ class ContestState(dict):
 	def words(self, val):
 		if isinstance(val, WordList):
 			self['words'] = copy.deepcopy(val)
+		elif isinstance(val, list) and isinstance(val[0], dict) :
+			print('setting words from a list of dicts')
+			self['words'] = WordList()
+			for w in val:
+				print(w)
+				next_word = Word(**w)
+				print(f"WORD: {next_word.word}" )
+				self['words'].add_word(next_word)
 		else:
-			raise Exception('Not a WordList')
+			raise Exception('Not a WordList or a List')
 
 	@property
 	def sel_words(self):
@@ -285,6 +291,30 @@ class ContestState(dict):
 		with open(filename,'w') as f:
 			f.write(json.dumps(self, indent=2))
 
+	def load_file(self, filename):
+		try:
+			with open(filename,'r') as f:
+				from_file = json.load(f)
+		except Exception as e:
+			print(f"Could not read file {filename}: {e}")
+			return
+		print(f"recovered {len(from_file['words'])} from {filename}")
+		self.sel_grade = from_file['sel_grade']
+		self.sel_level = from_file['sel_level']
+		self.words = from_file['words']
+		self.sel_words = self.words.get_word_list(grade=self.sel_grade, level=self.sel_level)
+		self.print_info()
+
+	def clear_file(self, filename):
+		print("Contest done! Remove state file!")
+		os.remove(filename)
+
+	def print_info(self):
+		print(f'State data:')
+		print(f'  Selected grade {self.sel_grade}')
+		print(f'  Selected level {self.sel_level}')
+		print(f'  Word count  {len(self.words)}')
+		print(f'  Selected words {len(self.sel_words)}')
 
 
 word_db = WordCollection()

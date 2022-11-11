@@ -49,6 +49,7 @@ spanish_strings = {
 	'load' : 'Cargar',
 	'new' : 'Nuevo',
 	'open' : 'Abrir',
+	'recover' : 'Recuperar',
 	'quit' : 'Salir',
 	'no_words' : 'No hay palabras cargadas',
 	'words_loaded' : 'Hay %s palabras cargadas',
@@ -83,6 +84,7 @@ english_strings = {
 	'load' : 'Load',
 	'new' : 'New',
 	'open' : 'Open',
+	'recover' : 'Recover',
 	'quit' : 'Quit',
 	'no_words' : 'No words loaded',
 	'words_loaded' : '%s words loaded',
@@ -205,15 +207,17 @@ class CardWidget(Screen):
 			self.spending = False
 
 	def update_next_level_words(self):
-		if not self.contest:
-			App.get_running_app().root.ids.sm.current = 'root'
-		elif App.get_running_app().next_level():
-			self.total_words = len(App.get_running_app().state.sel_words)
-			Clock.schedule_once(self.update_boxes)
-			Clock.schedule_once(partial(self.change_word,
-						parse_tools.get_ready_word(App.get_running_app()),
-						48,
-						False))
+		if self.contest:
+			if App.get_running_app().next_level():
+				self.total_words = len(App.get_running_app().state.sel_words)
+				Clock.schedule_once(self.update_boxes)
+				Clock.schedule_once(partial(self.change_word,
+							parse_tools.get_ready_word(App.get_running_app()),
+							48,
+							False))
+			else:
+				App.get_running_app().state.clear_file()
+				App.get_running_app().root.ids.sm.current = 'root'
 		else:
 			App.get_running_app().root.ids.sm.current = 'root'
 
@@ -304,6 +308,7 @@ class MainApp(App):
 	sp_levels = ListProperty()
 	sp_grades = ListProperty()
 	state = parse_tools.ContestState()
+	session_fn = StringProperty('session.save')
 
 	def build(self):
 		config = self.config
@@ -336,8 +341,12 @@ class MainApp(App):
 
 	def start_contest(self):
 		if self.state.words.get_word_count() > 0:
-			self.state.sel_grade = self.get_string('grade_number_list')[1]
-			self.state.sel_level = self.get_string('level_list')[0]
+			if self.state.sel_grade is None:
+				print('No grade selected, starting from grade 1')
+				self.state.sel_grade = self.get_string('grade_number_list')[1]
+			if self.state.sel_level is None:
+				print(f"No level selected, starting from {self.get_string('level_list')[0]}")
+				self.state.sel_level = self.get_string('level_list')[0]
 			self.update_selected_words()
 			self.root.ids.sm.get_screen('card').total_words = len(self.state.sel_words)
 			self.root.ids.sm.get_screen('card').language = self.language
@@ -395,6 +404,10 @@ class MainApp(App):
 		self._popup = Popup(title="Load file", content=content,
 			size_hint=(0.9, 0.9))
 		self._popup.open()
+	
+	def recover_previous_session(self):
+		print('clicked on recover')
+		Clock.schedule_once(self.read_state)
 
 	def get_string(self, key):
 		if key in self.strings:
@@ -495,8 +508,13 @@ class MainApp(App):
 		return available_grades
 
 	def save_state(self):
-		self.state.save_file('current.save')
+		self.state.save_file(self.session_fn)
 
+	def read_state(self, *largs):
+		print('running scheduled recovery')
+		self.state.load_file(self.session_fn)
+		self.update_selected_words()
+		
 
 if '__main__' == __name__:
 	print('working dir %s' % os.getcwd())
