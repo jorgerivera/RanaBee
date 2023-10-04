@@ -105,27 +105,35 @@ class Word(object):
 
 def parse_wordlist(f, db=None, wlist=None):
 	wb = load_workbook(f)
-	ws = wb.active
-	first = True
-	for row in ws:
-		if first:
-			first = False
-			continue
-		if not row[0].value or row[0].value == 'dificultad':
-			continue
-		row[0].value = row[0].value.lower()
-		values = [str(v.value).replace(u'\xa0',' ').strip() for v in row[0:7]]
-		word_dict = { k:v for k,v in zip_longest(Word._fields, values)}
-		w = Word(**word_dict)
-		if db is not None:
-			db.add_word(w)
-		if wlist is not None:
-			wlist.add_word(w)
+	print(f"opened file {f} as {wb}")
+	print(f"it has these WS: {wb.sheetnames}")
+	for ws_name in wb.sheetnames:
+		ws = wb[ws_name]
+		first = True
+		ct = 0
+		print(f"reading WS {ws.title}")
+		for row in ws:
+			if first:
+				first = False
+				continue
+			if not row[0].value or row[0].value == 'dificultad':
+				continue
+			row[0].value = row[0].value.lower()
+			values = [str(v.value).replace(u'\xa0',' ').strip() for v in row[0:7]]
+			word_dict = { k:v for k,v in zip_longest(Word._fields, values)}
+			w = Word(**word_dict)
+			if db is not None:
+				db.add_word(w)
+				ct = ct + 1
+			if wlist is not None:
+				wlist.add_word(w)
+				ct = ct + 1
+		print(f"from WS {ws.title} we read {ct} words")
 	if db is not None:
-		print(f"parsed {len(db.keys())} words from file {f}")
+		print(f"parsed {len(db.keys())} words from file {f}",flush=True)
 		return db
 	if wlist is not None:
-		print(f"parsed {len(wlist)} words from file {f}")
+		print(f"parsed {len(wlist)} words from file {f}",flush=True)
 		return wlist
 
 class WordCollection(dict):

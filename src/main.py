@@ -31,6 +31,8 @@ sys.path.insert(0, "../")
 
 sw = parse_tools.sample_word()
 
+sys.stdout.reconfigure(encoding='utf-8')
+
 __version__ = '0.2'
 
 spanish_strings = {
@@ -57,7 +59,7 @@ spanish_strings = {
 	'get_ready' : '¡Prepárense!',
 	'words_selected' : 'Hay %s palabras seleccionadas',
 	'no_words_selected' : 'No hay palabras seleccionadas',
-	'level_list' : ['mediano', 'difícil', 'experto'],
+	'level_list' : ['mediana', 'difícil', 'experto'],
 	'grade_list' : ['Prepa', 'Primer', 'Segundo', 'Tercer', 'Cuarto', 'Quinto', 'Sexto'],
 	'grade_number_list' : ['Prepa', '1', '2', '3', '4', '5', '6'],
 	'grade_name' : '%s grado',
@@ -66,6 +68,7 @@ spanish_strings = {
 	'the_end'    : '¡Fin!',
 	'level_words': 'A continuación: palabras de nivel %s',
 	'contestants_img_src' : '../assets/contestants_%s.jpg',
+	'contestants_vid_src' : '../assets/contestants_%s.mp4',
 }
 
 english_strings = {
@@ -101,6 +104,7 @@ english_strings = {
 	'the_end'    : 'Done!',
 	'level_words': 'Starting with %s words!',
 	'contestants_img_src' : '../assets/contestants_%s.jpg',
+	'contestants_vid_src' : '../assets/contestants_%s.mp4',
 }
 
 class ImageButton(ButtonBehavior, Image):
@@ -118,6 +122,7 @@ class RootWidget(Screen):
 class TitleCardWidget(Screen):
 	sel_grade = StringProperty()
 	img_source = StringProperty()
+	vid_source = StringProperty()
 
 	def on_pre_enter(self, *args):
 		self.update_title()
@@ -125,7 +130,8 @@ class TitleCardWidget(Screen):
 
 	def update_title(self):
 		self.img_source = App.get_running_app().get_string('contestants_img_src') % self.sel_grade
-		print('titlecard: img_source [%s]' % self.img_source)
+		self.vid_source = App.get_running_app().get_string('contestants_vid_src') % self.sel_grade
+		print(f'titlecard: img_source [{self.img_source}] vid_source [{self.vid_source}]')
 	
 	def goto_cards(self):
 		App.get_running_app().root.ids.sm.current = 'card'
@@ -302,7 +308,7 @@ class MainApp(App):
 	sel_mode = StringProperty()
 	loadfile = ObjectProperty(None)
 	language = OptionProperty("English", options=["Español", "English"])
-	strings = DictProperty(english_strings)
+	strings = DictProperty(spanish_strings)
 	word_count = StringProperty()
 	sel_word_count = StringProperty()
 	sp_levels = ListProperty()
@@ -379,7 +385,8 @@ class MainApp(App):
 			f = os.path.join(path, filename[0])
 		if os.path.exists(f):
 			try:
-				parse_tools.parse_wordlist(self.state.words, resource_find(f))
+				parse_tools.parse_wordlist(resource_find(f), wlist=self.state.words)
+				print('parsed')
 				self.update_word_count(self.state.words.get_word_count())
 			except:
 				print('failed loading file')
@@ -520,7 +527,7 @@ if '__main__' == __name__:
 	print('working dir %s' % os.getcwd())
 	db = parse_tools.WordList()
 	dir_to_search = [ 'assets' ]
-	year = '22'
+	year = '23'
 	fn_templates = [ f'bee{year}.xlsx',
 					 f'bee{year}.xls',
 					 f'ranabc{year}.xlsx',

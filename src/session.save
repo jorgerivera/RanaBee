@@ -1,0 +1,4876 @@
+{
+  "words": [
+    {
+      "level": "mediano",
+      "grade": "Prepa",
+      "word": "suma",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "Prepa",
+      "word": "sapo",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "Prepa",
+      "word": "mula",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "Prepa",
+      "word": "mesa",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "Prepa",
+      "word": "basurero",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "Prepa",
+      "word": "camisa",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "Prepa",
+      "word": "mu\u00f1eca",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "Prepa",
+      "word": "maleta",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "Prepa",
+      "word": "arpa",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "Prepa",
+      "word": "dado",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "Prepa",
+      "word": "gato",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "Prepa",
+      "word": "fama",
+      "definition": "None",
+      "sentence1": "None",
+      "sentence2": null,
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "blando",
+      "definition": "Que cede f\u00e1cilmente a la presi\u00f3n del tacto.",
+      "sentence1": "El pur\u00e9 de papa qued\u00f3 muy blando.",
+      "sentence2": "La verdura est\u00e1 blanda.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "brazos",
+      "definition": "Miembro del cuerpo que comprende desde el hombro a la extremidadde la mano",
+      "sentence1": "Mis brazos son largos.",
+      "sentence2": "Tengo dos brazos.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "campo",
+      "definition": "Terreno extenso fuera de poblado.",
+      "sentence1": "En el campo hay vacas.",
+      "sentence2": "Fui a pasear al campo.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "cant\u00f3n",
+      "definition": "Cada una de las divisiones administrativas o territoriales",
+      "sentence1": "Visit\u00e9 mi cant\u00f3n.",
+      "sentence2": "El cant\u00f3n es peque\u00f1o.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "carta",
+      "definition": "Papel escrito, y ordinariamente cerrado.",
+      "sentence1": "Recib\u00ed carta de mi t\u00edo.",
+      "sentence2": "Ayer escrib\u00ed una carta.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "comit\u00e9",
+      "definition": "Conjunto de personas encargadas de un asunto",
+      "sentence1": "Formo parte de un comit\u00e9.",
+      "sentence2": "Organic\u00e9 un comit\u00e9 de limpieza.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "contagio",
+      "definition": "Acci\u00f3n y efecto de contagiar o contagiarse.",
+      "sentence1": "Para evitar el contagio del virus el grupo se vacun\u00f3.",
+      "sentence2": "Ayer estudi\u00e9 medidas para evitar el contagio de enfermedades.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "decenas",
+      "definition": "Conjunto de diez unidades.",
+      "sentence1": "En clases estudi\u00e9 las decenas.",
+      "sentence2": "En el examen entr\u00f3 las decenas.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "\u00e9pocas",
+      "definition": "Fecha de un suceso desde el cual se empiezan a contar los a\u00f1os.",
+      "sentence1": "Estamos en la \u00e9poca seca.",
+      "sentence2": "Me enferm\u00e9 en la \u00e9poca lluviosa.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "fruta",
+      "definition": "Fruto comestible de ciertas plantas cultivadas",
+      "sentence1": "Me gusta la fruta.",
+      "sentence2": "La fresa es una fruta.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "ladrones",
+      "definition": "Que hurta o roba.",
+      "sentence1": "Los ladrones son malos.",
+      "sentence2": "En la calle andaban unos ladrones.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "luz",
+      "definition": "Agente f\u00edsico que hace visibles los objetos",
+      "sentence1": "Se fue la luz en el barrio.",
+      "sentence2": "Voy a prender la luz.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "melanina",
+      "definition": "Pigmento de color negro o pardo negruzco",
+      "sentence1": "En la piel encontramos la melanina.",
+      "sentence2": "En clase estudi\u00e9 el tema de la melanina.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "mestiza",
+      "definition": "Dicho de una persona: Nacida de padre y madre de raza diferente",
+      "sentence1": "Marta es mestiza.",
+      "sentence2": "En clase estudi\u00e9 el concepto de mestiza.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "mojado",
+      "definition": "Acci\u00f3n y efecto de mojar",
+      "sentence1": "El piso est\u00e1 mojado.",
+      "sentence2": "El ba\u00f1o est\u00e1 mojado.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "nariz",
+      "definition": "\u00d3rgano prominente del rostro humano, entre la frente y la boca",
+      "sentence1": "Me pica la nariz.",
+      "sentence2": "Mi nariz es peque\u00f1a.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "objetos",
+      "definition": "Materia o asunto de que se ocupa una ciencia o estudio",
+      "sentence1": "Se me cayeron unos objetos.",
+      "sentence2": "Estoy buscando objetos de pl\u00e1stico.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "Pablo",
+      "definition": "Nombre de persona",
+      "sentence1": "Pablo es amable.",
+      "sentence2": "Mi t\u00edo se llama Pablo.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "plancha",
+      "definition": "Pieza plana de poco grosor, generalmente de metal",
+      "sentence1": "La plancha se descompuso.",
+      "sentence2": "Mam\u00e1 usa la plancha.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "planos",
+      "definition": "Representaci\u00f3n esquem\u00e1tica, en dos dimensiones y a determinadaescala, de un terreno",
+      "sentence1": "Dibuj\u00e9 unos planos.",
+      "sentence2": "Los planos quedaron muy bien.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "platos",
+      "definition": "Recipiente bajo y redondo, con una concavidad en medio",
+      "sentence1": "Se me cayeron los platos.",
+      "sentence2": "Los platos son de vidrio.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "pueblo",
+      "definition": "Ciudad o villa",
+      "sentence1": "El pueblo es peque\u00f1o.",
+      "sentence2": "Ayer visit\u00e9 un pueblo.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "receta",
+      "definition": "Procedimiento adecuado para hacer o conseguir algo",
+      "sentence1": "Laura pidi\u00f3 la receta.",
+      "sentence2": "La receta me qued\u00f3 excelente.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "referencia",
+      "definition": "Base o apoyo de una comparaci\u00f3n",
+      "sentence1": "Ocupo una referencia.",
+      "sentence2": "Ella me dio una referencia.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "rural",
+      "definition": "Perteneciente o relativo a la vida del campo y a sus labores",
+      "sentence1": "Visit\u00e9 el paisaje rural.",
+      "sentence2": "Vivo en el espacio rural.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "sand\u00eda",
+      "definition": "Planta comestible",
+      "sentence1": "Me gusta la sand\u00eda.",
+      "sentence2": "La sand\u00eda  es refrescante.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "tortuga",
+      "definition": "Reptil marino del orden de los quelonios",
+      "sentence1": "La tortuga es grande.",
+      "sentence2": "Mi mascota es una tortuga.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "triste",
+      "definition": "Afligido, apesadumbrado",
+      "sentence1": "Ella est\u00e1 triste.",
+      "sentence2": "La pel\u00edcula me puso triste.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "verduras",
+      "definition": "Hortaliza, especialmente la de hojas verdes",
+      "sentence1": "Yo como verduras.",
+      "sentence2": "Las verduras son saludables.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "2",
+      "word": "vientre",
+      "definition": "Regi\u00f3n exterior del cuerpo, correspondiente al abdomen",
+      "sentence1": "El beb\u00e9 est\u00e1 en el vientre de la madre.",
+      "sentence2": "Me duele el vientre.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "abrazo",
+      "definition": "Acci\u00f3n y efecto de abrazar",
+      "sentence1": "Mam\u00e1 me dio un abrazo.",
+      "sentence2": "Voy a darle un abrazo a mi abuelo.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "adjetivo",
+      "definition": "Que califica o determina al sustantivo",
+      "sentence1": "Un adjetivo de flor es suave.",
+      "sentence2": "Us\u00e9 un adjetivo en la oraci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "adultez",
+      "definition": "Condici\u00f3n de adulto",
+      "sentence1": "Juan est\u00e1 en la etapa de la adultez.",
+      "sentence2": "Estudi\u00e9 las caracter\u00edsticas de la adultez.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "algas",
+      "definition": "Cada una de las plantas talofitas, unicelulares o pluricelulares, que vivende preferencia en el agua",
+      "sentence1": "Ayer vi unas algas.",
+      "sentence2": "Las algas son de color verde.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "ambiente",
+      "definition": "Que rodea algo o a alguien como elemento de su entorno",
+      "sentence1": "Visit\u00e9 un ambiente terrestre.",
+      "sentence2": "Estudi\u00e9 un ambiente acu\u00e1tico.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "\u00e1rboles",
+      "definition": "Planta perenne, de tronco le\u00f1oso y elevado, que se ramifica a ciertaaltura del suelo",
+      "sentence1": "Los \u00e1rboles son grandes.",
+      "sentence2": "En el patio hay \u00e1rboles.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "armon\u00eda",
+      "definition": "Amistad y buena correspondencia entre personas",
+      "sentence1": "Debemos tener armon\u00eda.",
+      "sentence2": "Tus buenos amigos viven en armon\u00eda.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "art\u00edculo",
+      "definition": "Una de las partes en que suelen dividirse los escritos",
+      "sentence1": "En la pr\u00e1ctica encerr\u00e9 el art\u00edculo.",
+      "sentence2": "Estoy estudiando el art\u00edculo.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "asamblea",
+      "definition": "Reuni\u00f3n de los miembros de una colectividad para discutir determinadascuestiones de inter\u00e9s com\u00fan",
+      "sentence1": "Me port\u00e9 bien en la asamblea.",
+      "sentence2": "Ayer asist\u00ed a una asamblea.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "asolearnos",
+      "definition": "Tener algo al sol por alg\u00fan tiempo",
+      "sentence1": "Ma\u00f1ana vamos a asolearnos.",
+      "sentence2": "Nos encanta asolearnos.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "balanceada",
+      "definition": "Equilibrar o contrapesar",
+      "sentence1": "Debemos comer de forma balanceada.",
+      "sentence2": "De tarea busqu\u00e9 el concepto balanceada.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "camello",
+      "definition": "Mam\u00edfero artiod\u00e1ctilo rumiante, oriundo del Asia central",
+      "sentence1": "Conoc\u00ed un camello.",
+      "sentence2": "Me mont\u00e9 en un camello.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "carreteras",
+      "definition": "Camino p\u00fablico, ancho y espacioso, pavimentado y dispuesto para eltr\u00e1nsito de veh\u00edculos",
+      "sentence1": "Las carreteras son peligrosas.",
+      "sentence2": "Est\u00e1n arreglando las carreteras.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "cent\u00edmetro",
+      "definition": "Unidad de longitud equivalente a la cent\u00e9sima parte de 1 metro",
+      "sentence1": "Estoy estudiando el concepto de cent\u00edmetro.",
+      "sentence2": "Dibuj\u00e9 un cent\u00edmetro en el cuaderno.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "croquis",
+      "definition": "Dibujo o esbozo r\u00e1pido y esquem\u00e1tico",
+      "sentence1": "Dibuj\u00e9 un croquis de mi casa.",
+      "sentence2": "Estoy estudiando el concepto de croquis.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "cultivar",
+      "definition": "Dar a la tierra y a las plantas las labores necesarias para quefructifiquen",
+      "sentence1": "Me gusta cultivar zanahorias.",
+      "sentence2": "A mi abuelo le gusta cultivar fresas.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "doscientos",
+      "definition": "N\u00famero natural que sigue al ciento noventa y nueve",
+      "sentence1": "Aprend\u00ed a escribir la palabra doscientos.",
+      "sentence2": "Debo cocinar doscientos pasteles.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "emociones",
+      "definition": "Alteraci\u00f3n del \u00e1nimo intensa y pasajera",
+      "sentence1": "Tengo muchas emociones.",
+      "sentence2": "Es bueno tener emociones.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "empezado",
+      "definition": "Dar principio a algo",
+      "sentence1": "No he empezado la tarea.",
+      "sentence2": "Marta no ha empezado a cocinar.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "enfermedad",
+      "definition": "Alteraci\u00f3n m\u00e1s o menos grave de la salud",
+      "sentence1": "Ella tiene una gran enfermedad.",
+      "sentence2": "Hay que tomar medicina para curar la enfermedad.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "enojada",
+      "definition": "Molestia, pesar, trabajo",
+      "sentence1": "Julia est\u00e1 enojada.",
+      "sentence2": "Mam\u00e1 est\u00e1 enojada.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "extra\u00f1o",
+      "definition": "Que no tiene parte en algo",
+      "sentence1": "El extra\u00f1o toc\u00f3 la puerta.",
+      "sentence2": "Como extra\u00f1o patinar.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "f\u00e1bula",
+      "definition": "Breve relato ficticio, en prosa o verso",
+      "sentence1": "Ayer le\u00ed una f\u00e1bula.",
+      "sentence2": "Estoy estudiando el concepto de f\u00e1bula.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "garrapata",
+      "definition": "\u00c1caro de forma ovalada, de cuatro a seis mil\u00edmetros de largo, con laspatas terminadas en dos u\u00f1as",
+      "sentence1": "El perro tiene una garrapata.",
+      "sentence2": "Que fea es la garrapata.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "granja",
+      "definition": "Finca dedicada a la cr\u00eda de animales",
+      "sentence1": "El domingo fui a una granja.",
+      "sentence2": "La granja es peque\u00f1a.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "Guatemala",
+      "definition": "Pa\u00eds centroamericano",
+      "sentence1": "En vacaciones visit\u00e9 Guatemala.",
+      "sentence2": "En Guatemala compr\u00e9 esta cofre.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "hierba",
+      "definition": "Toda planta peque\u00f1a cuyo tallo es tierno y perece despu\u00e9s de dar lasimiente en el mismo a\u00f1o",
+      "sentence1": "Ayer quit\u00e9 la hierba del patio.",
+      "sentence2": "La hierba abunda en la finca.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "hongos",
+      "definition": "Ser vivo heter\u00f3trofo",
+      "sentence1": "Los hongos son peque\u00f1os.",
+      "sentence2": "En los \u00e1rboles encontr\u00e9 hongos.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "lagartija",
+      "definition": "Especie de lagarto muy com\u00fan en Espa\u00f1a, de unos 20 cm de largo",
+      "sentence1": "La lagartija est\u00e1 en el \u00e1rbol.",
+      "sentence2": "Tengo una lagartija.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "m\u00e9trica",
+      "definition": "Perteneciente o relativo al metro",
+      "sentence1": "En clase estudi\u00e9 el concepto de m\u00e9trica.",
+      "sentence2": "No entend\u00ed la definici\u00f3n de m\u00e9trica.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "m\u00fasculos",
+      "definition": "\u00d3rgano compuesto principalmente de fibras contr\u00e1ctiles",
+      "sentence1": "Los huesos est\u00e1n cubiertos por m\u00fasculos.",
+      "sentence2": "Me lastim\u00e9 los m\u00fasculos.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "sem\u00e1ntico",
+      "definition": "Perteneciente o relativo a la sem\u00e1ntica",
+      "sentence1": "Estoy buscando en el diccionario la palabra sem\u00e1ntico.",
+      "sentence2": "Ayer pregunt\u00e9 qu\u00e9 significaba sem\u00e1ntico.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "semillas",
+      "definition": "Grano que en diversas formas produce las plantas",
+      "sentence1": "Sembr\u00e9 unas semillas de chile en el  patio de la casa.",
+      "sentence2": "Compr\u00e9 semillas de culantro.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "t\u00f3xica",
+      "definition": "Que contiene veneno o produce envenenamiento",
+      "sentence1": "Hay que tener cuidado con la sustancia t\u00f3xica.",
+      "sentence2": "La sustancia t\u00f3xica es da\u00f1ina.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "tr\u00e1nsito",
+      "definition": "Acci\u00f3n de transitar",
+      "sentence1": "Hab\u00eda mucho tr\u00e1nsito en la tarde.",
+      "sentence2": "No hab\u00eda tr\u00e1nsito en la calle el d\u00eda de hoy.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "tristeza",
+      "definition": "Cualidad de triste",
+      "sentence1": "Tengo una tristeza en mi alma.",
+      "sentence2": "Debes quitar la tristeza de tu coraz\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "verbal",
+      "definition": "Que se refiere a la palabra, o se sirve de ella",
+      "sentence1": "Estoy estudiando el lenguaje verbal.",
+      "sentence2": "Un dibujo es un ejemplo de lenguaje no verbal.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "zanahoria",
+      "definition": "Planta herb\u00e1cea umbel\u00edfera, con flores blancas y purp\u00farea",
+      "sentence1": "La zanahoria me encanta.",
+      "sentence2": "En la ma\u00f1ana tomo jugo de zanahoria.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "2",
+      "word": "zancudo",
+      "definition": "Insecto d\u00edptero de peque\u00f1o tama\u00f1o.",
+      "sentence1": "El zancudo me molesta en la noche.",
+      "sentence2": "El zancudo me pic\u00f3 en el brazo.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "accidente",
+      "definition": "Suceso eventual que altera el orden regular de las cosas",
+      "sentence1": "En la calle hab\u00eda un gran accidente.",
+      "sentence2": "El s\u00e1bado tuve un accidente con la bicicleta.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "adivinanza",
+      "definition": "Acci\u00f3n de adivinar",
+      "sentence1": "Me encanta esa adivinanza.",
+      "sentence2": "Debo de llevar una adivinanza de tarea.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "agrupaci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de agrupar",
+      "sentence1": "Esa agrupaci\u00f3n es incorrecta.",
+      "sentence2": "Debo hacer agrupaciones de cinco elementos.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "Alajuela",
+      "definition": "Provincia de Costa Rica",
+      "sentence1": "En Alajuela hace mucho calor.",
+      "sentence2": "Compr\u00e9 mangos en Alajuela.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "alimentaci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de alimentar o alimentarse",
+      "sentence1": "Debo tener una buena alimentaci\u00f3n.",
+      "sentence2": "Es importante cuidar la alimentaci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "ant\u00f3nimo",
+      "definition": "Dicho de una palabra: Que, respecto de otra, expresa una ideaopuesta o contraria",
+      "sentence1": "El ant\u00f3nimo de lindo es feo.",
+      "sentence2": "El ant\u00f3nimo de arriba es abajo.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "arrecifes",
+      "definition": "Banco o bajo formado en el mar por piedras",
+      "sentence1": "En las vacaciones conocer\u00e9 arrecifes decoral.",
+      "sentence2": "Los arrecifes son preciosos.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "asociaci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de asociar o asociarse",
+      "sentence1": "La asociaci\u00f3n me entreg\u00f3 un dinero.",
+      "sentence2": "Formo parte de una asociaci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "aument\u00f3",
+      "definition": "Dar mayor extensi\u00f3n, n\u00famero o materia a algo",
+      "sentence1": "El precio de la gasolina aument\u00f3.",
+      "sentence2": "Ella aument\u00f3 de peso.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "autobuses",
+      "definition": "Veh\u00edculo autom\u00f3vil de transporte p\u00fablico",
+      "sentence1": "Estoy en la parada de autobuses.",
+      "sentence2": "Los autobuses chocaron en la carretera.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "bacteria",
+      "definition": "Microorganismo unicelular sin n\u00facleo diferenciado",
+      "sentence1": "Ella tiene una bacteria en la pierna.",
+      "sentence2": "Hay que eliminar esa bacteria.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "bicicleta",
+      "definition": "Veh\u00edculo de dos ruedas, normalmente de igual tama\u00f1o",
+      "sentence1": "Jose anda en bicicleta.",
+      "sentence2": "Mi bicicleta es color rojo.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "caracter\u00edstica",
+      "definition": "Dicho de una cualidad",
+      "sentence1": "Escrib\u00ed una caracter\u00edstica de los reptiles.",
+      "sentence2": "Una caracter\u00edstica de mi casa es el color crema.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "cigarra",
+      "definition": "Insecto",
+      "sentence1": "La cigarra est\u00e1 sobre una hoja.",
+      "sentence2": "La cigarra es peque\u00f1a.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "comunicaci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de comunicar o comunicarse",
+      "sentence1": "Tengo una gran comunicaci\u00f3n con mi familia.",
+      "sentence2": "La comunicaci\u00f3n es importante.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "concedi\u00f3",
+      "definition": "Dar, otorgar, hacer merced y gracia de algo",
+      "sentence1": "El genio le concedi\u00f3 un deseo.",
+      "sentence2": "Ella le concedi\u00f3 lo que solicitaba.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "condensaci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de condensar o condensarse",
+      "sentence1": "Estudi\u00e9 en clase el proceso de la condensaci\u00f3n.",
+      "sentence2": "En el examen me preguntaron el significado de condensaci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "desconocida",
+      "definition": "Ignorado, no conocido de antes",
+      "sentence1": "Ella es una desconocida para mi.",
+      "sentence2": "No debo hablarle a una desconocida.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "emergencia",
+      "definition": "Suceso, accidente que sobreviene",
+      "sentence1": "La maestra tuvo una emergencia.",
+      "sentence2": "Llam\u00e9 al 911 por una emergencia en la casa.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "energ\u00e9tico",
+      "definition": "Que produce energ\u00eda",
+      "sentence1": "El chocolate es energ\u00e9tico",
+      "sentence2": "El banano es energ\u00e9tico.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "exclamaci\u00f3n",
+      "definition": "Expresi\u00f3n en forma exclamativa de un movimiento del \u00e1nimo",
+      "sentence1": "En la pr\u00e1ctica identifiqu\u00e9 los signos de exclamaci\u00f3n.",
+      "sentence2": "Debo de estudiar los signos de exclamaci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "exposici\u00f3n",
+      "definition": "Acci\u00f3n y efecto de exponer",
+      "sentence1": "Debo presentar mi exposici\u00f3n.",
+      "sentence2": "Mi exposici\u00f3n fue sobre los mam\u00edferos.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "frambuesas",
+      "definition": "Fruto del frambueso, semejante a la zarzamora",
+      "sentence1": "Hice un pastel de frambuesas.",
+      "sentence2": "Las frambuesas son dulces.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "germinaci\u00f3n",
+      "definition": "Acci\u00f3n de germinar",
+      "sentence1": "Estoy estudiando el proceso de la germinaci\u00f3n.",
+      "sentence2": "Sembr\u00e9 un frijol para ver el proceso de la germinaci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "herramientas",
+      "definition": "Instrumento, por lo com\u00fan de hierro o acero, con que trabajan losartesanos",
+      "sentence1": "Voy a comprar una caja de herramientas.",
+      "sentence2": "Le regal\u00e9 a Juan unas herramientas.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "ins\u00edpida",
+      "definition": "Falto de sabor",
+      "sentence1": "Esa naranja estaba ins\u00edpida.",
+      "sentence2": "El agua es ins\u00edpida.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "instituciones",
+      "definition": "Establecimiento o fundaci\u00f3n de algo",
+      "sentence1": "Dibuj\u00e9 diferentes instituciones de la comunidad.",
+      "sentence2": "En el recorrido observ\u00e9 diferentes instituciones.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "interrogaci\u00f3n",
+      "definition": "Pregunta que no manifiesta duda ni pide respuesta",
+      "sentence1": "En la oraci\u00f3n utilic\u00e9 los signos de interrogaci\u00f3n.",
+      "sentence2": "No puse en la pregunta los signos de interrogaci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "multiplicaci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de multiplicar o multiplicarse",
+      "sentence1": "Estoy estudiando la multiplicaci\u00f3n.",
+      "sentence2": "En la tarea debo de resolver una multiplicaci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "naturaleza",
+      "definition": "Conjunto de todo lo que existe y que est\u00e1 determinado y armonizado ensus propias leyes",
+      "sentence1": "Me encanta la naturaleza.",
+      "sentence2": "Debo cuidar la naturaleza.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "oc\u00e9ano",
+      "definition": "Grande y dilatado mar que cubre la mayor parte de la superficieterrestre",
+      "sentence1": "El oc\u00e9ano es muy grande.",
+      "sentence2": "En el oc\u00e9ano viven las ballenas.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "polinizaci\u00f3n",
+      "definition": "Proceso mediante el cual el grano de polen llega al estigma de unaflor",
+      "sentence1": "En clase estudi\u00e9 la polinizaci\u00f3n.",
+      "sentence2": "Las abejas ayudan en el proceso de la polinizaci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "prevenci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de prevenir",
+      "sentence1": "Miranda tom\u00f3 medidas de prevenci\u00f3n.",
+      "sentence2": "Estoy estudiando las se\u00f1ales de prevenci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "propagaci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de propagar",
+      "sentence1": "En Guanacaste hubo una propagaci\u00f3n de insectos.",
+      "sentence2": "En la escuela hubo una propagaci\u00f3n de enfermedades.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "p\u00fablica",
+      "definition": "Conjunto de las personas que participan de unas mismas aficiones ocon preferencia concurren a determinado lugar",
+      "sentence1": "El hospital es una instituci\u00f3n p\u00fablica.",
+      "sentence2": "Estudio en una escuela p\u00fablica.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "reagrupando",
+      "definition": "Agrupar de nuevo o de modo diferente lo que ya estuvo agrupado",
+      "sentence1": "En clase realic\u00e9 sumas reagrupando.",
+      "sentence2": "En los temas de examen me entraban las sumas reagrupando.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "reglamentaci\u00f3n",
+      "definition": "Conjunto de reglas",
+      "sentence1": "El alto es una se\u00f1al de reglamentaci\u00f3n.",
+      "sentence2": "Estoy estudiando las se\u00f1ales de reglamentaci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "revolcaba",
+      "definition": "Echarse sobre algo, restreg\u00e1ndose y refreg\u00e1ndose en ello",
+      "sentence1": "El perro se revolcaba en el zacate.",
+      "sentence2": "El cerdo se revolcaba en el lodo.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "semejanza",
+      "definition": "Cualidad de semejante",
+      "sentence1": "Tienes una gran semejanza con tu madre.",
+      "sentence2": "Encontr\u00e9 la semejanza en el  dibujo.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "2",
+      "word": "sin\u00f3nimos",
+      "definition": "Dicho de una palabra o de una expresi\u00f3n: Que, respecto de otra, tiene el mismo significado o muy parecido",
+      "sentence1": "El sin\u00f3nimo de lindo es bello.",
+      "sentence2": "El sin\u00f3nimo de enorme es grande.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "apoyo",
+      "definition": "Favorecer, ayudar.",
+      "sentence1": "Le dar\u00e9 mi apoyo a este candidato.",
+      "sentence2": "Cuente con el apoyo de toda la familia.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "ajeno",
+      "definition": "Que pertenece a otro.",
+      "sentence1": "No hay que tomar lo que es ajeno.",
+      "sentence2": "Se debe respetar lo ajeno.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "actrices",
+      "definition": "Mujeres que interpretan un papel en una obra teatral o telivisiva.",
+      "sentence1": "Las actrices actuaron muy bien.",
+      "sentence2": "Es interesante el papel de las dos actrices.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "barniz",
+      "definition": "Sustancia resinosa que se aplica en superficies de madera.",
+      "sentence1": "Pondremos barniz sobre la mesa.",
+      "sentence2": "Una capa de barniz protege la madera.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "bombero",
+      "definition": "Persona que tiene por oficio extinguir incendios.",
+      "sentence1": "El bombero es muy valiente.",
+      "sentence2": "El bombero logr\u00f3 apagar el incendio.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "calcio",
+      "definition": "Componente esencial de huesos y dientes.",
+      "sentence1": "Nuestro cuerpo necesita calcio.",
+      "sentence2": "La leche es rica fuente de calcio.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "moraleja",
+      "definition": "Lecci\u00f3n o ense\u00f1anza que se deduce de un cuento o f\u00e1bula.",
+      "sentence1": "Es importante la moraleja de la historia.",
+      "sentence2": "Me agradan los cuentos con moraleja.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "hermoso",
+      "definition": "Dotado de belleza.",
+      "sentence1": "\u00a1Qu\u00e9 hermoso d\u00eda!",
+      "sentence2": "El paisaje es hermoso.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "huesos",
+      "definition": "Cada una de las piezas duras que forma el esqueleto de los vertebrados.",
+      "sentence1": "Debemos cuidar nuestros huesos.",
+      "sentence2": "Existen diferentes tipos de huesos.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "humedad",
+      "definition": "Cantidad de agua o  vapor de agua presente en la superficie de un cuerpo.",
+      "sentence1": "En la \u00e9poca lluviosa hay mucha humedad.",
+      "sentence2": "En mi casa hab\u00eda mucha humedad.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "inicio",
+      "definition": "Comienzo.",
+      "sentence1": "Que tengas buen inicio de semana.",
+      "sentence2": "Me gust\u00f3 el inicio de la obra teatral.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "invento",
+      "definition": "Creaci\u00f3n o producci\u00f3n de alguna cosa nueva que antes no exist\u00eda.",
+      "sentence1": "El nuevo invento es maravilloso.",
+      "sentence2": "Este invento ayudar\u00e1 a muchas personas.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "invitado",
+      "definition": "Persona que ha recibido invitaci\u00f3n.",
+      "sentence1": "El invitado lleg\u00f3 temprano.",
+      "sentence2": "He sido invitado a una fiesta.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "Saturno",
+      "definition": "Planeta del sistema solar.",
+      "sentence1": "Saturno es el segundo planeta m\u00e1s grande del sistema solar.",
+      "sentence2": "Saturno posee grandes anillos.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "mezcla",
+      "definition": "Acci\u00f3n y efecto de mezclar.",
+      "sentence1": "Mi mam\u00e1 mezcla todos los ingredientes.",
+      "sentence2": "Mezcla bien el az\u00facar con la mantequilla.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "murmullo",
+      "definition": "Ruido que se hace hablando, especialmente cuando no se percibe lo que se dice.",
+      "sentence1": "Escucho un murmullo a lo lejos.",
+      "sentence2": "Se oye el murmullo de las personas.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "orfanato",
+      "definition": "Asilo de hu\u00e9rfanos.",
+      "sentence1": "Compart\u00ed con los ni\u00f1os del orfanato",
+      "sentence2": "En el orfanato har\u00e1n una fiesta.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "pancito",
+      "definition": "Peque\u00f1a pieza de pan.",
+      "sentence1": "El pancito est\u00e1 riqu\u00edsimo.",
+      "sentence2": "Horneamos pancito casero.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "pastizal",
+      "definition": "Terreno de abundante pasto.",
+      "sentence1": "Las vacas est\u00e1n en el pastizal.",
+      "sentence2": "El pastizal est\u00e1 muy verde.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "pecera",
+      "definition": "Urna de cristal que se llena de agua y sirve para tener a la vista varios peces.",
+      "sentence1": "La pecera es hermosa.",
+      "sentence2": "Los peces nadan en la pecera.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "porci\u00f3n",
+      "definition": "Parte de una cosa que ha sido separada por divisi\u00f3n.",
+      "sentence1": "Le dar\u00e9 su porci\u00f3n del pastel.",
+      "sentence2": "Esta es mi porci\u00f3n de alimento.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "precioso",
+      "definition": "Que es muy bonito.",
+      "sentence1": "El trabajo qued\u00f3 precioso.",
+      "sentence2": "\u00a1Qu\u00e9 precioso cuaderno!",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "reba\u00f1o",
+      "definition": "Grupo numeroso de ovejas que se cr\u00edan juntas.",
+      "sentence1": "El reba\u00f1o es numeroso.",
+      "sentence2": "El pastor cuida bien a su reba\u00f1o.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "rebotar",
+      "definition": "Botar repetidamente al chocar contra el suelo o contra un cuerpo.",
+      "sentence1": "A mi hermano le gusta rebotar el bal\u00f3n.",
+      "sentence2": "No hay que rebotar la bola contra la pared.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "relieve",
+      "definition": "Diferentes formas de la superficie terrestre.",
+      "sentence1": "El relieve de Costa Rica es variado.",
+      "sentence2": "Estudiaremos el relieve de nuestra provincia.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "relojero",
+      "definition": "Persona que tiene por oficio hacer, arreglar o vender relojes.",
+      "sentence1": "El relojero repar\u00f3 mi reloj de pared.",
+      "sentence2": "El relojero podr\u00e1 arreglar tu reloj.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "ruidoso",
+      "definition": "Que causa mucho ruido.",
+      "sentence1": "Debemos evitar un ambiente ruidoso.",
+      "sentence2": "Mi perro es bastante ruidoso.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "saliva",
+      "definition": "L\u00edquido que segregan las gl\u00e1ndulas salivales.",
+      "sentence1": "La saliva es l\u00edquida.",
+      "sentence2": "Con la saliva se forma el bolo alimenticio.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "soberano",
+      "definition": "Que tiene el m\u00e1ximo poder o autoridad sobre algo.",
+      "sentence1": "El soberano dio la orden al pueblo.",
+      "sentence2": "Costa Rica es un pa\u00eds soberano e independiente.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "3",
+      "word": "zopilote",
+      "definition": "Ave rapaz diurna semejante al buitre.",
+      "sentence1": "El zopilote tiene un plumaje negro.",
+      "sentence2": "El zopilote tiene grandes alas.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "ajedrez",
+      "definition": "Juego de mesa en el que se enfrentan dos jugadores.",
+      "sentence1": "Ayer jugamos ajedrez.",
+      "sentence2": "Iremos al torneo de ajedrez.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "ambulancia",
+      "definition": "Veh\u00edculo acondicionado para el transporte de personas enfermas o heridas.",
+      "sentence1": "Los heridos se trasladaron en ambulancia al hospital.",
+      "sentence2": "La ambulancia lleg\u00f3 muy r\u00e1pido.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "arrocito",
+      "definition": "Diminutivo de arroz.",
+      "sentence1": "Me encanta comer arrocito.",
+      "sentence2": "El arrocito ya est\u00e1 listo.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "avanzar",
+      "definition": "Ir hacia adelante.",
+      "sentence1": "Logr\u00e9 avanzar cuatro espacios.",
+      "sentence2": "Debemos avanzar en el proyecto.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "balanza",
+      "definition": "Instrumento para comparar la masa de dos objetos.",
+      "sentence1": "Med\u00ed la masa de las verduras con la balanza.",
+      "sentence2": "La balanza se inclin\u00f3 hacia la derecha.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "biolog\u00eda",
+      "definition": "Ciencia que estudia la estructura de los seres vivos y sus procesos vitales.",
+      "sentence1": "Es lindo estudiar biolog\u00eda.",
+      "sentence2": "En biolog\u00eda tratamos temas muy interesantes.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "carn\u00edvoro",
+      "definition": "Que se alimenta de carne.",
+      "sentence1": "El le\u00f3n es un animal carn\u00edvoro.",
+      "sentence2": "Expondr\u00e9 sobre un animal carn\u00edvoro.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "carruaje",
+      "definition": "Veh\u00edculo formado por una armaz\u00f3n de madera o metal montada sobre ruedas.",
+      "sentence1": "La princesa subi\u00f3 a su carruaje.",
+      "sentence2": "El carruaje era antiguo y bello.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "Chirrip\u00f3",
+      "definition": "Nombre de la monta\u00f1a m\u00e1s alta de Costa Rica.",
+      "sentence1": "El cerro Chirrip\u00f3 mide 3821 metros de altura.",
+      "sentence2": "Visitar\u00e9 el cerro Chirrip\u00f3.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "combustible",
+      "definition": "Sustancia que es capaz de arder con facilidad.",
+      "sentence1": "El autom\u00f3vil necesita combustible.",
+      "sentence2": "El autob\u00fas necesita mayor cantidad de combustible..",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "construcci\u00f3n",
+      "definition": "Arte o t\u00e9cnica de fabricar edificios e infraestructura.",
+      "sentence1": "Se inici\u00f3 la construcci\u00f3n de la nueva escuela.",
+      "sentence2": "La construcci\u00f3n del edificio terminar\u00e1 pronto.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "corregir",
+      "definition": "Hacer que disminuya o desaparezca un defecto o un error.",
+      "sentence1": "Debo corregir mir errores.",
+      "sentence2": "Intentar\u00e9 corregir la tarea.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "desenlace",
+      "definition": "Parte de una obra literaria en que se resuelve la trama.",
+      "sentence1": "Me emocion\u00f3 el desenlace de la historia.",
+      "sentence2": "Escribir\u00e9 el desenlace del cuento.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "envase",
+      "definition": "Recipiente que se utiliza para transportar un l\u00edquido o un alimento.",
+      "sentence1": "El envase es de vidrio.",
+      "sentence2": "Guard\u00e9 la comida en un envase.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "generoso",
+      "definition": "Persona que comparte sin esperar nada a cambio.",
+      "sentence1": "Mi padre es un hombre generoso.",
+      "sentence2": "Ser\u00e9 generoso con los m\u00e1s necesitados.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "herrero",
+      "definition": "Persona que tiene por oficio fabricar o trabajar objetos de hierro.",
+      "sentence1": "El herrero arregl\u00f3 las ventanas.",
+      "sentence2": "El herrero usa muchas herramientas.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "rotaci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de rotar.",
+      "sentence1": "La Tierra realiza un movimiento de rotaci\u00f3n.",
+      "sentence2": "La rotaci\u00f3n de la Tierra dura 24 horas.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "instrumento",
+      "definition": "Objeto formado por una o varias piezas que se usa para producir m\u00fasica.",
+      "sentence1": "Comprar\u00e9 un instrumento musical.",
+      "sentence2": "La guitarra es un instrumento de cuerdas.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "invisible",
+      "definition": "Que no puede percibirse con la vista.",
+      "sentence1": "La nave se hizo invisible.",
+      "sentence2": "Vi la pel\u00edcula del hombre invisible.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "l\u00e1pices",
+      "definition": "Plural de l\u00e1piz.",
+      "sentence1": "Usar\u00e9 los l\u00e1pices para colorear.",
+      "sentence2": "Lleva tus l\u00e1pices nuevos.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "legislativo",
+      "definition": "Que tiene la misi\u00f3n o la facultad de hacer leyes.",
+      "sentence1": "El poder legislativo aprueba las leyes.",
+      "sentence2": "El poder legislativo del pa\u00eds es muy importante.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "lind\u00edsimo",
+      "definition": "Cargado de belleza.",
+      "sentence1": "El paseo estuvo lind\u00edsimo.",
+      "sentence2": "Ese perrito es lind\u00edsimo.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "lucecita",
+      "definition": "Diminutivo de luz.",
+      "sentence1": "La lucecita brilla mucho.",
+      "sentence2": "Se ve una lucecita a lo lejos.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "mensajero",
+      "definition": "Persona que tiene por oficio entregar cartas, paquetes o documentos.",
+      "sentence1": "El mesajero trajo las cartas.",
+      "sentence2": "Enviar\u00e9 el paquete con el mensajero.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "prote\u00ednas",
+      "definition": "Sustancia que forma parte esencial de las c\u00e9lulas vivas.",
+      "sentence1": "La carne es rica en prote\u00ednas.",
+      "sentence2": "Es importante consumir prote\u00ednas.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "renovable",
+      "definition": "Que puede renovarse.",
+      "sentence1": "El viento es una fuente de energ\u00eda renovable.",
+      "sentence2": "La energ\u00eda solar es renovable.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "sequ\u00eda",
+      "definition": "Falta de lluvia durante un per\u00edodo prolongado.",
+      "sentence1": "La sequ\u00eda provoca grandes da\u00f1os.",
+      "sentence2": "Cuando hay sequ\u00eda la temperatura es muy elevada.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "tragaluz",
+      "definition": "Ventana abierta en un techo que deja pasar la luz",
+      "sentence1": "Har\u00e9 un tragaluz en la habitaci\u00f3n.",
+      "sentence2": "Con el tragaluz hay m\u00e1s claridad.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "\u00falcera",
+      "definition": "Llaga o lesi\u00f3n que aparece en la piel o en los tejidos.",
+      "sentence1": "La \u00falcera p\u00e9ptica es una enfermedad del sistema digestivo.",
+      "sentence2": "Mi hermano ten\u00eda una \u00falcera en la piel.",
+      "type": null
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "3",
+      "word": "vendaje",
+      "definition": "Ligadura hecha con una o varias vendas en una parte del cuerpo.",
+      "sentence1": "Necesitar\u00e9 un vendaje en la pierna.",
+      "sentence2": "La enfermera le hizo un vendaje al herido.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "adversidad",
+      "definition": "Situaci\u00f3n desfavorable.",
+      "sentence1": "Debemos ser pacientes ante la adversidad.",
+      "sentence2": "Ante la adversidad necesitamos confiar en Dios.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "agrot\u00f3xicos",
+      "definition": "Sustancias qu\u00edmicas que producen toxicidad en los cultivos.",
+      "sentence1": "Los productos agrot\u00f3xicos da\u00f1an el ambiente.",
+      "sentence2": "Se debe evitar el uso de agrot\u00f3xicos.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "alegr\u00edsimo",
+      "definition": "Sumamente alegre.",
+      "sentence1": "El ni\u00f1o est\u00e1 alegr\u00edsimo.",
+      "sentence2": "Hoy me siento alegr\u00edsimo.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "aprendices",
+      "definition": "Plural de aprendiz.",
+      "sentence1": "Los aprendices trabajan r\u00e1pido.",
+      "sentence2": "El trabajo ser\u00e1 realizado por los aprendices.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "arquitect\u00f3nico",
+      "definition": "Relacionado a la arquitectura.",
+      "sentence1": "El patrimonio arquitect\u00f3nico de Costa Rica es muy valioso.",
+      "sentence2": "El Teatro Nacional posee gran valor arquitect\u00f3nico.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "avestruces",
+      "definition": "Plural de avestruz.",
+      "sentence1": "Las avestruces son aves enormes.",
+      "sentence2": "Las avestruces corren muy r\u00e1pido.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "biodegradable",
+      "definition": "Que puede descomponerse por la acci\u00f3n de agentes como el sol, agua o animales.",
+      "sentence1": "El material biodegradable ayuda a conservar el planeta.",
+      "sentence2": "Es importante utilizar detergente biodegradable.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "carbohidratos",
+      "definition": "Sustancia que constituye las reservas energ\u00e9ticas que nuestro cuerpo necesita.",
+      "sentence1": "El pan es fuente de carbohidratos.",
+      "sentence2": "Los carbohidratos dan energ\u00eda al cuerpo.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "cerrajer\u00eda",
+      "definition": "Establecimiento donde se fabrican y arreglan cerraduras, llaves y objetos de metal.",
+      "sentence1": "Arregl\u00e9 el llav\u00edn en la cerrajer\u00eda.",
+      "sentence2": "En la cerrajer\u00eda sacan copias para llaves.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "consecuencias",
+      "definition": "Hecho o acontecimiento que se sigue o resulta de otro.",
+      "sentence1": "Tendremos buenas consecuencias al hacer lo correcto.",
+      "sentence2": "Nuestras acciones tienen consecuencias positivas o negativas.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "consejer\u00eda",
+      "definition": "Cargo de consejero.",
+      "sentence1": "Recibimos consejer\u00eda grupal.",
+      "sentence2": "La consejer\u00eda profesional es muy valiosa.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "conversemos",
+      "definition": "Acci\u00f3n de conversar.",
+      "sentence1": "Conversemos sobre lo que ocurri\u00f3 ayer.",
+      "sentence2": "Es importante que conversemos con nuestros padres.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "costarricense",
+      "definition": "Proveniente de Costa Rica.",
+      "sentence1": "Ser costarricense es un privilegio.",
+      "sentence2": "Soy costarricense de nacimiento.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "elevaci\u00f3n",
+      "definition": "Acci\u00f3n de elevar o elevarse.",
+      "sentence1": "El volc\u00e1n Arenal tiene una elevaci\u00f3n de 1670 metros.",
+      "sentence2": "Las monta\u00f1as tienen gran elevaci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "embellecer",
+      "definition": "Poner bello algo o a  alguien.",
+      "sentence1": "Necesitamos embellecer el jard\u00edn.",
+      "sentence2": "Se debe embellecer para la fiesta.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "embotellar",
+      "definition": "Meter un l\u00edquido u otra cosa en una botella.",
+      "sentence1": "Necesito embotellar todo el refresco.",
+      "sentence2": "Al transportar un l\u00edquido se debe embotellar.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "envejecer",
+      "definition": "Hacer viejo a una persona o una cosa.",
+      "sentence1": "Se adquiere mayor experiencia al envejecer.",
+      "sentence2": "Envejecer es parte de un proceso natural.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "excesivo",
+      "definition": "Que excede y sale de regla.",
+      "sentence1": "El uso excesivo de medicamentos es perjudicial.",
+      "sentence2": "El precio de esa computadora es excesivo.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "extracci\u00f3n",
+      "definition": "Acci\u00f3n de extraer.",
+      "sentence1": "El dentista hizo la extracci\u00f3n de una muela.",
+      "sentence2": "En los r\u00edos se da la extracci\u00f3n de materiales para construcci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "ferroviaria",
+      "definition": "Perteneciente a las v\u00edas del ferrocarril.",
+      "sentence1": "La estaci\u00f3n ferroviaria est\u00e1 cerrada.",
+      "sentence2": "La l\u00ednea ferroviaria est\u00e1 da\u00f1ada.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "h\u00e1bitat",
+      "definition": "Lugar de condiciones apropiadas para que viva un organismo.",
+      "sentence1": "Protejamos el h\u00e1bitat de los animales.",
+      "sentence2": "Los animales est\u00e1n mejor en su h\u00e1bitat natural.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "hemisferio",
+      "definition": "Cada una de las mitades de la esfera terrestre.",
+      "sentence1": "Costa Rica se ubica en el hemisferio oeste.",
+      "sentence2": "Visit\u00e9 algunos pa\u00edses del hemisferio norte.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "herb\u00edvoro",
+      "definition": "Que se alimenta de hierbas.",
+      "sentence1": "La vaca es un animal herb\u00edvoro.",
+      "sentence2": "Un animal herb\u00edvoro se alimenta de hierbas.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "hidroel\u00e9ctrica",
+      "definition": "De la hidroelectricidad o relacionado con este tipo de energ\u00eda.",
+      "sentence1": "Visitamos una planta de energ\u00eda hidroel\u00e9trica.",
+      "sentence2": "A partir del agua obtenemos energ\u00eda hidroel\u00e9ctrica.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "imposibilidad",
+      "definition": "Falta de posibilidad para hacer algo.",
+      "sentence1": "Not\u00f3 la imposibilidad para resolver el problema.",
+      "sentence2": "A causa del mal tiempo se dio la imposibilidad de viajar.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "indigesti\u00f3n",
+      "definition": "Trastorno del aparato digestivo provocado por una mala digesti\u00f3n.",
+      "sentence1": "La indigesti\u00f3n es una enfermedad del sistema digestivo.",
+      "sentence2": "Por comer tanto me dio indigesti\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "intangible",
+      "definition": "Que no se puede tocar.",
+      "sentence1": "Las tradiciones forman parte del patrimonio intangible.",
+      "sentence2": "El sonido es intangible.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "invertebrado",
+      "definition": "Referente al animal que no tiene columna vertebral.",
+      "sentence1": "La ara\u00f1a es un  invertebrado.",
+      "sentence2": "El gusano, por ser invertebrado tiene el cuerpo blando.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "omn\u00edvoros",
+      "definition": "Que se alimenta de toda clase de sustancia org\u00e1nica.",
+      "sentence1": "Los animales omn\u00edvoros se alimentan de carne y plantas.",
+      "sentence2": "Los cerdos son animales omn\u00edvoros.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "peligros\u00edsimo",
+      "definition": "Demasiado peligroso.",
+      "sentence1": "Es peligros\u00edsimo jugar en la cocina.",
+      "sentence2": "Manejar a alta velocidad es peligros\u00edsimo.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "personificaci\u00f3n",
+      "definition": "Atribuir a objetos o animales caracter\u00edsticas propias de los seres humanos.",
+      "sentence1": "La personificaci\u00f3n se utiliza en cuentos y f\u00e1bulas.",
+      "sentence2": "La personificaci\u00f3n de los animales es divertida.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "pluvi\u00f3metro",
+      "definition": "Instrumento para medir la cantidad de lluvia que cae en un lugar.",
+      "sentence1": "En la finca colocaron un pluvi\u00f3metro.",
+      "sentence2": "Medimos la lluvia que cay\u00f3 con el pluvi\u00f3metro.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "precipitaci\u00f3n",
+      "definition": "Agua que cae en forma s\u00f3lida o l\u00edquida.",
+      "sentence1": "El clima tropical seco posee una baja precipitaci\u00f3n.",
+      "sentence2": "La precipitaci\u00f3n es un elemento del clima.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "presentaci\u00f3n",
+      "definition": "Acci\u00f3n de presentar o presentarse.",
+      "sentence1": "Ensayaremos la presentaci\u00f3n del musical.",
+      "sentence2": "La presentaci\u00f3n fue todo un \u00e9xito.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "reciclaje",
+      "definition": "Acci\u00f3n de reciclar.",
+      "sentence1": "El reciclaje ayuda a conservar el ambiente.",
+      "sentence2": "Se debe fomentar el reciclaje en el hogar.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "revoluci\u00f3n",
+      "definition": "Movimiento de un astro a lo largo de una \u00f3rbita completa.",
+      "sentence1": "El movimiento de revoluci\u00f3n de la Tierra tarda un a\u00f1o.",
+      "sentence2": "Todos los planetas realizan movimientos de revoluci\u00f3n.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "simbolog\u00eda",
+      "definition": "Conjunto o sistema de s\u00edmbolos.",
+      "sentence1": "Observe la simbolog\u00eda del mapa.",
+      "sentence2": "La simbolog\u00eda egipcia es interesante.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "socioecon\u00f3micas",
+      "definition": "Perteneciente a factores sociales y econ\u00f3micos.",
+      "sentence1": "La agricultura y ganader\u00eda son actividades socioecon\u00f3micas.",
+      "sentence2": "El pa\u00eds desarrolla importantes actividades socioecon\u00f3micas.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "sociolog\u00eda",
+      "definition": "Ciencia que estudia las sociedades humanas.",
+      "sentence1": "Parte de la sociolog\u00eda estudia la relaci\u00f3n de los grupos humanos.",
+      "sentence2": "El profesor de sociolog\u00eda dio una gran clase.",
+      "type": null
+    },
+    {
+      "level": "experto",
+      "grade": "3",
+      "word": "tecnol\u00f3gico",
+      "definition": "Relacionado con la tecnolog\u00eda.",
+      "sentence1": "El mundo se ha vuelto muy tecnol\u00f3gico.",
+      "sentence2": "Hay un nuevo avance tecnol\u00f3gico.",
+      "type": null
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "acciones",
+      "definition": "Indica que una persona, animal o cosa est\u00e1 haciendo algo.",
+      "sentence1": "Las acciones de los humanos han da\u00f1ado los bosques.",
+      "sentence2": "Sus acciones repercutieron en sus calificaciones.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "agradable",
+      "definition": "Que les gusta.",
+      "sentence1": "Las rosas tienen un aroma agradable.",
+      "sentence2": "Es agradable trabajar contigo.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "averig\u00fce",
+      "definition": "Buscar la verdad hasta descubrirla.",
+      "sentence1": "Me interesa que averig\u00fce lo que sucedi\u00f3.",
+      "sentence2": "Es demasiado importante esa teoria para que averig\u00fce su origen.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "bombillos",
+      "definition": "Objeto de vidrio que permiten traspasar la luz.",
+      "sentence1": "Los bombillos del s\u00f3tano se quemaron.",
+      "sentence2": "Voy a ir al supermercado a comprar bombillos nuevos.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "caim\u00e1n",
+      "definition": "Reptil muy similar al cocodrilo de menor tama\u00f1o.",
+      "sentence1": "El caim\u00e1n est\u00e1 cruzando por la calle.",
+      "sentence2": "El caim\u00e1n est\u00e1 en el \u00e1rbol cerca de la playa.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "Carrasco",
+      "definition": "Apellido de una hero\u00edna de nuestro pa\u00eds.",
+      "sentence1": "Pancha Carrasco fue una luchadora por nuestro pa\u00eds.",
+      "sentence2": "Pancha Carrasco ayud\u00f3 a los soldados costarricenses.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "c\u00e9lula",
+      "definition": "Unidad fundamental de todos los organismos.",
+      "sentence1": "El organismo comienza con una c\u00e9lula sencilla.",
+      "sentence2": "Dentro de cada c\u00e9lula hay cuerpos m\u00e1s peque\u00f1os.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "comp\u00e1s",
+      "definition": "Instrumento de dibujo para trazar c\u00edrculos.",
+      "sentence1": "Siempre utilizo el comp\u00e1s para dibujar un c\u00edrculo.",
+      "sentence2": "El arquitecto utiliza el comp\u00e1s para sus dise\u00f1os.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "contagio",
+      "definition": "Transmisi\u00f3n de una enfermedad por contagio.",
+      "sentence1": "Lavarse las manos siempre evita el contagio de enfermedades.",
+      "sentence2": "La gripe es un virus de f\u00e1cil contagio.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "cuchar\u00f3n",
+      "definition": "Cuchara grande para cocinar y servir en el plato alimentos.",
+      "sentence1": "El cocinero tiene el cuchar\u00f3n dentro de la olla.",
+      "sentence2": "Hab\u00eda un cuchar\u00f3n en la bandeja.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "di\u00e1logo",
+      "definition": "Conversaci\u00f3n entre dos o m\u00e1s personas que exponen sus ideas.",
+      "sentence1": "Siempre debe de existir di\u00e1logo entre padres e hijos.",
+      "sentence2": "El locutor intervino en el di\u00e1logo de la entrevista.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "diptongo",
+      "definition": "Grupo de dos vocales distintas que se pronuncian en una sola s\u00edlaba.",
+      "sentence1": "La palabra ciudad tiene un diptongo.",
+      "sentence2": "En la materia de espa\u00f1ol el tema del diptongo es mi favorito.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "ecosistema",
+      "definition": "Comunidad de seres vivos que viven en un medio natural.",
+      "sentence1": "Los derrumbres alteran el ecosistema de las plantas.",
+      "sentence2": "En una quema la capacidad de recuperar el  ecosistema se disminuye.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "energ\u00eda",
+      "definition": "Capacidad que tiene la materia de producir trabajo.",
+      "sentence1": "La energ\u00eda renovable se obtiene de recursos que no se agotan.",
+      "sentence2": "La capacidad de producir energ\u00eda con el viento la conocemos como e\u00f3lica.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "ferreter\u00eda",
+      "definition": "Establecimiento en el que se venden herramientas y objetos de metal.",
+      "sentence1": "Necesito ir a la ferreter\u00eda a comprar un martillo.",
+      "sentence2": "La ferreter\u00eda tiene rebajas de herramientas.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "g\u00e9rmenes",
+      "definition": "Microorganismos que causan o propagan enfermedades.",
+      "sentence1": "Limpio las superficies con cloro para hacer desaparecer los g\u00e9rmenes.",
+      "sentence2": "Las vacunas contienen g\u00e9rmenes debilitados.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "gr\u00e1fico",
+      "definition": "Representaci\u00f3n de datos num\u00e9ricos por medio de dibujos.",
+      "sentence1": "El gr\u00e1fico muestra la informaci\u00f3n recopilada en la entrevista.",
+      "sentence2": "El gr\u00e1fico de puntos detalla mediciones de temperatura.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "guiso",
+      "definition": "Comida cocinada en su salsa.",
+      "sentence1": "El olor del guiso me abre el apetito.",
+      "sentence2": "El resto del guiso est\u00e1 en la refrigeradora.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "historia",
+      "definition": "Conjunto de acontecimientos y hechos vividos por una persona.",
+      "sentence1": "La llegada del hombre a la Luna fue un suceso crucial en la historia de la humanidad.",
+      "sentence2": "Los libros de historia permiten viajar al pasado.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "hormiga",
+      "definition": "Insecto que tiene el cuerpo dividido en dos extremidades.",
+      "sentence1": "La hormiga vive en colonias.",
+      "sentence2": "La hormiga puede cargar cincuenta veces su peso.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "humanas",
+      "definition": "Que tiene relaci\u00f3n con el hombre.",
+      "sentence1": "las ambiciones humanas no parecen cambiar con el tiempo.",
+      "sentence2": "Las iniciativas humanas terminan en \u00e9xito la mayor\u00eda del tiempo.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "im\u00e1genes",
+      "definition": "Figuras que son captadas por las personas.",
+      "sentence1": "El libro de cuentos tiene muchas im\u00e1genes interesantes.",
+      "sentence2": "Puse las im\u00e1genes juntas en la mesa.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "literarias",
+      "definition": "Expresi\u00f3n escrita o hablada.",
+      "sentence1": "Mis obras literarias favoritas son Don Quijote y La odisea.",
+      "sentence2": "Shakespeare y Hamlet son obras literarias cl\u00e1sicas.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "manglar",
+      "definition": "Terreno con gran cantidad de agua donde crecen \u00e1rboles.",
+      "sentence1": "En el manglar habitan moluscos y peces.",
+      "sentence2": "El manglar se desarrolla cerca de la desembocadura de los r\u00edos.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "mangueras",
+      "definition": "Tubo de goma que sirve para conducir l\u00edquido de su interior.",
+      "sentence1": "Los bomberos utilizan largas mangueras para apagar incendios.",
+      "sentence2": "Las mangueras est\u00e1n enrolladas en la bodega.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "melodiosa",
+      "definition": "Que resulta agradable al o\u00eddo.",
+      "sentence1": "La m\u00fasica de \u00f3pera es melodiosa.",
+      "sentence2": "La voz melodiosa del cantante me alegr\u00f3 la noche.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "\u00f3rgano",
+      "definition": "Unidad funcional de un organismo que realiza una funci\u00f3n determinada.",
+      "sentence1": "El coraz\u00f3n es el \u00f3rgano que bombea sangre a todo el cuerpo.",
+      "sentence2": "Donar un \u00f3rgano es una acci\u00f3n de solidaridad.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "paraguas",
+      "definition": "Utensilio para resguardarse de la lluvia.",
+      "sentence1": "El paraguas me protege de la lluvia.",
+      "sentence2": "Necesito comprarme un paraguas nuevo.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "ping\u00fcino",
+      "definition": "Ave con plumaje muy tupido que habita en el Ant\u00e1rtico,",
+      "sentence1": "El ping\u00fcino se balancea dirigi\u00e9ndose al estanque.",
+      "sentence2": "El ping\u00fcino se alimenta de moluscos y peces.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "4",
+      "word": "prefijos",
+      "definition": "Se a\u00f1aden al comienzo de las palabras para formar palabras nuevas.",
+      "sentence1": "Son prefijos las palabras inm\u00f3vil e intolerante.",
+      "sentence2": "Los prefios forman nuevas palabras.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "ascendentes",
+      "definition": "Que asciende.",
+      "sentence1": "Los n\u00fameros ascendentes son de menor a mayor.",
+      "sentence2": "Los t\u00e9rminos ascendentes y descendentes son opuestos.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "automovilistas",
+      "definition": "Persona que conduce un autom\u00f3vil.",
+      "sentence1": "En la carrera los automovilistas frenaron bruscamente.",
+      "sentence2": "Los automovilistas deben ser responsables en las carreteras.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "borraban",
+      "definition": "Hacer que desaparezca de una superficie.",
+      "sentence1": "Los estudiantes borraban los errores en los ejercicios de la pr\u00e1ctica.",
+      "sentence2": "Las preocupaciones le borraban la sonrisa.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "bosquecitos",
+      "definition": "Sitio poblado de \u00e1rboles y plantas.",
+      "sentence1": "Los bosquecitos est\u00e1n cubiertos de flores.",
+      "sentence2": "Los bosquecitos son lugares con aire fresco y brisa c\u00e1lida.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "ciclov\u00edas",
+      "definition": "Lugar exclusivamente para andar en bicicleta.",
+      "sentence1": "Las ciclov\u00edas ofrecen seguridad a los ciclistas.",
+      "sentence2": "Las ciclov\u00edas promueven a no contaminar el ambiente.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "cig\u00fce\u00f1a",
+      "definition": "Ave migratoria de patas largas que tiene su nido en lugares elevados.",
+      "sentence1": "La cig\u00fce\u00f1a construye su nido en la parte m\u00e1s alta de la torre.",
+      "sentence2": "La cig\u00fce\u00f1a busca alimento para sus cr\u00edas.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "composici\u00f3n",
+      "definition": "Agrupar o combinar elementos de manera equilibrada.",
+      "sentence1": "La composici\u00f3n qu\u00edmica del agua es H2O.",
+      "sentence2": "La composici\u00f3n de los medicamentos permiten curar enfermedades.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "concordancia",
+      "definition": "Escriuta gramatical que tiene relaci\u00f3n entre g\u00e9nero y n\u00famero.",
+      "sentence1": "En las oraciones es importante la concordancia entre g\u00e9nero y n\u00famero.",
+      "sentence2": "La concordancia en una oraci\u00f3n da sentido a la idea que se desea expresar.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "constructor",
+      "definition": "Especialmente se dedica a la construcci\u00f3n de obras de arquitectura.",
+      "sentence1": "El constructor trabaja en equipo para lograr sus metas.",
+      "sentence2": "El constructor cuida de todos sus empleados.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "correcci\u00f3n",
+      "definition": "Modificaci\u00f3n que hace una persona para corregir sus defectos.",
+      "sentence1": "La correcci\u00f3n del ejercicio de matem\u00e1ticas la hicimos en la pizarra.",
+      "sentence2": "El profesor envi\u00f3 una correcci\u00f3n del examen de matem\u00e1ticas.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "desastroso",
+      "definition": "Comete actos que pueden producir molestias.",
+      "sentence1": "La pel\u00edcula tuvo un final desastroso.",
+      "sentence2": "El hundimiento en la calle dej\u00f3 el carro desastroso.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "destornillar",
+      "definition": "Se r\u00ede con muchas ganas.",
+      "sentence1": "El chiste que cont\u00f3 el payaso me hizo destornillar de la risa.",
+      "sentence2": "Destornillarse de la risa ayuda cuando estamos estresados.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "dispersi\u00f3n",
+      "definition": "Separar los colores por medio de un rayo de luz.",
+      "sentence1": "En el fen\u00f3meno de la dispersi\u00f3n de la luz los colores se separan.",
+      "sentence2": "El prisma es un instrumento que permite observar la dispersi\u00f3n de la luz.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "disposici\u00f3n",
+      "definition": "Situaci\u00f3n de una persona para hacer algo.",
+      "sentence1": "Siempre debemos tener disposici\u00f3n para el estudio.",
+      "sentence2": "En la huelga debemos de iniciar de imnediato la disposici\u00f3n de llegar a un acuerdo.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "expansi\u00f3n",
+      "definition": "Ampliaci\u00f3n del espacio que ocupa algo.",
+      "sentence1": "El universo siempre est\u00e1 en continua expansi\u00f3n.",
+      "sentence2": "La tecnolog\u00eda ha tenido gran expansi\u00f3n en el mundo.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "flotaci\u00f3n",
+      "definition": "Sostenerse en la superficie de un l\u00edquido.",
+      "sentence1": "Hasta cuando la botella lleg\u00f3 a la l\u00ednea de flotaci\u00f3n consigui\u00f3 cierta distancia.",
+      "sentence2": "El cintur\u00f3n sobre la l\u00ednea de flotaci\u00f3n estaba hecho de n\u00edquel.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "hirvieron",
+      "definition": "Produci\u00f3n de b\u00farbujas de un l\u00edquido cuando alcanza una temperatura determinada.",
+      "sentence1": "Las papas hirvieron en la olla por 10 minutos.",
+      "sentence2": "Los huevos hirvieron por  15 minutos.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "iniciaci\u00f3n",
+      "definition": "Primer momento de la existencia de una cosa.",
+      "sentence1": "La iniciaci\u00f3n de la vida empieza con una c\u00e9lula.",
+      "sentence2": "La propaganda es la iniciaci\u00f3n de las elecciones estudiantiles.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "instrucciones",
+      "definition": "Indicaci\u00f3n que se da para realizar una cosa.",
+      "sentence1": "Debemos seguir instrucciones para lograr el objetivo esperado.",
+      "sentence2": "Las recetas tienen instrucciones ordenadas y claras.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "martillazo",
+      "definition": "Golpe fuerte dado con un martillo.",
+      "sentence1": "Clavando en la pared me di un martillazo en el dedo.",
+      "sentence2": "El martillazo en la pared hizo un hueco enorme.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "mosquitero",
+      "definition": "Tela met\u00e1lica que se coloca en puertas o ventanas para impedir que entren los mosquitos.",
+      "sentence1": "El mosquitero evita la entrada de mosquitos en la cabina.",
+      "sentence2": "El mosquitero evita que me piquen los mosquitos.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "odontolog\u00eda",
+      "definition": "Parte de la medicina que se ocupa del cuidado de los dientes.",
+      "sentence1": "La odontolog\u00eda es la ciencia que previene las enfermedades dentales.",
+      "sentence2": "Las caries son enfermedades de las que se ocupa la odontolog\u00eda.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "ortograf\u00eda",
+      "definition": "Conjunto de las reglas de escritura de una lengua.",
+      "sentence1": "La ortograf\u00eda se mejora con m\u00e1s tiempo a la lectura.",
+      "sentence2": "En la escritura la ortograf\u00eda da sentido a la oraci\u00f3n.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "partidazo",
+      "definition": "Partido entre dos equipos.",
+      "sentence1": "El partidazo del domingo demostr\u00f3 el trabajo en equipo.",
+      "sentence2": "El partidazo de las finales estuvo emocionante.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "plaguicidas",
+      "definition": "Sustancia que destruye las plagas de animales y plantas.",
+      "sentence1": "Los plaguicidas destruyen las plagas de animales y plantas.",
+      "sentence2": "Debemos evitar el uso de los plaguicidas.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "rodillazo",
+      "definition": "Golpe dado con la rodilla.",
+      "sentence1": "Me di un rodillazo con la puerta.",
+      "sentence2": "El rodillazo me doli\u00f3 hasta los huesos.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "sangu\u00edneo",
+      "definition": "Relacionado con la sangre.",
+      "sentence1": "El grupo sangu\u00edneo es un sistema de clasificaci\u00f3n de la sangre humana.",
+      "sentence2": "El grupo sangu\u00edneo m\u00e1s com\u00fan es  O+.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "subrayo",
+      "definition": "Acci\u00f3n de hacer una raya debajo de una palabra.",
+      "sentence1": "Subrayo los datos m\u00e1s importantes en el folleto.",
+      "sentence2": "Siempre subrayo las ideas principales del texto.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "velozmente",
+      "definition": "De manera veloz.",
+      "sentence1": "Velozmente se ocult\u00f3 tras los arbustos para no ser visto.",
+      "sentence2": "Los estudiantes corren velozmente a la clase cuando suena el timbre.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "4",
+      "word": "yeg\u00fcita",
+      "definition": "Hembra del caballo.",
+      "sentence1": "La yeg\u00fcita tiene manchas negras.",
+      "sentence2": "La yeg\u00fcita corre hasta la meta.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "abstracto",
+      "definition": "Obra de arte que no tiene forma definida.",
+      "sentence1": "El arte abstracto transmite mucha imaginaci\u00f3n.",
+      "sentence2": "El dibujo abstracto tiene gran cantidad de color.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "adhesiva",
+      "definition": "Se adhiere o se pega.",
+      "sentence1": "La cinta adhesiva no se desprende f\u00e1cilmente.",
+      "sentence2": "El cuadro necesita cinta adhesiva para ser colocado en la pared.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "adherente",
+      "definition": "Tiene el poder de unir.",
+      "sentence1": "La superficie del velcro es adherente.",
+      "sentence2": "La mesa del comedor tiene pl\u00e1stico adherente para protegerla.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "aguij\u00f3n",
+      "definition": "\u00d3rgano puntiagudo que tienen los escorpiones y otros insectos.",
+      "sentence1": "La abispa tiene un aguij\u00f3n grande.",
+      "sentence2": "La abeja pic\u00f3 con su aguij\u00f3n a las personas y les provoc\u00f3 un gran dolor.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "biodiversidad",
+      "definition": "Diversidad de especies que viven en un espacio determinado.",
+      "sentence1": "La biodiversidad comprende gran variedad de ecosistemas.",
+      "sentence2": "Los problemas ambientales provocan la p\u00e9rdida de la biodiversidad.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "circunstancial",
+      "definition": "Est\u00e1 determinado por una circunstancia o depende de ella.",
+      "sentence1": "El complemento  circunstancial del predicado muestra el lugar donde se realiza la acci\u00f3n.",
+      "sentence2": "Un ejemplo de circunstancial de tiempo es: ma\u00f1ana",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "climatol\u00f3gica",
+      "definition": "Conjunto de las condiciones propias del clima.",
+      "sentence1": "La noticia es acerca de la importancia climatol\u00f3gica en el mundo.",
+      "sentence2": "Siempre hay necesidad de conocer la informaci\u00f3n climatol\u00f3gica cuando visitamos un pa\u00eds.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "complejidad",
+      "definition": "Dif\u00edcil de comprender.",
+      "sentence1": "Los cient\u00edficos no han podido resolver la complejidad del cerebro.",
+      "sentence2": "La complejidad del car\u00e1cter de una persona determina su personalidad.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "desplazamiento",
+      "definition": "Mover o trasladar una persona de un lugar a otro.",
+      "sentence1": "Un avi\u00f3n tiene un desplazamiento m\u00e1s r\u00e1pido que un carro.",
+      "sentence2": "El desplazamiento de un cuerpo necesita energ\u00eda sobre \u00e9l.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "discriminaci\u00f3n",
+      "definition": "Trato diferente que se da a una persona por motivos de raza o ideas pol\u00edticas.",
+      "sentence1": "La discriminaci\u00f3n es la ignorancia de la gente.",
+      "sentence2": "La discriminaci\u00f3n disminuye con la educaci\u00f3n.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "evacuaci\u00f3n",
+      "definition": "Desalojar a las personas que se encuentran en amenaza.",
+      "sentence1": "El plan de evacuaci\u00f3n ayuda a evitar situaciones riesgosas.",
+      "sentence2": "La evacuaci\u00f3n de muchas personas en ocasiones es tensa.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "equinoccio",
+      "definition": "Momento del a\u00f1o en que la duraci\u00f3n del d\u00eda es igual al de la noche.",
+      "sentence1": "La creciente duraci\u00f3n de los d\u00edas aumenta el equinoccio de primavera.",
+      "sentence2": "Para los astr\u00f3logos el equinoccio tiene gran importancia.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "equivalencia",
+      "definition": "Relaci\u00f3n de igualdad en cantidad,",
+      "sentence1": "Dos cuartos es la equivalencia de un medio.",
+      "sentence2": "La equivalencia es el principio de la armon\u00eda entre grupo.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "escen\u00f3grafo",
+      "definition": "Persona que se encarga de dirigir la escenograf\u00eda de una obra.",
+      "sentence1": "El escen\u00f3grafo construye cada escena de la pel\u00edcula.",
+      "sentence2": "Un escen\u00f3grafo debe tener mucha creatividad.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "espermatozoides",
+      "definition": "C\u00e9lula reproductora masculina.",
+      "sentence1": "Las c\u00e9lulas masculinas se conocen como espermatozoides.",
+      "sentence2": "Los espermatozoides son los gametos masculinos.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "estratosfera",
+      "definition": "Capa de la atm\u00f3sfera que tiene de altura entre 12 y 50 km.",
+      "sentence1": "La estratosfera contiene mucho ozono.",
+      "sentence2": "En la parte baja de la estratosfera la temperatura es relativamente estable.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "excesivo",
+      "definition": "Excede o va m\u00e1s all\u00e1 de lo que se considera normal o razonable.",
+      "sentence1": "El payaso tiene un maquillaje excesivo.",
+      "sentence2": "El precio de ese art\u00edculo es excesivo.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "exosfera",
+      "definition": "Capa externa de la atm\u00f3sfera que est\u00e1 compuesta por varios gases.",
+      "sentence1": "La exosfera es la quinta capa de la atm\u00f3sfera.",
+      "sentence2": "En la exosfera se encuentran algunos sat\u00e9lites meteorol\u00f3gicos.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "fertilizaci\u00f3n",
+      "definition": "Incorporar sustancias que mejoran la calidad y facilitan el crecimiento de las plantas.",
+      "sentence1": "La fertilizaci\u00f3n en las plantas permiten que crezcan sanas y fuertes.",
+      "sentence2": "La fertilizaci\u00f3n del suelo produce mejores cultivos.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "fluorescencia",
+      "definition": "Propiedad que tienen algunas sustancias de reflejar la luz.",
+      "sentence1": "La fluorescencia se caracteriza porque las sustancias absorben luz.",
+      "sentence2": "La fluorescencia es un fen\u00f3meno de la luminiscencia.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "fotos\u00edntesis",
+      "definition": "Proceso qu\u00edmico que tiene lugar en las plantas.",
+      "sentence1": "La fotos\u00edntesis es el proceso de elaboraci\u00f3n de alimentos por parte de las plantas.",
+      "sentence2": "Para realizar la fotos\u00edntesis las plantas necesitan clorofila.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "fotovoltaica",
+      "definition": "Fuerza electromotriz que tiene un objeto cuando se encuentra bajo la radiaci\u00f3n luminosa.",
+      "sentence1": "La energ\u00eda fotovoltaica permite producir electricidad.",
+      "sentence2": "La energ\u00eda fotovoltaica transforma la energ\u00eda lum\u00ednica en energ\u00eda el\u00e9ctrica.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "frigor\u00edfico",
+      "definition": "Produce fr\u00edo artificialmente.",
+      "sentence1": "El frigor\u00edfico es un lugar espec\u00edfico que por medio del fr\u00edo conserva los alimentos.",
+      "sentence2": "El frigor\u00edfico industrial almacena carnes para comercializaci\u00f3n.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "gravitatoria",
+      "definition": "Fuerza de atracci\u00f3n que se da entre cuerpos que tienen masa.",
+      "sentence1": "La atracci\u00f3n gravitatoria decrece con la distancia.",
+      "sentence2": "La atracci\u00f3n gravitatoria entre dos objetos dependen de sus masas.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "hemorragia",
+      "definition": "Salida de sangre en cantidades muy grandes.",
+      "sentence1": "Cuando una persona tiene hemorragia debe ir de inmediato al hospital.",
+      "sentence2": "Existen mucho peligros cuando una  hemorragia interna.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "hibernaci\u00f3n",
+      "definition": "Estado en que permanecen algunos animales durante el invierno.",
+      "sentence1": "La hibernaci\u00f3n es importante para el oso pardo.",
+      "sentence2": "La hibernaci\u00f3n ocurre en la \u00e9poca de invierno.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "homog\u00e9nea",
+      "definition": "Elementos con caracter\u00edsticas comunes.",
+      "sentence1": "El aire es una mezcla homog\u00e9nea de gases.",
+      "sentence2": "Una mezcla homog\u00e9nea es el az\u00facar disuelto en agua.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "horcajadas",
+      "definition": "Expresi\u00f3n aplicada a una manera de sentarse.",
+      "sentence1": "La mujer iba subida a horcajadas en el caballo durante el desfile.",
+      "sentence2": "La manera correcta de montar un caballo es a horcajadas.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "indiscriminada",
+      "definition": "Qu\u00e9 se hace sin selecci\u00f3n o distinci\u00f3n.",
+      "sentence1": "La tala indiscriminada de \u00e1rboles perjudican el medioambiente.",
+      "sentence2": "El jefe trat\u00f3 de manera indiscriminada a los empleados.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "infectocontagiosa",
+      "definition": "Enfermedad infecciosa y contagiosa.",
+      "sentence1": "El sarampi\u00f3n es una enfermedad infectocontagiosa.",
+      "sentence2": "En una enfermedad infectocontagiosa existe un agente como bacteria o virus.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "inmunol\u00f3gico",
+      "definition": "Estado de resistencia natural o adquirida frente a microorganismos o sustancias extra\u00f1as.",
+      "sentence1": "El sistema inmunol\u00f3gico protege el cuerpo contra infecciones.",
+      "sentence2": "Los gl\u00f3bulos blancos forman parte del sistema inmunol\u00f3gico.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "insecticida",
+      "definition": "Sustancia qu\u00edmica que mata insectos.",
+      "sentence1": "Cada tres meses roc\u00edo el jard\u00edn con insecticida.",
+      "sentence2": "\u00daltimamente el insecticida est\u00e1 caro.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "insect\u00edvoro",
+      "definition": "Animal que se alimenta de insectos.",
+      "sentence1": "La rana es un animal insect\u00edvoro.",
+      "sentence2": "El animal insect\u00edvoro se nutre de las prote\u00ednas de los insectos.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "institucionalizar",
+      "definition": "Darle car\u00e1cter de instituci\u00f3n.",
+      "sentence1": "El objetivo de la reuni\u00f3n era institucionalizar los grupos de defensa del medio ambiente.",
+      "sentence2": "Institucionalizar permite formar instituciones con diferentes fines.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "instructivo",
+      "definition": "Documento o folleto que contiene instrucciones espec\u00edficas.",
+      "sentence1": "La receta es un texto instructivo.",
+      "sentence2": "El texto instructivo tiene como finalidad dar instrucciones.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "invasi\u00f3n",
+      "definition": "Entrar por la fuerza en un lugar para ocuparlo.",
+      "sentence1": "Una invasi\u00f3n puede ser la causa de una guerra.",
+      "sentence2": "La invasi\u00f3n es un ataque llevado a cabo por fuerzas externas.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "invisibilidad",
+      "definition": "No se puede percibir con la vista.",
+      "sentence1": "La invisibilidad es la cualidad de un cuerpo de no ser visto por un observador.",
+      "sentence2": "Los cient\u00edficos creen haber descubierto el efecto de invisibilidad.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "personificaci\u00f3n",
+      "definition": "Atribuir cualidades humanas a animales u objetos.",
+      "sentence1": "\"La Dama y el Vagabundo\"  muestra la personificaci\u00f3n de dos perros que se enamoran.",
+      "sentence2": "La personificaci\u00f3n es una figura ret\u00f3rica que se encuentra dentro de la ficci\u00f3n.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "solsticio",
+      "definition": "Momento del a\u00f1o en que la duraci\u00f3n del d\u00eda es m\u00e1s corto  a la de la noche.",
+      "sentence1": "El solsticio es el d\u00eda m\u00e1s largo y la noche m\u00e1s corta de todo el a\u00f1o.",
+      "sentence2": "Las puestas del Sol permiten descubrir el solsticio.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "4",
+      "word": "transl\u00facido",
+      "definition": "Cuerpo que no deja ver n\u00edtidamente los objetos.",
+      "sentence1": "El papel cebolla es un objeto transl\u00facido.",
+      "sentence2": "La luz no pasa directamente por un objeto transl\u00facida.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "adolescencia",
+      "definition": "Per\u00edodo de la vida entre la pubertad y la edad adulta.",
+      "sentence1": "Mi adolescencia fue una etapa extra\u00f1a.",
+      "sentence2": "Pas\u00e9 mi infancia y mi adolescencia en Estados Unidos.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "argumento",
+      "definition": "Razonamiento usado para apoyar o negar una afirmaci\u00f3n.",
+      "sentence1": "El argumento trata de un monstruo y un h\u00e9roe.",
+      "sentence2": "Su argumento debe convencer a sus electorados.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "comprensi\u00f3n",
+      "definition": "Entender",
+      "sentence1": "Gracias por su comprensi\u00f3n.",
+      "sentence2": "Habr\u00e1 tres lecturas en el examen de comprensi\u00f3n escrita.",
+      "type": "Aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "confiscar",
+      "definition": "Privar el estado a alguien de sus pertenencias.",
+      "sentence1": "La docente necesita confiscar los juguetes.",
+      "sentence2": "Adoptar\u00e1n medidas para confiscar, seg\u00fan corresponda.",
+      "type": "Aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "conmovido",
+      "definition": "Enternecer",
+      "sentence1": "\u00c9l qued\u00f3 muy conmovido por la pel\u00edcula.",
+      "sentence2": "Mar\u00eda est\u00e1 conmovida por el perrito asustado.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "cuello",
+      "definition": "Una parte del cuerpo humano.",
+      "sentence1": "Me duele el cuello.",
+      "sentence2": "Me gustan las blusas con cuello de tortuga.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "di\u00f3xido",
+      "definition": "Producto principal de la respiraci\u00f3n, utilizado por las plantas.",
+      "sentence1": "Nosotros inhalamos ox\u00edgeno y exhalamos di\u00f3xido de carbono.",
+      "sentence2": "Si no se reduce el di\u00f3xido de carbono, la cubierta de hielo del \u00c1rtico desaparecer\u00e1.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "enemistad",
+      "definition": "No son amigos.",
+      "sentence1": "Increment\u00f3 la enemistad de las provincias con su gobierno.",
+      "sentence2": "Yo era demasiado feliz para guardar en el coraz\u00f3n un sentimiento de enemistad.",
+      "type": "Aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "g\u00e9nero",
+      "definition": "Conjunto de seres con caracter\u00edsticas comunes.",
+      "sentence1": "Tenemos el mismo g\u00e9nero.",
+      "sentence2": "El g\u00e9nero musical favorito de Pablo es la salsa.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "higuera",
+      "definition": "\u00c1rbol de hojas grandes, cuyo fruto es un higo.",
+      "sentence1": "La higuera ten\u00eda muchos higos.",
+      "sentence2": "Por estar en la higuera, perdi\u00f3 su turno y no pudo intervenir en el debate.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "hostilidad",
+      "definition": "Acci\u00f3n hostil.",
+      "sentence1": "Ella muestra hostilidad a su amiga.",
+      "sentence2": "La hostilidad del clima empeor\u00f3 su salud.",
+      "type": "Aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "infecci\u00f3n",
+      "definition": "Enfermedad causada por g\u00e9rmenes o microbios en el organismo.",
+      "sentence1": "Debes lavar bien la herida para evitar una infecci\u00f3n.",
+      "sentence2": "Elena tiene una infecci\u00f3n en la garganta.",
+      "type": "Aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "ingenioso",
+      "definition": "Talento o facultad creadora de una persona",
+      "sentence1": "Ernesto es un hombre ingenioso.",
+      "sentence2": "El gato es muy ingenioso sus habilidades.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "instituci\u00f3n",
+      "definition": "Fundaci\u00f3n o establecimiento de un organismo.",
+      "sentence1": "Amadita Primary School es una instituci\u00f3n educativa.",
+      "sentence2": "La instituci\u00f3n est\u00e1 cerrada.",
+      "type": "Aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "madurez",
+      "definition": "Estado de desarrollo \u00f3ptimo de una cosa o persona",
+      "sentence1": "Las manzanas alcanzaron la madurez antes este a\u00f1o",
+      "sentence2": "Con la madurez llegan las responsabilidades",
+      "type": "Aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "mil\u00e9simo",
+      "definition": "Medici\u00f3n.",
+      "sentence1": "La diferencia era de un mil\u00e9simo de segundo.",
+      "sentence2": "La maestra habl\u00f3 sobre el mil\u00e9simo.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "mounstro",
+      "definition": "Persona o animal muy feo.",
+      "sentence1": "La iguana parece un monstruo jur\u00e1sico.",
+      "sentence2": "Frankenstein era un monstruo.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "movilidad",
+      "definition": "Capacidad de moverse.",
+      "sentence1": "El accidente le afect\u00f3 la movilidad",
+      "sentence2": "\u00c9l no tiene movilidad en un dedo.",
+      "type": "Aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "murci\u00e9lago",
+      "definition": "Mam\u00edfero volador.",
+      "sentence1": "El murci\u00e9lago caza de noche.",
+      "sentence2": "El murci\u00e9lago es de color negro.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "oviductos",
+      "definition": "Conductos que conectan cada ovario con el \u00fatero.",
+      "sentence1": "Los oviductos son \u00f3rganos de sistema reproductor femenino.",
+      "sentence2": "Los oviductos dan la uni\u00f3n entre el \u00f3vulo y el gameto masculino.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "ovulaci\u00f3n",
+      "definition": "Desprendimiento natural de un \u00f3vulo del ovario para ser fecundado",
+      "sentence1": "No puede quedar embarazada por problemas de ovulaci\u00f3n",
+      "sentence2": "Estamos estudiando la ovulaci\u00f3n en las clases de ciencias.",
+      "type": "Aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "Panam\u00e1",
+      "definition": "Pa\u00eds de Centro Am\u00e9rica.",
+      "sentence1": "Fabricio vive en Panam\u00e1.",
+      "sentence2": "Compre zapatos nuevos en Panam\u00e1.",
+      "type": "Aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "p\u00e1rrafo",
+      "definition": "Fragmento de un escrito.",
+      "sentence1": "El cap\u00edtulo ten\u00eda un p\u00e1rrafo largo.",
+      "sentence2": "A este p\u00e1rrafo le falta el punto.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "persuasivo",
+      "definition": "Eficacia para convencer.",
+      "sentence1": "Un vendedor persuasivo.",
+      "sentence2": "Su comentario fue persuasivo.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "predicado",
+      "definition": "Parte de la oraci\u00f3n.",
+      "sentence1": "Complete la oraci\u00f3n con un predicado.",
+      "sentence2": "La maestra pidi\u00f3 que subrayen el predicado.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "antiof\u00eddicos",
+      "definition": "Suero contra el veneno de serpiente.",
+      "sentence1": "Me inyectaron varias veces antiof\u00eddicos.",
+      "sentence2": "Clodomiro Picado recomend\u00f3 el uso de antiof\u00eddicos.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "s\u00edfilis",
+      "definition": "Enfermedad transmici\u00f3n sexual.",
+      "sentence1": "\u00c9l padece de s\u00edfilis.",
+      "sentence2": "La s\u00edfilis puede ocasionar paral\u00edsis.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "s\u00edndrome",
+      "definition": "Conjunto de s\u00edntomas que caracterizan a una enfermedad.",
+      "sentence1": "Lo hemos visto en el caso del s\u00edndrome respiratorio agudo severo.",
+      "sentence2": "No hay una medicina clara contra este s\u00edndrome.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "\u00fatero",
+      "definition": "\u00d3rgano en el que se desarrolla el feto durante el proceso de gestaci\u00f3n.",
+      "sentence1": "El beb\u00e9 se desarrolla en el \u00fatero.",
+      "sentence2": "El \u00fatero es un \u00f3rgano del sistema reproductor femenino.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "5",
+      "word": "Zeus",
+      "definition": "Dios griego.",
+      "sentence1": "Zeus es el padre de los dioses.",
+      "sentence2": "Zeus vive en el Olimpo.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "ahogar",
+      "definition": "Impidi\u00e9ndole la respiraci\u00f3n.",
+      "sentence1": "Intentaron ahogar el sufrimiento ocultando la verdad.",
+      "sentence2": "No tardaron en o\u00edrse gritos, luego gemidos que se trataban de ahogar.",
+      "type": "Aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "ant\u00e1rtico",
+      "definition": "Polo que se localiza en el hemisferio sur.",
+      "sentence1": "\u00c9l hizo una expedici\u00f3n al ant\u00e1rtico.",
+      "sentence2": "En el ant\u00e1rtico hace muhco fr\u00edo.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "artr\u00f3podos",
+      "definition": "Grupo invertebrados m\u00e1s numeroso del reino animal.",
+      "sentence1": "El cuerpo de los artr\u00f3podos se divide en varias partes.",
+      "sentence2": "Las mariposas son artr\u00f3podos.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "argumentativo",
+      "definition": "Tiene relaci\u00f3n con el argumento o la argumentaci\u00f3n.",
+      "sentence1": "El texto argumentativo que postula los principios de una nueva ciencia.",
+      "sentence2": "El texto argumentativo fue estudiado en las clases de espa\u00f1ol.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "biograf\u00eda",
+      "definition": "Historia de la vida de una persona.",
+      "sentence1": "Su \u00faltima pel\u00edcula es una biograf\u00eda del presidente Lincoln.",
+      "sentence2": "Se refer\u00eda a la biograf\u00eda del libertador Sim\u00f3n Bol\u00edvar.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "Cahuita",
+      "definition": "Un pueblo en la costa caribe\u00f1a de Costa Rica, cerca de la frontera con Panam\u00e1",
+      "sentence1": "Roberto fui a las playas de Cahuita.",
+      "sentence2": "Marco y su familia fueron de paseo a Cahuita.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "cartilaginoso",
+      "definition": "Relativo al cart\u00edlago.",
+      "sentence1": "En ciencias se estudi\u00f3 el tejido cartilaginoso.",
+      "sentence2": "Las orejas est\u00e1n compuestas de un tejido cartilaginoso.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "cautiverio",
+      "definition": "Privaci\u00f3n de la libertad a los animales no dom\u00e9sticos.",
+      "sentence1": "No va al zol\u00f3gico porque no le gustan los animales en cautiverio.",
+      "sentence2": "Sufri\u00f3 un penoso cautiverio en la mazmorra de la torre.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "Chavarr\u00eda",
+      "definition": "Apellido.",
+      "sentence1": "Mi segundo apellido es Chavarr\u00eda.",
+      "sentence2": "A Roberto Chavarr\u00eda le gusta escrbir cartas.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "cimiento",
+      "definition": "Parte de un edificio que sostiene la construcci\u00f3n.",
+      "sentence1": "El hormiguero rellen\u00f3 la excavaci\u00f3n para hacer un cimiento.",
+      "sentence2": "La casa se asienta sobre un cimiento rocoso.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "constelaciones",
+      "definition": "Conjunto de estrellas.",
+      "sentence1": "Sobre aquellas constelaciones se descubri\u00f3 una mancha extra\u00f1a.",
+      "sentence2": "Resplandec\u00edan las constelaciones en el cielo con una sorprendente intensidad.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "descompuesto",
+      "definition": "Tiene sus partes separados o da\u00f1adas.",
+      "sentence1": "El televisor est\u00e1 descompuesto.",
+      "sentence2": "Abri\u00f3 el paquete y el juguete ven\u00eda descompuesto.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "dubitativas",
+      "definition": "Tipo de oraci\u00f3n que expresa duda o falta de certeza.",
+      "sentence1": "Escriba cinco oraciones dubitativas.",
+      "sentence2": "\u00d3scar se dio cuenta que todas las oraciones eran dubitativas.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "exhortativa",
+      "definition": "Tipo de oraci\u00f3n que expresa \u00f3rdenes o peticiones.",
+      "sentence1": "Mi hermana utiliz\u00f3 una oraci\u00f3n exhortativa.",
+      "sentence2": "En el examen solicitaron escribir una oraci\u00f3n exhortativa.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "falacias",
+      "definition": "Enga\u00f1o, mentira o fraude con que se intenta da\u00f1ar a una persona.",
+      "sentence1": "Es indigno de t\u00ed ir contando esas falacias.",
+      "sentence2": "A Eduardo no le gustan las falacias.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "fluvial",
+      "definition": "Tipo de erosi\u00f3n natural.",
+      "sentence1": "La erosi\u00f3n fluvial es la cuasante del desgaste.",
+      "sentence2": "No es posible la navegaci\u00f3n fluvial en ese r\u00edo.",
+      "type": "Aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "fricci\u00f3n",
+      "definition": "Rozamiento de dos cuerpos en contacto.",
+      "sentence1": "Uno de los movimientos de las placas tect\u00f3nicas es por fricci\u00f3n.",
+      "sentence2": "Los f\u00f3sforos se encienden por fricci\u00f3n.",
+      "type": "Aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "genov\u00e9s",
+      "definition": "Persona natural de ciudad italiana.",
+      "sentence1": "Yo soy un genov\u00e9s.",
+      "sentence2": "Yo crec\u00ed en Italia, por lo tanto soy genov\u00e9s.",
+      "type": "Aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "glosario",
+      "definition": "Diccionario de palabras.",
+      "sentence1": "No hay glosario en este libro.",
+      "sentence2": "En el glosario encontr\u00e9 palabras nuevas.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "homenaje",
+      "definition": "Acto p\u00fablico en honor de una persona o de un acontecimiento.",
+      "sentence1": "Hay que organizar un banquete de homenaje.",
+      "sentence2": "Quisiera rendirle homenaje por todo lo que ha hecho.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "hu\u00e9rfano",
+      "definition": "Se aplica a la persona que ha perdido el padre, la madre o ambos.",
+      "sentence1": "El ni\u00f1o qued\u00f3 hu\u00e9rfano de padre y madre.",
+      "sentence2": "De cada siete menores de 15 a\u00f1os, uno es hu\u00e9rfano.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "inmediatamente",
+      "definition": "Al instante.",
+      "sentence1": "Ven inmediatamente a la casa.",
+      "sentence2": "Me llamaron inmediatamente despu\u00e9s de ocurrido el hecho.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "invasores",
+      "definition": "Quien entra por la fuerza a un lugar para ocuparlo.",
+      "sentence1": "Llegaron los invasores al castillo.",
+      "sentence2": "Se rindieron ante los invasores.",
+      "type": "Graves"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "Malasia",
+      "definition": "Pa\u00eds ubicado en el continente asi\u00e1tico.",
+      "sentence1": "Mar\u00eda vive en Malasia.",
+      "sentence2": "Malasia es rica en recursos naturales.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "met\u00e1fora",
+      "definition": "Figura literaria.",
+      "sentence1": "La tercera estrofa del poema contiene una met\u00e1fora.",
+      "sentence2": "Dice que no le gusta la met\u00e1fora del fontanero.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "meteorizaci\u00f3n",
+      "definition": "Fragmentaci\u00f3n de las rocas.",
+      "sentence1": "La meteorizaci\u00f3n fue causada por los seres vivos.",
+      "sentence2": "La meteorizaci\u00f3n fue estudiada en clases de ciencias.",
+      "type": "Aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "murmuraciones",
+      "definition": "Acci\u00f3n y resultado de murmurar.",
+      "sentence1": "No hagas caso de las murmuraciones.",
+      "sentence2": "Sara no le gustan las murmuraciones.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "pintoresco",
+      "definition": "Causa atractivo y curiosidad.",
+      "sentence1": "El paisaje es pintoresco.",
+      "sentence2": "Es pintoresco la forma en que ve la vida.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "pret\u00e9rito",
+      "definition": "Tiempo verbal.",
+      "sentence1": "Propongo que el tiempo futuro se sustituya por el pret\u00e9rito perfecto.",
+      "sentence2": "Conjugar un verbo en pret\u00e9rito imperfecto dec\u00eda la instrucci\u00f3n.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "pr\u00f3logo",
+      "definition": "Comentario de introducci\u00f3n de ciertas obras.",
+      "sentence1": "Nunca leo los pr\u00f3logos de los libros.",
+      "sentence2": "El pr\u00f3logo del libro era muy largo.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "prop\u00f3sito",
+      "definition": "Intenci\u00f3n de hacer una cosa.",
+      "sentence1": "El prop\u00f3sito de leer es utilizar nuestra imaginaci\u00f3n.",
+      "sentence2": "Su prop\u00f3sito es acabar su trabajo hoy mismo.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "Protoctista",
+      "definition": "Reino biol\u00f3gico.",
+      "sentence1": "Los mohos deslizantes pertenecen al reino biol\u00f3gico Protoctista.",
+      "sentence2": "El reino Protoctista favorece el equilibrio del ecosistema acu\u00e1tico.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "refractario",
+      "definition": "Se aplica al material que resiste la acci\u00f3n del fuego sin destruirse ni descomponerse.",
+      "sentence1": "Newton construy\u00f3 un telescopio refractario.",
+      "sentence2": "Con un material refractario est\u00e1 cubierta la chimenea.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "seud\u00f3nimo",
+      "definition": "Nombre empleado por un autor en vez del suyo verdadero.",
+      "sentence1": "Los artistas utilizan un seud\u00f3nimo.",
+      "sentence2": "Declar\u00f3 utilizando un seud\u00f3nimo.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "sorprende",
+      "definition": "Causar una persona o una cosa asombro o sorpresa a otra.",
+      "sentence1": "Me sorprende que no haya llegado.",
+      "sentence2": "La m\u00fasica fuerte sorprende a cualquiera.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "suceso",
+      "definition": "Hecho o situaci\u00f3n considerada de importancia.",
+      "sentence1": "Nunca leo la secci\u00f3n de suceso.",
+      "sentence2": "Un suceso de importancia hist\u00f3rica.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "transbordador",
+      "definition": "Nave espacial que puede emplar m\u00e1s de una misi\u00f3n.",
+      "sentence1": "La NASA realiz\u00f3 el primer lanzamiento de un transbordador espacial, el Columbia.",
+      "sentence2": "En el 2011 finaliz\u00f3 el programa de transbordadores espaciales.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "transformaci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de transformar o transformarse.",
+      "sentence1": "Con la adolescencia el cuerpo sufre una transformaci\u00f3n.",
+      "sentence2": "Desde que se cambi\u00f3 de escuela su vida sufri\u00f3 una gran transformaci\u00f3n.",
+      "type": "Aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "tropezaba",
+      "definition": "Topar con los pies en un obst\u00e1culo al andar.",
+      "sentence1": "Mientras esperaba vio a alguien como tropezaba.",
+      "sentence2": "Felipe siempre trobezaba.",
+      "type": "Grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "5",
+      "word": "v\u00edveres",
+      "definition": "Productos necesarios para la alimentaci\u00f3n de las personas.",
+      "sentence1": "Roc\u00edo se gan\u00f3 una canasta de v\u00edveres.",
+      "sentence2": "Los estudiates recolectaron v\u00edveres para una fundaci\u00f3n.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "absorci\u00f3n",
+      "definition": "Acci\u00f3n de absorber.",
+      "sentence1": "Tenemos un problema de absorci\u00f3n.",
+      "sentence2": "La no absorci\u00f3n de agua del terreno gener\u00f3 un pantano.",
+      "type": "Aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "afrocostarricense",
+      "definition": "Poblaci\u00f3n de Costa Rica descendiente de los pueblos tra\u00eddos del \u00c1frica.",
+      "sentence1": "En la escuela realizamos una asamblea de la cultara afrocostarricense.",
+      "sentence2": "El profesor Jimmy nos ense\u00f1\u00f3 de la m\u00fasica afrocostarricense.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "ostentando",
+      "definition": "Mostrar algo con presunci\u00f3n y vanidad.",
+      "sentence1": "Fernando ostentando su reloj de plata delante de todos",
+      "sentence2": "Mi vecino tiene un nuevo auto y lo pasa ostentando por el barrio.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "antropomorfa",
+      "definition": "Forma parecida a la del humano.",
+      "sentence1": "Los egipcios enterraban a sus muertos en sarc\u00f3fagos antropomorfos.",
+      "sentence2": "Una isla que vista desde el cielo tiene figura antropomorfa.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "astronom\u00eda",
+      "definition": "Ciencia que estudia los astros.",
+      "sentence1": "No debemos olvidar la astronom\u00eda y la exploraci\u00f3n del espacio.",
+      "sentence2": "Este trimestre tenemos un proyecto de astronom\u00eda.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "braveza",
+      "definition": "Bravura, fiereza.",
+      "sentence1": "La braveza del viento le dio miedo.",
+      "sentence2": "La braveza del perro asust\u00f3 a Carla.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "Cab\u00e9cares",
+      "definition": "Etnia aut\u00f3ctona de Costa Rica.",
+      "sentence1": "Los cab\u00e9cares han habitado el territorio nacional de Costa Rica por lo menos durante 3 000 a\u00f1os.",
+      "sentence2": "Los cab\u00e9cares lograron establecer en Talamanca el m\u00e1s fuerte de los cacicazgos del pa\u00eds.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "cacicazgos",
+      "definition": "Forma de organizaci\u00f3n social y pol\u00edtica de comunidades ind\u00edgenas.",
+      "sentence1": "Entre los huetares existieron otros cacicazgos menores como Aserr\u00ed.",
+      "sentence2": "Hubo conflictos entre cacicazgos por territorios y recursos  de esta \u00e9poca.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "capitulaci\u00f3n",
+      "definition": "Acto hecho entre dos o m\u00e1s personas sobre alg\u00fan negocio.",
+      "sentence1": "La capitulaci\u00f3n de mi pa\u00eds con el pa\u00eds fronterizo trata de respetar las fronteras.",
+      "sentence2": "Luego de unos a\u00f1os hicieron otra capitulaci\u00f3n  que trataba de una nueva ciudad.",
+      "type": "Aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "colonoscopia",
+      "definition": "M\u00e9todo de exploraci\u00f3n visual del colon.",
+      "sentence1": "A mi abuelita le hicieron una colonoscop\u00eda.",
+      "sentence2": "El doctor quiere revisar mi colon, por lo que me envi\u00f3 una colonoscop\u00eda.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "cosm\u00f3dromo",
+      "definition": "Base astron\u00e1utica de lanzamiento.",
+      "sentence1": "Desde el cosm\u00f3dromo se lazaron tres cohetes.",
+      "sentence2": "A las bases rusas se les llama cosm\u00f3dromo.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "criptorquidia",
+      "definition": "Defecto de posici\u00f3n de los test\u00edculos.",
+      "sentence1": "Mi hermano naci\u00f3 con criptorquidia.",
+      "sentence2": "Una de las enfermedades del sistema reproductor masculino es la criptorquidia.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "Cubujuqu\u00ed",
+      "definition": "Cant\u00f3n n\u00famero uno y central de la provincia de Heredia",
+      "sentence1": "Elena vive en Cubujuqu\u00ed.",
+      "sentence2": "El bus de Cubujuqu\u00ed se da\u00f1\u00f3.",
+      "type": "Aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "desahogarse",
+      "definition": "Aliviarse alguien de una pena o preocupaci\u00f3n.",
+      "sentence1": "Jos\u00e9 habl\u00f3 con su amigo para desahogarse.",
+      "sentence2": "El llorar ayuda a desahogarse.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "desertificaci\u00f3n",
+      "definition": "Transformaci\u00f3n de una regi\u00f3n en desierto por el ser humano.",
+      "sentence1": "La desertificaci\u00f3n se ha incrementado a lo largo de los milenios.",
+      "sentence2": "La desertificaci\u00f3n es un proceso de degradaci\u00f3n ecol\u00f3gica en el que el suelo f\u00e9rtil.",
+      "type": "Aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "desertizaci\u00f3n",
+      "definition": "Proceso erosivo que convierte una tierra f\u00e9rtil y habitable en un desierto.",
+      "sentence1": "El cambio clim\u00e1tico provoc\u00f3 en la zona un proceso de desertizaci\u00f3n.",
+      "sentence2": "Las sucesivas sequ\u00edas han agravado la desertizaci\u00f3n del pa\u00eds.",
+      "type": "Aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "diastrofismo",
+      "definition": "Movimeinto de placas tect\u00f3nicas.",
+      "sentence1": "El diastrofismo y el vulcanismo son modificadores internos de la corteza terrestre.",
+      "sentence2": "Diastrofismo explica el momiento horinzontal y vertical de las placas tect\u00f3nicas.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "dismenorrea",
+      "definition": "Menstruaci\u00f3n dolorosa o dif\u00edcil.",
+      "sentence1": "Dismenorrea es una enfermedad del sistema repreductor famenino.",
+      "sentence2": "Luisa fue al m\u00e9dico para trarse la dismenorrea.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "ensanchamiento",
+      "definition": "Acci\u00f3n y resultado de ensanchar.",
+      "sentence1": "Uno de los cambios secundarios de la mujer es el ensachamiento de caderas.",
+      "sentence2": "El ensanchamiento de la carretera evit\u00f3 muchos accidentes.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "epid\u00eddimo",
+      "definition": "\u00d3rgano situado en la parte superior del test\u00edculo.",
+      "sentence1": "En el epid\u00eddimo se almacenan los espermatozoides.",
+      "sentence2": "Se estudi\u00f3 en clases de ciencias el epid\u00eddimo.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "equinodermos",
+      "definition": "Clasificaci\u00f3n de invertebrados.",
+      "sentence1": "Los equinodermos se alimentan de peces e invertebrados.",
+      "sentence2": "Los erizos de mar son equinodermos.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "Erat\u00f3stenes",
+      "definition": "Matem\u00e1tico y fil\u00f3sofo griego.",
+      "sentence1": "Erat\u00f3stenes era cient\u00edfico y su observaci\u00f3n hizo cambiar al mundo.",
+      "sentence2": "Erat\u00f3stenes calcul\u00f3 con precisi\u00f3n el tama\u00f1o de la Tierra.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "esporozoarios",
+      "definition": "Tipo de protozoarios.",
+      "sentence1": "Los esporozoarios carecen de estructura de locomoci\u00f3n.",
+      "sentence2": "Los esporozoarios son par\u00e1sitos.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "excreci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de excretar.",
+      "sentence1": "Las sustancias eliminadas mediante el proceso de excreci\u00f3n son t\u00f3xicas para el cuerpo.",
+      "sentence2": "La funci\u00f3n de la excreci\u00f3n la realiza, principalmente, el aparato urinario.",
+      "type": "Aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "extraterrestre",
+      "definition": "Que est\u00e1 fuera del globo terr\u00e1queo.",
+      "sentence1": "El extraterrestre viaja en el espacio para poder conocer.",
+      "sentence2": "Los agentes policiales extraoficiales se dedican extraterrestres.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "fitoplancton",
+      "definition": "Conjunto de algas y otros vegetales microsc\u00f3picos.",
+      "sentence1": "Los cient\u00edficos han documentado una brotaci\u00f3n de fitoplancton.",
+      "sentence2": "Los principales grupos de fitoplancton presentes en el mar Negro.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "Garcimu\u00f1oz",
+      "definition": "Poblaci\u00f3n de espa\u00f1oles de la provincia de Nueva Cartago y Costa Rica.",
+      "sentence1": "Juan de Cavall\u00f3n le dio el nombre de Garcimu\u00f1oz a un territorio en Costa Rica.",
+      "sentence2": "Garcimu\u00f1oz fue la primera ciudad fundada en Costa Rica durante la Conquista.",
+      "type": "Aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "heter\u00f3trofos",
+      "definition": "Organismo que se alimenta de sustancias org\u00e1nicas elaboradas por otro.",
+      "sentence1": "Los heter\u00f3trofos no pueden fabricar su propio alimento.",
+      "sentence2": "Los perros son heter\u00f3trofos.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "hidroel\u00e9ctrica",
+      "definition": "Energ\u00eda que se produce a partir de la fuerza del agua.",
+      "sentence1": "En la represa hidroel\u00e9ctrica se genera energ\u00eda.",
+      "sentence2": "En Costa Rica existe la represa hidroel\u00e9ctrica de Cach\u00ed.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "inalienable",
+      "definition": "Aquello que no se puede negar.",
+      "sentence1": "La libertad es un derecho inalienable del ser humano.",
+      "sentence2": "La educaci\u00f3n es un derecho inalienable de todos los ni\u00f1os.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "innecesario",
+      "definition": "No necesario.",
+      "sentence1": "El dinero es innecesario cuando existe el amor.",
+      "sentence2": "Se consider\u00f3 innecesario evacuar el comercio.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "intraespec\u00edfica",
+      "definition": "Relaciones entre organismos de la misma especie.",
+      "sentence1": "La cr\u00edas del ruise\u00f1or tienen una relaci\u00f3n intraespec\u00edfica.",
+      "sentence2": "La hormigas termita y las abejas tienen una relaci\u00f3n intraespec\u00edfica.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "Mediterr\u00e1neo",
+      "definition": "Mar.",
+      "sentence1": "Las mareas del mar Mediterr\u00e1neo est\u00e1n muy fuerte.",
+      "sentence2": "El Mediterr\u00e1neo es un mar interior del oc\u00e9ano Atl\u00e1ntico.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "menstruaci\u00f3n",
+      "definition": "P\u00e9rdida de sangre y tejidos celulares procedentes de la matriz.",
+      "sentence1": "La mesntruaci\u00f3n dura aproximadamente 28 d\u00edas.",
+      "sentence2": "La menstruaci\u00f3n aparece una vez al mes.",
+      "type": "Aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "ovog\u00e9nesis",
+      "definition": "Proceso de formaci\u00f3n y maduraci\u00f3n del gameto femenino.",
+      "sentence1": "Ha conseguido diapositivas de todo el proceso de la ovog\u00e9nesis.",
+      "sentence2": "Debidoa algunos problemas menstruales, le han detectado anomal\u00edas en la ovog\u00e9nesis.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "protozoarios",
+      "definition": "Pertenecientes al reino Protoctista.",
+      "sentence1": "Los protozoarios pueden ser aut\u00f3trofos o heter\u00f3trofos.",
+      "sentence2": "Los protozoarios viven en ambientes h\u00famedos.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "reflexi\u00f3n",
+      "definition": "Acci\u00f3n y efecto de reflexionar.",
+      "sentence1": "Juan hizo una reflexi\u00f3n ante la clase.",
+      "sentence2": "La reflexi\u00f3n que hizo la docente me hizo cambiar.",
+      "type": "Aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "semin\u00edferos",
+      "definition": "T\u00fabulos que producen los espermatozoides.",
+      "sentence1": "A partir de la pubertad en los t\u00fabulos semin\u00edferos se forman los espermatoziodes.",
+      "sentence2": "Dentro de cada test\u00edculo existen numerosos tubos semin\u00edferos.",
+      "type": "Esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "vulvovaginitis",
+      "definition": "Inflamaci\u00f3n o infecci\u00f3n en la vulva.",
+      "sentence1": "La vulvovaginitis puede ser causa por una bacteria.",
+      "sentence2": "Ella tuvo que ir al m\u00e9dico por vulvovaginitis.",
+      "type": "Grave"
+    },
+    {
+      "level": "experto",
+      "grade": "5",
+      "word": "zoomorfas",
+      "definition": "Tiene forma de animal.",
+      "sentence1": "Se han localizado numerosas esculturas zoomorfas que forman parte de la cultura.",
+      "sentence2": "Esculturas zoomorfas que suelen representar principalmente toros o cerdos.",
+      "type": "Grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "reloj",
+      "definition": "Instrumento para medir el tiempo o indicar la hora del d\u00eda.",
+      "sentence1": "El rejoj de la pared es rojo.",
+      "sentence2": "Veo el reloj para saber la hora.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "juventud",
+      "definition": "La edad despu\u00e9s de la infancia y antes de la edad adulta.",
+      "sentence1": "La juventud est\u00e1 llena de energ\u00eda.",
+      "sentence2": "Mi hermano est\u00e1 en la plena juventud.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "capaz",
+      "definition": "Adjetivo, que puede hacer algo o tiene un talento o habilidad.",
+      "sentence1": "Eres capaz de lo sea que quieras hacer de coraz\u00f3n.",
+      "sentence2": "El ave es capaz de volar.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "vag\u00f3n",
+      "definition": "Veh\u00edculo de viajeros o de mercanc\u00edas y equipajes en los ferrocarriles.",
+      "sentence1": "Nos gusta el vag\u00f3n rojo del tren.",
+      "sentence2": "El vag\u00f3n est\u00e1 cargado de frutas.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "ficci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de fingir.",
+      "sentence1": "Las pel\u00edculas de ficci\u00f3n son las mejores.",
+      "sentence2": "A mi t\u00eda le regalaron un libro de ficci\u00f3n.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "acecho",
+      "definition": "Observar, aguardar cautelosamente con alg\u00fan prop\u00f3sito.",
+      "sentence1": "Ese tigre se encontraba al acecho de su presa.",
+      "sentence2": "Mientras la gacela se alimenta el le\u00f3n est\u00e1 al acecho.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "canastilla",
+      "definition": "Cesta peque\u00f1a de mimbres en que se tienen objetos.",
+      "sentence1": "Mi hermana me hace una canastilla dulce para m\u00ed.",
+      "sentence2": "Caperucita prepara su canastilla para el viaje.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "urbano",
+      "definition": "Perteneciente o relativo a la ciudad.",
+      "sentence1": "El paisaje urbano es mi favorito.",
+      "sentence2": "\u00c9l practica baile urbano.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "\u00faltima",
+      "definition": "Que est\u00e1 al final de una l\u00ednea, de una serie o de una sucesi\u00f3n.",
+      "sentence1": "Esa fue la \u00faltima vez que fui a la playa.",
+      "sentence2": "Era la \u00faltima empanada.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "\u00e1nimo",
+      "definition": "Actitud, disposici\u00f3n, temple.",
+      "sentence1": "Me gusta darle \u00e1nimo a mi equipo.",
+      "sentence2": "Mi t\u00edo sabe darnos \u00e1nimo.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "t\u00edmido",
+      "definition": "Temeroso, medroso, encogido y corto de \u00e1nimo.",
+      "sentence1": "Yo soy muy t\u00edmido.",
+      "sentence2": "El perro de mi amigo es muy t\u00edmido.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "eclipse",
+      "definition": "Cuando un astro se oculta parcial o totalmente.",
+      "sentence1": "El eclipse solar fue impresionante.",
+      "sentence2": "El pr\u00f3ximo eclipse lunar ser\u00e1 en el 2045.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "pr\u00e9stamo",
+      "definition": "Entregar algo a alguien para que lo devuelva.",
+      "sentence1": "Mar\u00eda sac\u00f3 un pr\u00e9stamo en el banco.",
+      "sentence2": "Tenemos que pagar el pr\u00e9stamo a fin de mes.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "reforma",
+      "definition": "Volver a formar, rehacer.",
+      "sentence1": "El Dr. Calder\u00f3n Guardia propuso una Reforma Social.",
+      "sentence2": "Tuvieron que hacerle una reforma a las leyes costarricenses.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "filibustero",
+      "definition": "Pirata reconocido por saquear \u00fanicamente localidades costeras.",
+      "sentence1": "Costa Rica explus\u00f3 al filibustero estadounidense.",
+      "sentence2": "El frente filibustero fue derrotado.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "muelle",
+      "definition": "Obra de piedra, hierro o madera que sirve para embarcar botes y m\u00e1s.",
+      "sentence1": "Mi familia contruye un muelle en el pueblo.",
+      "sentence2": "El muelle de la ciudad se cay\u00f3.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "panorama",
+      "definition": "Paisaje muy dilatado que se contempla desde un punto de observaci\u00f3n.",
+      "sentence1": "Debemos buscar otro panorama.",
+      "sentence2": "El panorama es insuficiente.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "inestabilidad",
+      "definition": "Falta de estabilidad.",
+      "sentence1": "Espero que la inestabilidad del puente sea poca.",
+      "sentence2": "La inestabilidad econ\u00f3mica me preocupa.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "proclama",
+      "definition": "Alocuci\u00f3n pol\u00edtica o militar, de viva voz o por escrito.",
+      "sentence1": "El presidente proclama sus ideas.",
+      "sentence2": "Mi abuelo proclama nuevas reglas de familia.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "batalla",
+      "definition": "Combate o serie de combates de un ej\u00e9rcito con otro, o de una armada naval con otra.",
+      "sentence1": "La Batalla de Rivas pas\u00f3 en Costa Rica.",
+      "sentence2": "Hay una batalla de poder entre el tigre y el le\u00f3n.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "n\u00famero",
+      "definition": "Expresi\u00f3n de una cantidad con relaci\u00f3n a su unidad.",
+      "sentence1": "No sabemos el n\u00famero exacto de personas en el mundo.",
+      "sentence2": "El n\u00famero de tel\u00e9fono de mi casa es muy viejo.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "racional",
+      "definition": "Perteneciente o relativo a la raz\u00f3n.",
+      "sentence1": "Ra\u00edz cuadrada de \u03c0 no es un n\u00famero racional.",
+      "sentence2": "En una fracci\u00f3n puede haber un n\u00famero racional y uno irracional.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "pol\u00edtico",
+      "definition": "Dicho de una persona: Que interviene en las cosas del gobierno del Estado.",
+      "sentence1": "El pol\u00edtico sale en televisi\u00f3n.",
+      "sentence2": "El libro es de un tema pol\u00edtico.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "fracciones",
+      "definition": "Cada una de las partes separadas de un todo.",
+      "sentence1": "Podemos dividir el queque en fracciones.",
+      "sentence2": "Las fracciones de matem\u00e1ticas son f\u00e1ciles.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "sistema",
+      "definition": "Conjunto de cosas que relacionadas entre s\u00ed contribuyen a un objeto.",
+      "sentence1": "El Sistema digestivo se cuida con una buena dieta.",
+      "sentence2": "El sistema telef\u00f3nico se ha ca\u00eddo.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "escuadr\u00f3n",
+      "definition": "Unidad de caballer\u00eda, mandada normalmente por un capit\u00e1n.",
+      "sentence1": "El ej\u00e9rcito tiene un escuadr\u00f3n especial.",
+      "sentence2": "Javier y Daniel formaron un escuadr\u00f3n.",
+      "type": "aguda"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "vejiga",
+      "definition": "\u00d3rgano muscular y membranoso en el cual se deposita la orina.",
+      "sentence1": "La vejiga necesita llenarse y vaciarse.",
+      "sentence2": "La vejiga es parte del Sistema renal.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "respiratorio",
+      "definition": "Que sirve para la respiraci\u00f3n o la facilita.",
+      "sentence1": "Mi t\u00edo tiene un problema respiratorio.",
+      "sentence2": "La ballena tiene un complejo sistema respiratorio.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "circulatorio",
+      "definition": "Perteneciente o relativo a la circulaci\u00f3n.",
+      "sentence1": "La comida con grasa afecta el Sistema circulatorio.",
+      "sentence2": "La circulaci\u00f3n vial es un problema serio en Costa Rica.",
+      "type": "grave"
+    },
+    {
+      "level": "mediano",
+      "grade": "6",
+      "word": "neurona",
+      "definition": "C\u00e9lula del sistema nervioso formada por un n\u00facleo y  prolongaciones",
+      "sentence1": "La neurona se comunica con otras neuronas.",
+      "sentence2": "La neurona puede da\u00f1arse a causa de un golpe.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "pr\u00f3jimo",
+      "definition": "Persona respecto de otra, bajo el concepto de solidaridad humana.",
+      "sentence1": "Debemos amar al pr\u00f3jimo.",
+      "sentence2": "Mi pr\u00f3jimo es mi amigo.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "ideolog\u00eda",
+      "definition": "Conjunto de ideas fundamentales que caracteriza el pensamiento de una persona",
+      "sentence1": "Tu ideolog\u00eda es un poco complicada.",
+      "sentence2": "La ideolog\u00eda expuesta en la Ilustraci\u00f3n sirvi\u00f3 de mucho a la humanidad.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "obstaculizar",
+      "definition": "Impedir o dificultar la consecuci\u00f3n de un prop\u00f3sito.",
+      "sentence1": "Ellos quieren obstaculizar el progreso.",
+      "sentence2": "La polic\u00eda tuvo que obstaculizar el paso.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "transformaci\u00f3n",
+      "definition": "Hacer cambiar de forma a alguien o algo",
+      "sentence1": "Le hicimos una transformaci\u00f3n a mi cuarto",
+      "sentence2": "Logro ver la tranformaci\u00f3n del jard\u00edn.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "pre\u00e1mbulo",
+      "definition": "Advertencia que se realiza antes explicar alguna situaci\u00f3n.",
+      "sentence1": "El pre\u00e1mbulo de la situaci\u00f3n es complicado.",
+      "sentence2": "El profesor nos dio un pre\u00e1mbulo de lo que trata la pel\u00edcula.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "Alemania",
+      "definition": "Pa\u00eds ubicado en Europa",
+      "sentence1": "Alemania es un pa\u00eds poderoso.",
+      "sentence2": "Mi hermana va a viajar por Alemania.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "consciente",
+      "definition": "Persona que tiene conocimiento de algo o se da cuenta de ello,",
+      "sentence1": "La gente no es consciente del cambio clim\u00e1tico.",
+      "sentence2": "La muchacha est\u00e1 consciente del problema.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "ferrocarril",
+      "definition": "Camino con dos carriles de hierro paralelos hechos para trenes",
+      "sentence1": "Hoy inauguran las nuevas l\u00edneas del ferrocarril.",
+      "sentence2": "No hay que correr sobre las l\u00edneas de ferrocarril.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "Atl\u00e1ntico",
+      "definition": "Perteneciente al oc\u00e9ano Atl\u00e1ntico, o a los territorios que ba\u00f1a.",
+      "sentence1": "El Atl\u00e1ntico es muy amplio.",
+      "sentence2": "En el Atl\u00e1ntico hay mucha fauna marina.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "inversi\u00f3n",
+      "definition": "Cambiar por sus contrarios, el orden o el sentido de las cosas",
+      "sentence1": "Mi pap\u00e1 va a hacer una inversi\u00f3n para la empresa.",
+      "sentence2": "Pude hacer la inversi\u00f3n para mi casa.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "mortalidad",
+      "definition": "Cualidad de que est\u00e1 sujeto a la muerte.",
+      "sentence1": "La tasa de mortalidad es preocupante.",
+      "sentence2": "La mortalidad en el pa\u00eds es alta.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "posici\u00f3n",
+      "definition": "Postura, actitud o modo en que alguien o algo est\u00e1 puesto.",
+      "sentence1": "Yo estoy en la primera posici\u00f3n.",
+      "sentence2": "\u00c9l discute por su posici\u00f3n de alcalde.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "cuadril\u00e1tero",
+      "definition": "Pol\u00edgono, que tiene cuatro \u00e1ngulos y cuatro lados",
+      "sentence1": "Hay que tener cuidado al entrar al cuadril\u00e1tero.",
+      "sentence2": "Aquel cuadril\u00e1tero ten\u00eda un lado diferente.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "farmac\u00e9utico",
+      "definition": "Perteneciente o relativo a la farmacia.",
+      "sentence1": "Mi primo estudia para ser farmac\u00e9utico.",
+      "sentence2": "El farmac\u00e9utico me recomend\u00f3 algunos medicamentos.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "Turrialba",
+      "definition": "Turrialba ciudad en la provincia de Cartago, Costa Rica.",
+      "sentence1": "El queso Turrialba es el m\u00e1s rico.",
+      "sentence2": "Mi amiga vive en Turrialba.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "existencia",
+      "definition": "Acto de existir, haber, estar, hallarse",
+      "sentence1": "Se complica la existencia cada d\u00eda.",
+      "sentence2": "La existencia de las hormigas es indispensable.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "desnutrici\u00f3n",
+      "definition": "Trastorno de la nutrici\u00f3n, poca alimentaci\u00f3n.",
+      "sentence1": "La desnutrici\u00f3n puede ser mortal.",
+      "sentence2": "Lo internaron en el hospital por desnutrici\u00f3n.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "censura",
+      "definition": "Acci\u00f3n de corregir o reprobar algo o a alguien..",
+      "sentence1": "La pel\u00edcula no tiene censura.",
+      "sentence2": "La censura del comercial es insuficiente.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "discusi\u00f3n",
+      "definition": "Acci\u00f3n de examinar particularmente una materia..",
+      "sentence1": "Mis primos tienen una discusi\u00f3n.",
+      "sentence2": "Esta reuni\u00f3n se volv\u00edo una discusi\u00f3n.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "Centuriones",
+      "definition": "Nombre de la novela le\u00edda en el I Trimestre.",
+      "sentence1": "El libro Centuriones se clasifica como una novela.",
+      "sentence2": "El coach Fletes es un personaje del libro Centuriones.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "creencia",
+      "definition": "Firme asentimiento y conformidad con algo.",
+      "sentence1": "Respetamos su creencia.",
+      "sentence2": "La creencia en cuentos tradicionales es muy com\u00fan.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "di\u00e1logo",
+      "definition": "Pl\u00e1tica entre dos o m\u00e1s personas.",
+      "sentence1": "Mi padres tienen un di\u00e1logo con la maestra.",
+      "sentence2": "Escuchamos un di\u00e1logo en italiano.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "vigilancia",
+      "definition": "Cuidado en las cosas que est\u00e1n a cargo de cada uno.",
+      "sentence1": "Mi colegio cuenta con vigilancia todo el d\u00eda.",
+      "sentence2": "La vigilancia de la Casa Presidencial es especializada.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "habilidad",
+      "definition": "Capacidad y disposici\u00f3n para algo.",
+      "sentence1": "Tengo la habilidad de deletrear.",
+      "sentence2": "Los cocodrilos tienen la habilidad de nadar muy r\u00e1pido.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "inc\u00f3gnita",
+      "definition": "Suceso que no se comprende.",
+      "sentence1": "Tuvimos que despejar la inc\u00f3gnita para obtener el resultado correcto.",
+      "sentence2": "Tengo la inc\u00f3gnita de saber cu\u00e1l fue mi nota en el examen de Ciencias.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "enc\u00e9falo",
+      "definition": "Conjunto de \u00f3rganos contenidos en la cavidad del cr\u00e1neo.",
+      "sentence1": "El enc\u00e9falo nos ayuda a pensar.",
+      "sentence2": "Sin el enc\u00e9falo no ser\u00edamos capaces de nada.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "tiroxina",
+      "definition": "Amino\u00e1cido prote\u00ednico.",
+      "sentence1": "La carne es un alimento rico en tiroxina.",
+      "sentence2": "La tiroxina reduce la fatiga.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "abstinencia",
+      "definition": "Acci\u00f3n de privarse de algo.",
+      "sentence1": "La abstinencia de comer grasa es buena.",
+      "sentence2": "Me cuesta la abstinenccia de tomar gaseosas.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "hinchaz\u00f3n",
+      "definition": "Efecto de que aumente de volumen alg\u00fan objeto o cuerpo.",
+      "sentence1": "Despu\u00e9s del golpe tuvo hinchaz\u00f3n en la rodilla.",
+      "sentence2": "La hinchaz\u00f3n se la pueden bajar con hielo.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "inseminaci\u00f3n",
+      "definition": "Llegada del semen al \u00f3vulo mediante la c\u00f3pula sexual.",
+      "sentence1": "La inseminaci\u00f3n artificial es muy compleja.",
+      "sentence2": "Esta noticia habla de la inseminaci\u00f3n artificial.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "procreaci\u00f3n",
+      "definition": "Acci\u00f3n de engendrar un individuo de su misma especie.",
+      "sentence1": "La procreaci\u00f3n previene la extinci\u00f3n animal.",
+      "sentence2": "Algunos organismo no requieren la procreaci\u00f3n para reproducirse.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "bi\u00f3sfera",
+      "definition": "Conjunto de los medios donde se desarrollan los seres vivos",
+      "sentence1": "La bi\u00f3sfera esta contaminada.",
+      "sentence2": "Debemos cuidar la bi\u00f3sfera.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "abi\u00f3ticos",
+      "definition": "Dicho de un medio: Que carece de seres vivos.",
+      "sentence1": "Existen bosques abi\u00f3ticos.",
+      "sentence2": "La qu\u00edmica inorg\u00e1nica estudia medios abi\u00f3ticos.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "carro\u00f1eros",
+      "definition": "Dicho de un animal: Que se alimenta principalmente de carro\u00f1a.",
+      "sentence1": "Los buitres son carro\u00f1eros.",
+      "sentence2": "La calle estaba llena de carro\u00f1eros.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "vegetaci\u00f3n",
+      "definition": "Conjunto de los vegetales propios de un lugar o regi\u00f3n.",
+      "sentence1": "Costa Rica tiene vegetaci\u00f3n de importancia mundial.",
+      "sentence2": "La vegetaci\u00f3n de la selva es indispensable para el ecosistema.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "arrecife",
+      "definition": "Calzada, camino afirmado o empedrado.",
+      "sentence1": "El arrecife tiene colores hermosos.",
+      "sentence2": "El arrecife es un recursos natural importante para el pa\u00eds.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "pluvial",
+      "definition": "Perteneciente o relativo a la lluvia.",
+      "sentence1": "Costa Rica cuenta con un fuerte sistema pluvial.",
+      "sentence2": "El sistema pluvial nos ayuda a tener agua potable.",
+      "type": "aguda"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "ojoche",
+      "definition": "\u00c1rbol caracter\u00edstico de la vertiente atl\u00e1ntica de Centroam\u00e9rica.",
+      "sentence1": "En el patio de mi casa sembramos un ojoche.",
+      "sentence2": "La frutilla del ojoche es de color anaranjado.",
+      "type": "grave"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "geot\u00e9rmica",
+      "definition": "Conjunto de los fen\u00f3menos t\u00e9rmicos internos del globo terrestre.",
+      "sentence1": "Costa Rica cuenta con una planta geot\u00e9rmica.",
+      "sentence2": "La energ\u00eda geot\u00e9rmica es una soluci\u00f3n al problema ambiental.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "dif\u00edcil",
+      "grade": "6",
+      "word": "decibel",
+      "definition": "Unidad de intensidad ac\u00fastica.",
+      "sentence1": "Los altos decibeles pueden da\u00f1ar el o\u00eddo de las personas.",
+      "sentence2": "Los animales perciben decibeles que el hombre no.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "anticlerical",
+      "definition": "Contrario a  la influencia excesiva del clero",
+      "sentence1": "El espacio p\u00fablico debe ser anticlerical.",
+      "sentence2": "El Partido Socialista es altamente anticlerical.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "secularizaci\u00f3n",
+      "definition": "Es el paso de algo o alguien de una esfera religiosa a una civil o no teol\u00f3gica",
+      "sentence1": "Crear el Estado laico significa su secularizaci\u00f3n.",
+      "sentence2": "La secularizaci\u00f3n es propia del progresismo.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "prohibici\u00f3n",
+      "definition": "Acci\u00f3n y efecto de impedir el uso o la ejecuci\u00f3n de algo.",
+      "sentence1": "La prohibici\u00f3n de drogas en el colegio es vital.",
+      "sentence2": "La prohibici\u00f3n de la comida en el cine es injusta.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "laicizaci\u00f3n",
+      "definition": "Acci\u00f3n de independizar de toda influencia religiosa..",
+      "sentence1": "Grupos costarricenses piden la laicizaci\u00f3n del Estado.",
+      "sentence2": "La laizaci\u00f3n estatal es com\u00fan en todo el mundo.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "inviolable",
+      "definition": "Que no se debe o no se puede violar",
+      "sentence1": "El derecho a la vida es inviolable.",
+      "sentence2": "Los derechos humanos son tanto inalienables como inviolables.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "aeroespacial",
+      "definition": "Perteneciente a la atm\u00f3sfera terrestre y al espacio exterior.",
+      "sentence1": "La nave aeroespacial tard\u00f3 a\u00f1os en crearse.",
+      "sentence2": "La base aeroespacial investiga posible vida en otros planetas.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "interacci\u00f3n",
+      "definition": "Acci\u00f3n que se ejerce rec\u00edprocamente entre dos o m\u00e1s seres",
+      "sentence1": "La interacci\u00f3n entre hermanos es vital.",
+      "sentence2": "Hay interacci\u00f3n importante entre especies salvajes.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "fosforescente",
+      "definition": "Cualidad de algunos objetos para reflejar luz.",
+      "sentence1": "Me compraron una blusa anaranjado fosforescente.",
+      "sentence2": "Aquella luz tan fosforescente me encandil\u00f3.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "percepci\u00f3n",
+      "definition": "Acci\u00f3n y efecto de recibir algo y encargarse de ello.",
+      "sentence1": "Depende de la percepci\u00f3n del problema.",
+      "sentence2": "La percepci\u00f3n del sabor depende de cada persona.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "inhalante",
+      "definition": "Vapores qu\u00edmicos que pueden ser inhalados",
+      "sentence1": "El nitrito but\u00edlico es un peligro de los inhalantes.",
+      "sentence2": "Los inhalantes pueden ser altamente adictivos.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "comercializaci\u00f3n",
+      "definition": "Acci\u00f3n de vender un producto.",
+      "sentence1": "La comercializaci\u00f3n de animales salvajes es ilegal.",
+      "sentence2": "La comercializaci\u00f3n de las fresas va en aumento.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "p\u00e1ncreas",
+      "definition": "\u00d3rgano glandular situado en el abdomen, segrega la insulina",
+      "sentence1": "Mi primo tiene dolor en el p\u00e1ncreas.",
+      "sentence2": "Los problemas en el p\u00e1ncreas pueden ser cr\u00edticos para la vida.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "Cirrosis",
+      "definition": "Enfermedad cr\u00f3nica e irreversible del h\u00edgado",
+      "sentence1": "Las personas con cirrosis sufren mucho.",
+      "sentence2": "La cirrosis se produce por la alta ingesta de alcohol.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "luteinizante",
+      "definition": "Hormona gonadotr\u00f3pica de naturaleza glucoproteica",
+      "sentence1": "La hormona luteinizante ayuda a la ovulaci\u00f3n de la hembra.",
+      "sentence2": "La falta de hormonas luteinizantes puede generar infertilidad en la hembra.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "Epilepsia",
+      "definition": "Enfermedad del sistema nervioso, convulsiones violentas",
+      "sentence1": "El perro de mi amiga tiene epilepsia.",
+      "sentence2": "Las personas con epilepsia requieren muchos cuidados.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "alucin\u00f3geno",
+      "definition": "Sustancia que provoca alteraciones perceptivas.",
+      "sentence1": "El hongo alucin\u00f3geno es de color morado.",
+      "sentence2": "El medicamento tiene un componente alucin\u00f3geno.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "exaltaci\u00f3n",
+      "definition": "Alabanza a algo que se resaltan mucho sus cualidades",
+      "sentence1": "La exaltaci\u00f3n del p\u00fablico fue incre\u00edble.",
+      "sentence2": "Fue un momento de mucha exaltaci\u00f3n.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "diazepam",
+      "definition": "Medicamento para el tratamiento de problemas de ansiedad",
+      "sentence1": "El farmace\u00fatico me receta una p\u00edldora de diazepam.",
+      "sentence2": "El diazepam puede causar mareos.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "hipotiroidismo",
+      "definition": "Actividad inferior a la normal de la gl\u00e1ndula tiroidea",
+      "sentence1": "Mi perrito padece de hipotiroidismo.",
+      "sentence2": "Existen pastillas para regular el hipotiroidismo.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "amnios",
+      "definition": "Saco cerrado que envuelve y protege el embri\u00f3n",
+      "sentence1": "Los amnios son membranas que cubren a los reptiles.",
+      "sentence2": "El cachorro ten\u00eda amnios en su pelaje.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "bahareque",
+      "definition": "Material utilizado para hacer casas.",
+      "sentence1": "Estuvimos hospedados en las cabinas de bahareque.",
+      "sentence2": "Construyeron una cochera de bahareque en la casa de mis t\u00edos.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "deslizamiento",
+      "definition": "Acci\u00f3n y efecto de arrastrar",
+      "sentence1": "Hubo un deslizamiento de tierra cerca del r\u00edo.",
+      "sentence2": "Despu\u00e9s de las lluvias se repostaron varios deslizamientos.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "tepezcuintle",
+      "definition": "Especie de roedor que habita en los bosques tropicales.",
+      "sentence1": "Mi abuelo vio un tepezcuintle cruzar la calle.",
+      "sentence2": "En el zool\u00f3gico hay un tepezcuintle.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "transmisi\u00f3n",
+      "definition": "Trasladar, transferir mensajes o se\u00f1ales",
+      "sentence1": "El radio tiene problemas de transmisi\u00f3n.",
+      "sentence2": "Est\u00e1 fallando la transmisi\u00f3n en el televisor.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "estetoscopio",
+      "definition": "Aparato destinado a reconocer los sonidos del pecho",
+      "sentence1": "Escuchamos sus latidos por el estetoscopio.",
+      "sentence2": "No funciona el estetoscopio del doctor.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "corpuscular",
+      "definition": "Que tiene porciones muy peque\u00f1as de materia.",
+      "sentence1": "El frijol es una especie corpuscular.",
+      "sentence2": "La teor\u00eda corpuscular de la luz es muy interesante.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "homogeneidad",
+      "definition": "Perteneciente a un mismo g\u00e9nero  de iguales caracteres.",
+      "sentence1": "La homogeneidad de los elementos qu\u00edmicos es importante.",
+      "sentence2": "Esta homogeneidad permite la participaci\u00f3n de todos.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "dinam\u00f3metro",
+      "definition": "Instrumento para medir fuerzas de los cuerpos el\u00e1sticos",
+      "sentence1": "El cient\u00edfico me mostr\u00f3 un dinam\u00f3metro.",
+      "sentence2": "El dinam\u00f3metro fue inventado por Isaac Newton.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "l\u00e1nguido",
+      "definition": "Persona que no tiene fuerza, que est\u00e1 con falta de \u00e1nimo.",
+      "sentence1": "\u00c9l est\u00e1 l\u00e1nguido por no salir bien en el examen.",
+      "sentence2": "Ella est\u00e1 l\u00e1nguida porque perdi\u00f3 su billetera.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "decantaci\u00f3n",
+      "definition": "Separar sustancias de diferente densidad en un medio l\u00edquido",
+      "sentence1": "La decantaci\u00f3n es un proceso importante en el tratamiento de las aguas residuales.",
+      "sentence2": "La decantaci\u00f3n del vino dura alrededor de 15 minutos.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "irreversible",
+      "definition": "Que no es reversible.",
+      "sentence1": "El pasado es irreversible.",
+      "sentence2": "El marcador del juego fue irreversible.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "sublimaci\u00f3n",
+      "definition": "Engrandecer, exaltar, ensalzar, elevar a un grado superior.",
+      "sentence1": "La sublimaci\u00f3n fue crucial durante el Imperio Romano.",
+      "sentence2": "La sublimaci\u00f3n en la cocina es un proceso avanzado.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "contexto",
+      "definition": "Conjunto de circunstancias que rodean una situaci\u00f3n",
+      "sentence1": "La oraci\u00f3n estaba fuera de contexto.",
+      "sentence2": "El contexto en que se di\u00f3 no fue apropiado.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "simultaneidad",
+      "definition": "Circunstancia de ser simult\u00e1neas dos o m\u00e1s cosas.",
+      "sentence1": "En gimnasia, la simultaneidad es muy importante.",
+      "sentence2": "Una Era recoge la simultaneidad de muchos acontecimientos.",
+      "type": "aguda"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "pitahaya",
+      "definition": "Es un tipo de fruta proveniente de Am\u00e9rica.",
+      "sentence1": "Ayer compramos un kilo de pitahaya en la feria.",
+      "sentence2": "La pitahaya es de color rosado.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "adversativa",
+      "definition": "Que indica oposici\u00f3n total o parcial al significado de otra oraci\u00f3n.",
+      "sentence1": "Las oraciones adversativas se distinguen f\u00e1cilmente.",
+      "sentence2": "La relaci\u00f3n con otras personas no debe ser adversativa.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "alumnado",
+      "definition": "Conjunto de alumnos de una comunidad.",
+      "sentence1": "El alumnado escuch\u00f3 con atenci\u00f3n las indicaciones.",
+      "sentence2": "Todo el alumnado asistir\u00e1 al Festival de las Artes.",
+      "type": "grave"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "prerrom\u00e1ntico",
+      "definition": "Es una doctrina anterior al romanticismo.",
+      "sentence1": "\u00c9l es un autor prerrom\u00e1ntico.",
+      "sentence2": "El texto que ley\u00f3 el docente es clasificado como prerrom\u00e1ntico.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "ling\u00fc\u00edstica",
+      "definition": "Ciencia que estudia el lenguaje humano y las lenguas.",
+      "sentence1": "Mi profesora de ling\u00fc\u00edstica es muy buena.",
+      "sentence2": "Yo tengo una materia que se llama ling\u00fc\u00edstica.",
+      "type": "esdr\u00fajula"
+    },
+    {
+      "level": "experto",
+      "grade": "6",
+      "word": "paratexto",
+      "definition": "Mensajes que complementan el contenido principal de un texto",
+      "sentence1": "Mariela no tiene un paratexto en su trabajo de Espa\u00f1ol.",
+      "sentence2": "El paratexto de este art\u00edculo presenta muchos colores.",
+      "type": "grave"
+    }
+  ],
+  "sel_grade": "1",
+  "sel_level": "experto",
+  "sel_words": []
+}
