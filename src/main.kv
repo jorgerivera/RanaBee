@@ -24,7 +24,7 @@
 				#font_name: 'HOS.ttf'
 				line_height: 2
 			Image:
-				source: '../assets/english_event_logo.png'
+				source: '../assets/spanish_event_logo.256.png'
 				size_hint: self.image_ratio,1
 				valign: 'bottom'
 		BoxLayout:
@@ -79,12 +79,32 @@
 			rgba: 0.8,0.8,0.8,1
 	FloatLayout:
 		size: root.size
-		ImageButton:
-			id: 'img_contestants'
+#		ImageButton:
+#			id: 'img_contestants'
+#			pos_hint: {'center_x':0.5,'center_y':0.5}
+#			size_hint: 1*self.image_ratio,1
+#			source: root.img_source
+#			on_release: root.goto_cards()
+		Video:
+			id: 'vid_contestants'
 			pos_hint: {'center_x':0.5,'center_y':0.5}
 			size_hint: 1*self.image_ratio,1
-			source: root.img_source
+			source: root.vid_source
+			preview: root.img_source
+			#on_release: root.goto_cards()
+			state: 'play'
+			options: { 'eos': 'loop' }
+		Button:
+			id: btn_next
+			text: '¡Iniciar!'
+			valign: 'bottom'
+			halign: 'right'
+			size_hint: 0.1,0.1
+			pos_hint: {'right':1,'top':0.1}
 			on_release: root.goto_cards()
+			background_normal: '../assets/green_button.png'
+			background_down: '../assets/green_button_pressed.png'
+
 <CardWidget>:
 	canvas:
 		Color:
@@ -114,7 +134,7 @@
 			size_hint: 0.2,0.2/self.image_ratio
 		ImageButton:
 			pos_hint: {'top':0.95,'x':0.8}
-			source: '../assets/english_event_logo.png'
+			source: '../assets/spanish_event_logo.256.png'
 			size_hint: 0.2,0.2/self.image_ratio
 			on_release: root.next_word()
 		Label:
@@ -244,7 +264,7 @@ BoxLayout:
 			ActionPrevious:
 				title: app.get_string('title')
 				with_previous: False
-				app_icon: '../assets/english_event_logo.png'
+				app_icon: '../assets/spanish_event_logo.256.png'
 				on_release: app.back()
 			ActionGroup:
 				text: app.get_string('file')

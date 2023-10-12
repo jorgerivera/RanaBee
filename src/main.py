@@ -1,5 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+import os
+os.environ['KIVY_VIDEO'] = 'ffpyplayer'
+
 
 from kivy.app import App
 from kivy.factory import Factory
@@ -10,6 +13,7 @@ from kivy.uix.behaviors import ButtonBehavior
 from kivy.uix.button import Button
 from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.image import Image
+from kivy.uix.video import Video
 from kivy.uix.label import Label
 from kivy.uix.popup import Popup
 from kivy.uix.screenmanager import ScreenManager, Screen, SlideTransition
@@ -17,7 +21,6 @@ from kivy.clock import Clock
 from kivy.config import Config
 
 import itertools
-import os
 import os.path
 import parse_tools
 import random
@@ -60,8 +63,9 @@ spanish_strings = {
 	'words_selected' : 'Hay %s palabras seleccionadas',
 	'no_words_selected' : 'No hay palabras seleccionadas',
 	'level_list' : ['mediana', 'difícil', 'experto'],
-	'grade_list' : ['Prepa', 'Primer', 'Segundo', 'Tercer', 'Cuarto', 'Quinto', 'Sexto'],
-	'grade_number_list' : ['Prepa', '1', '2', '3', '4', '5', '6'],
+	'grade_list' : ['Prepa', 'Tercer', 'Segundo', 'Primer', 'Cuarto', 'Quinto', 'Sexto'],
+	#'grade_number_list' : ['Prepa', '1', '2', '3', '4', '5', '6'],
+	'grade_number_list' : ['0', '3', '2', '1', '4', '5', '6'],
 	'grade_name' : '%s grado',
 	'next_level' : '¡Siguiente dificultad!',
 	'next_grade' : '¡Siguiente nivel!',
@@ -97,7 +101,8 @@ english_strings = {
 	'no_words_selected' : 'No words selected',
 	'level_list' : ['easy', 'middle', 'difficult', 'challenge'],
 	'grade_list' : ['No', 'First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth'],
-	'grade_number_list' : ['0', '1', '2', '3', '4', '5', '6'],
+	#'grade_number_list' : ['0', '1', '2', '3', '4', '5', '6'],
+	'grade_number_list' : ['0', '3', '2', '1', '4', '5', '6'],
 	'grade_name' : '%s grade',
 	'next_level' : 'Next level!',
 	'next_grade' : 'Next grade!',
@@ -110,7 +115,11 @@ english_strings = {
 class ImageButton(ButtonBehavior, Image):
 	pass
 
+class VideoButton(ButtonBehavior, Video):
+	pass
+
 Factory.register('ImageButton',cls=ImageButton)
+Factory.register('VideoButton',cls=VideoButton)
 
 class RootWidget(Screen):
 	'''This is the class representing your root widget.
@@ -267,6 +276,7 @@ class CardWidget(Screen):
 		self.shuffling = False
 		self.ids['lbl_word'].color = [0,0,0,1]
 		self.announcement_size = ann_size
+		print(f"Set accent [{self.language}] [{next_word.type}]")
 		if self.language=='Español' and next_word.type and next_word.type!='None':
 			self.accent_type = next_word.type
 			self.accent_lbl = App.get_running_app().get_string("accent_type")
@@ -319,6 +329,7 @@ class MainApp(App):
 	def build(self):
 		config = self.config
 		print(f"bla- {config['general']['language']}")
+		self.language = config['general']['language']
 
 		#self.state.words = parse_tools.word_list
 
@@ -468,6 +479,7 @@ class MainApp(App):
 			next_grade = self.sp_grades[curr_grade_idx+1]
 			self.state.sel_level = self.get_string('level_list')[0]
 			self.state.sel_grade = next_grade
+			print(f"[next_level]: state grade {self.state.sel_grade}")
 			self.update_selected_words()
 			self.root.ids.sm.get_screen('titlecard').sel_grade = self.state.sel_grade
 			self.root.ids.sm.current = 'titlecard'
