@@ -71,8 +71,8 @@ spanish_strings = {
 	'next_grade' : '¡Siguiente nivel!',
 	'the_end'    : '¡Fin!',
 	'level_words': 'A continuación: palabras de nivel %s',
-	'contestants_img_src' : '../assets/contestants_%s.jpg',
-	'contestants_vid_src' : '../assets/contestants_%s.mp4',
+	'contestants_img_src' : '../assets/%s_contestants_%s.jpg',
+	'contestants_vid_src' : '../assets/%s_contestants_%s.mp4',
 }
 
 english_strings = {
@@ -108,8 +108,8 @@ english_strings = {
 	'next_grade' : 'Next grade!',
 	'the_end'    : 'Done!',
 	'level_words': 'Starting with %s words!',
-	'contestants_img_src' : '../assets/contestants_%s.jpg',
-	'contestants_vid_src' : '../assets/contestants_%s.mp4',
+	'contestants_img_src' : '../assets/%s_contestants_%s.jpg',
+	'contestants_vid_src' : '../assets/%s_contestants_%s.mp4',
 }
 
 class ImageButton(ButtonBehavior, Image):
@@ -132,14 +132,15 @@ class TitleCardWidget(Screen):
 	sel_grade = StringProperty()
 	img_source = StringProperty()
 	vid_source = StringProperty()
+	year = StringProperty()
 
 	def on_pre_enter(self, *args):
 		self.update_title()
 		return super().on_pre_enter(*args)
 
 	def update_title(self):
-		self.img_source = App.get_running_app().get_string('contestants_img_src') % self.sel_grade
-		self.vid_source = App.get_running_app().get_string('contestants_vid_src') % self.sel_grade
+		self.img_source = App.get_running_app().get_string('contestants_img_src') % (self.year, self.sel_grade)
+		self.vid_source = App.get_running_app().get_string('contestants_vid_src') % (self.year, self.sel_grade)
 		print(f'titlecard: img_source [{self.img_source}] vid_source [{self.vid_source}]')
 	
 	def goto_cards(self):
@@ -318,13 +319,14 @@ class MainApp(App):
 	sel_mode = StringProperty()
 	loadfile = ObjectProperty(None)
 	language = OptionProperty("English", options=["Español", "English"])
-	strings = DictProperty(spanish_strings)
+	strings = DictProperty(english_strings)
 	word_count = StringProperty()
 	sel_word_count = StringProperty()
 	sp_levels = ListProperty()
 	sp_grades = ListProperty()
 	state = parse_tools.ContestState()
 	session_fn = StringProperty('session.save')
+	year = StringProperty()
 
 	def build(self):
 		config = self.config
@@ -336,6 +338,7 @@ class MainApp(App):
 		self.root.ids.sm.add_widget(RootWidget(name='root'))
 		self.root.ids.sm.add_widget(CardWidget(name='card'))
 		self.root.ids.sm.add_widget(TitleCardWidget(name='titlecard'))
+		self.root.ids.sm.get_screen('titlecard').year = self.year
 		#self.strings = spanish_strings
 		self.update_word_count(self.state.words.get_word_count())
 		self.sp_levels = self.state.words.get_levels()
@@ -539,7 +542,7 @@ if '__main__' == __name__:
 	print('working dir %s' % os.getcwd())
 	db = parse_tools.WordList()
 	dir_to_search = [ 'assets' ]
-	year = '23'
+	year = '24'
 	fn_templates = [ f'bee{year}.xlsx',
 					 f'bee{year}.xls',
 					 f'ranabc{year}.xlsx',
@@ -555,6 +558,7 @@ if '__main__' == __name__:
 	Config.set('kivy', 'exit_on_escape', False)
 
 	app = MainApp()
+	app.year = '2024'
 	app.state.words = db
 	app.state.words.randomize()
 	app.run()

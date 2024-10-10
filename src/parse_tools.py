@@ -23,6 +23,7 @@ JSONEncoder.default = _default
 class Word(object):
 
 	_fields = ['level','grade','word','definition','sentence1','sentence2','type']
+	_valid_grades = [ 'Prepa', '1', '2', '3', '4', '5', '6' ]
 
 	@property
 	def level(self):
@@ -38,6 +39,23 @@ class Word(object):
 
 	@grade.setter
 	def grade(self, val):
+		if val not in self._valid_grades:
+			val = val.lower()
+			if val in [ 'primero', 'first' ]:
+				val = '1'
+			elif val in [ 'segundo', 'second' ]:
+				val = '2'
+			elif val in  [ 'tercero', 'third' ]:
+				val = '3'
+			elif val in  [ 'cuarto', 'fourth' ]:
+				val = '4'
+			elif val in  [ 'quinto', 'fifth' ]:
+				val = '5'
+			elif val in  [ 'sexto', 'sixth' ]:
+				val = '6'
+			else:
+				print(f"Invalid grade name {val}")
+				val = 'UNKNOWN'
 		self.__grade = val
 
 	@property
@@ -91,10 +109,11 @@ class Word(object):
 			setattr(self, k, v)
 
 	def __repr__(self):
-		values = {}
-		for k in self._fields:
-			values[k] = getattr(self, k)
-		return json.dumps(values)
+		#values = {}
+		#for k in self._fields:
+		#	values[k] = getattr(self, k)
+		#return json.dumps(values)
+		return f"Word<{self.word}|G{self.grade}|L{self.level}>"
 
 	def to_json(self):
 		values = {}
@@ -116,7 +135,7 @@ def parse_wordlist(f, db=None, wlist=None):
 			if first:
 				first = False
 				continue
-			if not row[0].value or row[0].value == 'dificultad':
+			if not row[0].value or row[0].value.lower() in ['dificultad','difficulty']:
 				continue
 			row[0].value = row[0].value.lower()
 			values = [str(v.value).replace(u'\xa0',' ').strip() for v in row[0:7]]
