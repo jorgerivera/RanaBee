@@ -8,7 +8,7 @@ from kivy.app import App
 from kivy.factory import Factory
 from kivy.properties import StringProperty, ObjectProperty, ListProperty, \
 	NumericProperty, OptionProperty, DictProperty
-from kivy.resources import resource_find
+from kivy.resources import resource_find, resource_add_path
 from kivy.uix.behaviors import ButtonBehavior
 from kivy.uix.button import Button
 from kivy.uix.floatlayout import FloatLayout
@@ -50,6 +50,7 @@ spanish_strings = {
 	'contest' :  'Concurso',
 	'definition' : 'Definición:',
 	'samples' : 'Ejemplos:',
+	'sample' : 'Ejemplo:',
 	'cancel' : 'Cancelar',
 	'load' : 'Cargar',
 	'new' : 'Nuevo',
@@ -64,12 +65,13 @@ spanish_strings = {
 	'no_words_selected' : 'No hay palabras seleccionadas',
 	'level_list' : ['mediana', 'difícil', 'experto'],
 	'grade_list' : ['Prepa', 'Tercer', 'Segundo', 'Primer', 'Cuarto', 'Quinto', 'Sexto'],
-	#'grade_number_list' : ['Prepa', '1', '2', '3', '4', '5', '6'],
-	'grade_number_list' : ['0', '3', '2', '1', '4', '5', '6'],
+	'grade_number_list' : ['Prepa', '1', '2', '3', '4', '5', '6'],
+	#'grade_number_list' : ['0', '3', '2', '1', '4', '5', '6'],
 	'grade_name' : '%s grado',
 	'next_level' : '¡Siguiente dificultad!',
 	'next_grade' : '¡Siguiente nivel!',
 	'the_end'    : '¡Fin!',
+	'start'      : '¡Iniciar!',
 	'level_words': 'A continuación: palabras de nivel %s',
 	'contestants_img_src' : '../assets/%s_contestants_%s.jpg',
 	'contestants_vid_src' : '../assets/%s_contestants_%s.mp4',
@@ -87,6 +89,7 @@ english_strings = {
 	'contest' :  'Contest',
 	'definition' : 'Definition:',
 	'samples' : 'Examples:',
+	'sample' : 'Example:',
 	'cancel' : 'Cancel',
 	'load' : 'Load',
 	'new' : 'New',
@@ -101,12 +104,13 @@ english_strings = {
 	'no_words_selected' : 'No words selected',
 	'level_list' : ['easy', 'middle', 'difficult', 'challenge'],
 	'grade_list' : ['No', 'First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth'],
-	#'grade_number_list' : ['0', '1', '2', '3', '4', '5', '6'],
-	'grade_number_list' : ['0', '3', '2', '1', '4', '5', '6'],
+	'grade_number_list' : ['0', '1', '2', '3', '4', '5', '6'],
+	#'grade_number_list' : ['0', '3', '2', '1', '4', '5', '6'],
 	'grade_name' : '%s grade',
 	'next_level' : 'Next level!',
 	'next_grade' : 'Next grade!',
 	'the_end'    : 'Done!',
+	'start'      : 'Start!',
 	'level_words': 'Starting with %s words!',
 	'contestants_img_src' : '../assets/%s_contestants_%s.jpg',
 	'contestants_vid_src' : '../assets/%s_contestants_%s.mp4',
@@ -139,7 +143,7 @@ class TitleCardWidget(Screen):
 		return super().on_pre_enter(*args)
 
 	def update_title(self):
-		self.img_source = App.get_running_app().get_string('contestants_img_src') % (self.year, self.sel_grade)
+		# self.img_source = App.get_running_app().get_string('contestants_img_src') % (self.year, self.sel_grade)
 		self.vid_source = App.get_running_app().get_string('contestants_vid_src') % (self.year, self.sel_grade)
 		print(f'titlecard: img_source [{self.img_source}] vid_source [{self.vid_source}]')
 	
@@ -242,7 +246,7 @@ class CardWidget(Screen):
 			next_word = App.get_running_app().state.sel_words.pop()
 			Clock.schedule_once(partial(self.change_word,
 			 				next_word,
-							32,
+							48,
 							True))
 			Clock.schedule_once(self.update_boxes)
 		except IndexError:
@@ -262,14 +266,14 @@ class CardWidget(Screen):
 			self.word = sel_word.word
 
 	def change_word(self, next_word, ann_size, from_db, *largs):
-		print('next word is %s [has %s chars]' % (next_word.word, len(next_word.word)))
+		print('next word is %s [it has %s chars]' % (next_word.word, len(next_word.word)))
 		self.word = next_word.word
-		if len(next_word.word) > 25:
-			self.word_size = 80
-		elif len(next_word.word) > 18:
-			self.word_size = 100
+		if len(self.word) > 25:
+			self.word_size = 90
+		elif len(self.word) > 18:
+			self.word_size = 110
 		else:
-			self.word_size = 120
+			self.word_size = 140
 		self.definition = next_word.definition
 		self.sentence1 = next_word.sentence1
 		self.sentence2 = next_word.sentence2 if next_word.sentence2 is not None else ''
@@ -542,6 +546,8 @@ if '__main__' == __name__:
 	print('working dir %s' % os.getcwd())
 	db = parse_tools.WordList()
 	dir_to_search = [ 'assets' ]
+	# Add resource path to ensure it gets packaged.
+	resource_add_path(os.path.abspath('assets'))
 	year = '24'
 	fn_templates = [ f'bee{year}.xlsx',
 					 f'bee{year}.xls',

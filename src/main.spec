@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\Users\\jrivera\\Dropbox\\RanaBee\\src'],
+             pathex=['C:\\Users\\jrive\\OneDrive\\Documentos\\GitHub\\RanaBee\\src\\'],
              binaries=None,
              datas=None,
              hiddenimports=['ConfigParser'],

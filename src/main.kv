@@ -16,15 +16,16 @@
 				valign: 'bottom'
 			Label:
 				text: app.get_string('letsspell')
-				text_size: root.width, 250
+				text_size: root.width, 350
 				size_hint: 2,1
+				color: 0,0,0,1
 				halign: 'center'
 				valign: 'bottom'
-				font_size: '50sp'
+				font_size: '120sp'
 				#font_name: 'HOS.ttf'
-				line_height: 2
+				line_height: 1
 			Image:
-				source: '../assets/spanish_event_logo.256.png'
+				source: '../assets/2024_event_logo.png'
 				size_hint: self.image_ratio,1
 				valign: 'bottom'
 		BoxLayout:
@@ -36,12 +37,14 @@
 				text: app.get_string('grade')
 				values: app.sp_grades
 				size_hint: 1,0.5
+				font_size: '30sp'
 				on_text: app.set_grade(self.text)
 			Spinner:
 				id: 'sp_level'
 				text: app.get_string('level_list')[0]
 				values: app.sp_levels
 				size_hint: 1,0.5
+				font_size: '30sp'
 				on_text: app.set_level(self.text.lower())
 			BoxLayout:
 				orientation: 'vertical'
@@ -66,10 +69,12 @@
 					text: app.get_string('contest')
 					values: (app.get_string('contest'), app.get_string('alphabetic'), app.get_string('random'))
 					on_text: app.sel_mode = self.text
+					font_size: '30sp'
 				Button:
 					size_hint: 1,0.8
 					text: app.get_string('start')
 					on_release: app.start()
+					font_size: '50sp'
 					#background_normal: '../assets/green_button.png'
 					#background_down: '../assets/green_button_pressed.png'
 
@@ -96,10 +101,11 @@
 			options: { 'eos': 'loop' }
 		Button:
 			id: btn_next
-			text: '¡Iniciar!'
+			text: app.get_string('start')
 			valign: 'bottom'
 			halign: 'right'
 			size_hint: 0.1,0.1
+			font_size: '30sp'
 			pos_hint: {'right':1,'top':0.1}
 			on_release: root.goto_cards()
 			background_normal: '../assets/green_button.png'
@@ -134,7 +140,7 @@
 			size_hint: 0.2,0.2/self.image_ratio
 		ImageButton:
 			pos_hint: {'top':0.95,'x':0.8}
-			source: '../assets/spanish_event_logo.256.png'
+			source: '../assets/2024_event_logo.png'
 			size_hint: 0.2,0.2/self.image_ratio
 			on_release: root.next_word()
 		Label:
@@ -148,7 +154,7 @@
 			pos_hint: {'center_x':0.5,'center_y':0.7}
 			color: 0,0,0,1
 		Label:
-			padding_x: 30
+			padding: [ 30, 0, 30, 0 ]
 			text: app.get_string("definition")
 			text_size: self.width, None
 			font_size: '30sp'
@@ -163,16 +169,17 @@
 			valign: 'middle'
 			halign: 'center'
 			pos_hint: {'center_x':0.5,'center_y':0.4}
+			padding: [ 50, 0, 50, 0 ]
 			color: 0,0,.8,1
 		Label:
-			padding_x: 30
-			text: app.get_string("samples")
+			padding: [ 30, 0, 30, 0 ]
+			text: app.get_string("sample")
 			text_size: self.width, None
 			font_size: '30sp'
 			valign: 'middle'
 			halign: 'left'
 			pos_hint: {'center_x':0.5,'center_y':0.3}
-			color: 0,.5,0,1
+			color: 0,.2,0,1
 		Label:
 			text: root.sentence1
 			text_size: self.width, None
@@ -180,7 +187,8 @@
 			valign: 'middle'
 			halign: 'center'
 			pos_hint: {'center_x':0.5,'center_y':0.25}
-			color: 0,.8,0,1
+			padding: [ 50, 0, 50, 0 ]
+			color: 0,.3,0,1
 		Label:
 			text: root.sentence2
 			text_size: self.width, None
@@ -188,7 +196,8 @@
 			valign: 'middle'
 			halign: 'center'
 			pos_hint: {'center_x':0.5,'center_y':0.20}
-			color: 0,.8,0,1
+			padding: [ 50, 0, 50, 0 ]
+			color: 0,.3,0,1
 		Label:
 			id: lbl_accent_lbl
 			padding_x: 30
@@ -214,12 +223,14 @@
 			valign: 'middle'
 			halign: 'center'
 			pos_hint: {'center_x':0.5,'center_y':0.95}
+			color: .2,.2,.2,1
 		Button:
 			id: btn_next
 			text: root.next_button_text
 			valign: 'bottom'
 			halign: 'right'
 			size_hint: 0.18,0.18
+			font_size: '30sp'
 			pos_hint: {'right':1,'top':0.18}
 			on_release: root.next_level()
 			background_normal: '../assets/green_button.png'
@@ -264,7 +275,7 @@ BoxLayout:
 			ActionPrevious:
 				title: app.get_string('title')
 				with_previous: False
-				app_icon: '../assets/spanish_event_logo.256.png'
+				app_icon: '../assets/2024_event_logo.png'
 				on_release: app.back()
 			ActionGroup:
 				text: app.get_string('file')
