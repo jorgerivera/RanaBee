@@ -181,7 +181,7 @@ class CardWidget(Screen):
 
 	def on_pre_enter(self):
 		self.update_boxes()
-		self.change_word(parse_tools.get_ready_word(App.get_running_app()),48, False)
+		self.change_word(parse_tools.get_ready_word(App.get_running_app()),64, False)
 
 	def on_pre_leave(self):
 		Clock.unschedule(self.shuffle_words)
@@ -233,7 +233,7 @@ class CardWidget(Screen):
 				Clock.schedule_once(self.update_boxes)
 				Clock.schedule_once(partial(self.change_word,
 							parse_tools.get_ready_word(App.get_running_app()),
-							48,
+							64,
 							False))
 			else:
 				App.get_running_app().state.clear_file()
@@ -546,6 +546,7 @@ if '__main__' == __name__:
 	print('working dir %s' % os.getcwd())
 	db = parse_tools.WordList()
 	dir_to_search = [ 'assets' ]
+
 	# Add resource path to ensure it gets packaged.
 	resource_add_path(os.path.abspath('assets'))
 	year = '24'
